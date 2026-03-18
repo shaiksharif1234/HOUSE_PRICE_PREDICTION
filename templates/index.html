@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>House Price AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* ===== BASE ===== */
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    background: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.brand{
+font-size:20px;
+font-weight:700;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.nav-right a {
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-right a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* ===== MAIN CARD ===== */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 22px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+/* ===== FORM ===== */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}
+input, select {
+    padding: 13px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    transition: 0.25s;
+}
+input:focus, select:focus {
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 0 12px rgba(102,126,234,0.35);
+    outline: none;
+}
+
+/* ===== AMENITIES ===== */
+.amenity-title {
+    margin: 30px 0 12px;
+    font-weight: 600;
+}
+.amenity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+    gap: 12px;
+}
+.amenity-grid label {
+    background: #f4f6fb;
+    padding: 12px;
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 2px solid transparent;
+}
+.amenity-grid input {
+    display: none;
+}
+.amenity-grid input:checked + span {
+    background: #4f46e5;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    display: block;
+}
+.amenity-grid label:hover {
+    transform: translateY(-3px);
+}
+
+/* ===== BUTTON ===== */
+.predict-btn {
+    margin: 35px auto 0;
+    display: block;
+    width: 65%;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    transition: 0.3s;
+}
+.predict-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+.predict-btn:active {
+    transform: scale(0.96);
+}
+
+/* ===== RESULT ===== */
+.result {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:800px){
+    .form-grid { grid-template-columns: 1fr; }
+    .predict-btn { width: 100%; }
+}
+
+/* ===== AUTH BUTTON ===== */
+.auth-btn {
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===== HAMBURGER MENU ===== */
+
+.hamburger{
+font-size:26px;
+cursor:pointer;
+margin-right:15px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 240px;
+    height: 100%;
+    background: #1e3c72;
+    padding-top: 70px;
+    transition: 0.3s;
+    z-index: 9999;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.nav-right{
+display:flex;
+gap:12px;
+align-items:center;
+}
+
+.nav-btn{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+padding:9px 18px;
+border-radius:25px;
+border:none;
+cursor:pointer;
+text-decoration:none;
+font-size:14px;
+transition:0.3s;
+}
+
+.nav-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 18px rgba(0,0,0,0.25);
+}
+
+.profile-menu{
+position:relative;
+}
+
+.dropdown{
+display:none;
+position:absolute;
+top:38px;
+right:0;
+background:white;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+.dropdown a{
+display:block;
+padding:10px 18px;
+text-decoration:none;
+color:#333;
+}
+
+.dropdown a:hover{
+background:#f2f2f2;
+}
+
+.profile-menu:hover .dropdown{
+display:block;
+}
+
+.notification-box{
+position:absolute;
+top:70px;
+right:40px;
+width:260px;
+background:white;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+padding:15px;
+display:none;
+z-index:1000;
+}
+
+.notification-box ul{
+padding-left:18px;
+margin-top:10px;
+}
+
+.notification-box li{
+margin-bottom:8px;
+font-size:14px;
+}
+
+/* ===== SIDEBAR CLOSE BUTTON ===== */
+
+.sidebar-close{
+position:absolute;
+top:15px;
+right:20px;
+font-size:36px;
+color:white;
+text-decoration:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+.sidebar-close:hover{
+color:#ff4d4d;
+transform:scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+    <!-- Hamburger Menu -->
+
+<div id="sidebarMenu" class="sidebar">
+<a href="javascript:void(0)" class="sidebar-close" onclick="toggleMenu()">×</a>
+<a href="/">🏠 Home</a>
+
+<a href="/login_user">🔑 User Login</a>
+
+<a href="/signup">📝 User Register</a>
+
+<a href="/admin/login">🛠 Admin Login</a>
+
+<hr>
+
+<a href="/user_dashboard">📊 User Dashboard</a>
+
+<a href="/admin/dashboard">📈 Admin Dashboard</a>
+
+<hr>
+
+<a href="#predict">💰 Predict Price</a>
+
+<a href="/history">📜 Prediction History</a>
+
+<a href="/about">ℹ About Project</a>
+
+<a href="/contact">📞 Contact</a>
+
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<div class="navbar">
+
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<div class="brand">🏠 House Price AI</div>
+
+<div class="nav-right">
+
+<a href="/market_insights" class="nav-btn">📊 Market Insights</a>
+
+<button class="nav-btn" onclick="toggleNotifications()">
+🔔 Notifications
+<span id="notifCount" style="
+background:red;
+color:white;
+font-size:11px;
+padding:2px 6px;
+border-radius:50%;
+margin-left:5px;">{{ notif_count }}</span>
+</button>
+{% if is_admin or is_user %}
+<div class="profile-menu">
+<button class="nav-btn">👤 Profile</button>
+
+<div class="dropdown">
+{% if is_admin %}
+<a href="/admin/dashboard">Admin Dashboard</a>
+<a href="/logout">Logout</a>
+{% elif is_user %}
+<a href="/user_dashboard">My Dashboard</a>
+<a href="/user/logout">Logout</a>
+{% endif %}
+</div>
+
+</div>
+{% else %}
+
+<a href="/login_user" class="nav-btn">🔑 Login</a>
+
+{% endif %}
+
+</div>
+<div id="notificationBox" class="notification-box">
+
+<h4>🔔 Notifications</h4>
+
+<ul id="notificationList">
+
+{% if notifications %}
+{% for n in notifications %}
+
+<li class="notification-item">
+
+<div class="notif-content" onclick="window.location='/user/history'" style="cursor:pointer;">
+📢 Prediction saved
+<br>
+<small style="color:gray">{{ n.time }}</small>
+</div>
+
+<button class="close-btn" onclick="removeNotification(this,event)">×</button>
+
+</li>
+
+{% endfor %}
+{% else %}
+<li style="color:gray;">No notifications yet</li>
+{% endif %}
+
+</ul>
+</div>
+    
+
+</div>
+
+
+
+
+<!-- MAIN -->
+<div class="container" id="predict">
+<h1>AI House Price Prediction</h1>
+<p class="subtitle">Instant & realistic home valuation using Machine Learning</p>
+{% if error %}
+<div style="
+background:#ffe6e6;
+color:#b30000;
+padding:12px;
+border-radius:10px;
+margin-bottom:15px;
+text-align:center;
+font-weight:600;">
+{{ error }}
+</div>
+{% endif %}
+
+<form action="/predict" method="post">
+
+<div class="form-grid">
+
+
+<input type="number" name="area" placeholder="Area (sq ft)*"
+value="{{ form.area if form else '' }}" required>
+
+
+<input type="number" name="bedrooms" placeholder="Bedrooms*"
+value="{{ form.bedrooms if form else '' }}" required>
+
+
+<input type="number" name="bathrooms" placeholder="Bathrooms*" required>
+
+<input type="number" name="balcony" placeholder="Balcony Count">
+
+
+
+
+
+<select name="location" required>
+    <option disabled selected>Location Type*</option>
+    <option value="prime">Prime</option>
+    <option value="city">City</option>
+    <option value="rural">Rural</option>
+</select>
+
+<input type="text" name="city" placeholder="City / Area Name*"
+value="{{ form.city if form else '' }}" required>
+
+<select name="house_age" required>
+    <option disabled selected>House Age*</option>
+    <option value="new">0–5 Years</option>
+    <option value="mid">5–15 Years</option>
+    <option value="old">15-20 Years</option>
+     <option value="old">20+ Years</option>
+</select>
+
+<select name="furnishing" required>
+    <option disabled selected>Furnishing*</option>
+    <option value="full">Fully Furnished</option>
+    <option value="semi">Semi Furnished</option>
+    <option value="unfurnished">Unfurnished</option>
+</select>
+
+<select name="property_type">
+    <option disabled selected>Property Type</option>
+    <option value="apartment">Apartment</option>
+    <option value="villa">Villa</option>
+    <option value="independent">Independent House</option>
+</select>
+
+
+
+<input type="number" name="total_floors" placeholder="Total Floors">
+<input type="number" name="floor_no" placeholder="Floor Number">
+<input type="number" name="parking_count" placeholder="Parking Count">
+
+<select name="facing">
+    <option disabled selected>Facing</option>
+    <option value="east">East</option>
+    <option value="west">West</option>
+    <option value="north">North</option>
+    <option value="south">South</option>
+</select>
+
+<select name="construction_quality">
+    <option disabled selected>Construction Quality</option>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+</select>
+
+<input type="number" name="carpet_area" placeholder="Carpet Area">
+
+<input type="number" name="monthly_maintenance" placeholder="Monthly Maintenance (₹)">
+</div>
+
+<div class="amenity-title">Amenities
+
+<div class="amenity-grid">
+
+<label><input type="checkbox" name="parking"><span>🚗 Parking</span></label>
+<label><input type="checkbox" name="gym"><span>🏋️ Gym</span></label>
+<label><input type="checkbox" name="pool"><span>🏊 Pool</span></label>
+<label><input type="checkbox" name="lift"><span>🛗 Lift</span></label>
+<label><input type="checkbox" name="security"><span>🛡 Security</span></label>
+<label><input type="checkbox" name="wifi"><span>📶 WiFi</span></label>
+<label><input type="checkbox" name="cctv"><span>📹 CCTV</span></label>
+<label><input type="checkbox" name="garden"><span>🌳 Garden</span></label>
+<label><input type="checkbox" name="play_area"><span> 🎠 Play Area</span></label>
+<label><input type="checkbox" name="club_house"><span>🏢 Club House</span></label>
+<label><input type="checkbox" name="power_backup"><span>⚡ Power Backup</span></label>
+<label><input type="checkbox" name="water_supply"><span>💧 Water Supply</span></label>
+<label><input type="checkbox" name="intercom"><span> 📞 Intercom</span></label>
+<label><input type="checkbox" name="fire_safety"><span>🔥 Fire Safety</span></label>
+
+
+</div>
+
+<button class="predict-btn">🚀 Predict Price</button>
+</form>
+
+{% if price %}
+<div class="result">
+<h2>Estimated Property Value</h2>
+<h1 style="color:#4f46e5;">₹ {{ price }}</h1>
+</div>
+{% endif %}
+
+</div>
+
+<!-- ✅ FIXED SCRIPTS -->
+<script>
+const form = document.querySelector("form");
+const btn = document.querySelector(".predict-btn");
+form.addEventListener("submit", ()=>{
+    btn.innerHTML = "⏳ Predicting...";
+    btn.disabled = true;
+    btn.style.opacity = "0.7";
+});
+</script>
+
+<script>
+document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+    }
+});
+</script>
+
+<script>
+function toggleMenu(){
+    const menu = document.getElementById("sidebarMenu");
+
+    if(menu.style.left === "0px"){
+        menu.style.left = "-250px";
+    }else{
+        menu.style.left = "0px";
+    }
+}
+</script>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e){
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+        .scrollIntoView({behavior:"smooth"});
+    });
+});
+</script>
+
+<script>
+function toggleNotifications(){
+
+const box = document.getElementById("notificationBox");
+
+if(box.style.display === "block"){
+    box.style.display = "none";
+}else{
+    box.style.display = "block";
+}
+
+}
+</script>
+
+<script>
+function removeNotification(btn,event){
+
+event.stopPropagation();
+
+const item = btn.parentElement;
+
+item.remove();
+
+let count = document.getElementById("notifCount");
+
+let current = parseInt(count.innerText);
+
+if(current > 0){
+count.innerText = current - 1;
+}
+
+}
+</script>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+<script>
+
+const socket = io();
+
+let notificationCount = parseInt(document.getElementById("notifCount").innerText) || 0;
+
+socket.on("connect", function(){
+console.log("Connected to notification server");
+});
+
+socket.on("new_notification", function(data){
+
+const list = document.getElementById("notificationList");
+
+if(list.innerHTML.includes("No notifications yet")){
+list.innerHTML="";
+}
+
+const item = document.createElement("li");
+
+item.classList.add("notification-item");
+
+item.innerHTML =
+"📢 <b>" + data.message + "</b><br>" +
+"<small style='color:gray'>" + data.time + "</small>";
+
+item.style.cursor = "pointer";
+
+item.onclick = function(){
+    window.location.href = data.link;
+};
+
+list.prepend(item);
+
+notificationCount++;
+
+document.getElementById("notifCount").innerText = notificationCount;
+
+});
+
+</script>
+</body>
+</html>

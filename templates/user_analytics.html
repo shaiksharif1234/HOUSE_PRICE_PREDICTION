@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Analytics</title>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>📈 My Price Analytics</h2>
+
+    <canvas id="priceChart"></canvas>
+
+    <br>
+    <a href="/user_dashboard" class="btn">⬅ Back</a>
+</div>
+
+<script>
+constareas = {{ areas | tojson }};
+constprices = {{ prices | tojson }};
+
+const ctx = document.getElementById('priceChart');
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: areas,
+        datasets: [{
+            label: "Predicted Price",
+            data: prices,
+            borderColor: "#6a5cff",
+            borderWidth: 3,
+            fill: false,
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                display: true
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+</script>
+
+</body>
+</html>

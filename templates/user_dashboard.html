@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard | House Price Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #f4f6fb, #eef1f7);
+        }
+
+        .dashboard-container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .welcome-card {
+         background: linear-gradient(135deg, #6a5cff, #7c6dff);
+         color: #fff;
+         padding: 30px;
+         border-radius: 14px;
+         box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+         text-align: center;          /* ✅ centers text */
+        }
+
+        .welcome-card h1 {
+         margin: 0;
+         font-size: 28px;
+         text-align: center;
+         }
+
+        .welcome-card p {
+            margin-top: 8px;
+            opacity: 0.95;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .action-card {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .action-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 35px rgba(0,0,0,0.12);
+        }
+
+        .action-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .action-card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #6a5cff, #7c6dff);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+
+        .btn-danger {
+            background: #ff4d4f;
+            color: #fff;
+        }
+
+        .btn-danger:hover {
+            background: #e64545;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        /* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #6a5cff, #7c6dff);
+    color: #fff;
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-user {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    color: #6a5cff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-icon:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: #fff;
+    border-radius: 10px;
+    min-width: 180px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+
+/* ACTIVE STATE */
+.dropdown.show {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.dropdown a:hover {
+    background: #f4f6fb;
+}
+
+
+
+
+/* ===== STATS ===== */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.stat-card span {
+    font-size: 34px;
+}
+
+.stat-card h3 {
+    margin: 10px 0 6px;
+    color: #555;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6a5cff;
+}
+
+.stat-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(106,92,255,0.25);
+    transition: 0.3s;
+}
+
+.stat-card {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    </style>
+</head>
+<body>
+
+    <!-- ===== TOP NAVBAR ===== -->
+<nav class="navbar">
+    <div class="logo">
+        🏠 HousePrice AI
+    </div>
+
+    <div class="nav-user">
+        <div class="profile-icon">
+    {{ user[0] | upper }}
+</div>
+        <div class="dropdown">
+            <a href="/">🏠 Predict Price</a>
+            <a href="/user/history">📊 My Predictions</a>
+            <a href="/user/logout">🚪 Logout</a>
+        </div>
+    </div>
+</nav>
+
+<div class="dashboard-container" style="margin-top: 120px;">
+
+    <!-- Welcome Section -->
+    <div class="welcome-card">
+        <h1>Welcome, {{ user }}</h1>
+        <p>You are successfully logged in. Manage your house price predictions below.</p>
+    </div>
+
+    <!-- Action Cards -->
+    <div class="card-grid">
+
+        <div class="action-card">
+            <h3>🏠 Predict House Price</h3>
+            <p>Estimate your property value using our advanced machine learning model.</p>
+            <a href="/" class="btn btn-primary">Predict Now</a>
+        </div>
+
+        <div class="action-card">
+            <h3>📊 Prediction History</h3>
+            <p>View your previous house price predictions and insights.</p>
+           <a href="/user/history" class="btn btn-primary">View History</a>
+        </div>
+
+        
+     <div class="action-card">
+    <h3>⬇️ Export Predictions</h3>
+    <p>Download all your house price predictions for Excel analysis.</p>
+    <a href="/user/download" class="btn btn-primary">⬇️ Export CSV</a>
+</div>
+
+<div class="action-card">
+   <h3>📈 Price Analytics</h3>
+<p>Interactive line and trend analysis of your predictions.</p>
+<a href="/user/chart" class="btn btn-primary">View Analytics</a>
+</div>
+
+<div class="action-card">
+    <h3>📈 Multi Analysis</h3>
+    <p>Compare average price trends across different areas.</p>
+    <a href="/user/multi" class="btn btn-primary">View Analysis</a>
+</div>
+
+<div class="action-card">
+    <h3>📊 Price Comparison</h3>
+    <p>Visual comparison of property prices over time.</p>
+    <a href="/user/bar" class="btn btn-primary">View Chart</a>
+</div>
+
+  
+<div class="action-card">
+            <h3>🔐 Logout</h3>
+            <p>Securely logout from your account.</p>
+            <a href="/user/logout" class="btn btn-danger">Logout</a>
+        </div>
+    </div>
+    <!-- ===== STATS SECTION ===== -->
+<div class="stats">
+    <div class="stat-card">
+        <span>📊</span>
+        <h3>Total Predictions</h3>
+        <p>{{ total_predictions }}</p>
+    </div>
+
+    <div class="stat-card">
+        <span>💰</span>
+        <h3>Average Price</h3>
+        <p>₹ {{ avg_price }}</p>
+    </div>
+
+    <div class="stat-card">
+        <span>🚀</span>
+        <h3>Highest Prediction</h3>
+        <p>₹ {{ highest_price }}</p>
+    </div>
+
+    <div class="stat-card">
+        <span>🕒</span>
+        <h3>Last Prediction</h3>
+        <p>₹ {{ last_price }}</p>
+    </div>
+</div>    
+<footer>
+        © 2026 House Price Prediction System | Powered by Machine Learning
+    </footer>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const user = document.querySelector(".nav-user");
+    const dropdown = document.querySelector(".dropdown");
+
+    user.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("show");
+    });
+
+    document.addEventListener("click", function () {
+        dropdown.classList.remove("show");
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price Trends | User Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+    const labels = {{ labels | tojson }};
+    const prices = {{ prices | tojson }};
+
+// 🔥 If only one data point, duplicate it slightly
+    if (labels.length === 1) {
+    labels.unshift("Previous");
+    prices.unshift(prices[0] - 50000); // slight variation
+}
+    </script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #f4f6fb, #eef1f7);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6a5cff, #7c6dff);
+            color: #fff;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+            margin-bottom: 30px;
+        }
+
+        {% if labels|length < 2 %}
+<p style="text-align:center; color:#666; margin-bottom:10px;">
+📌 More predictions will unlock trend lines
+</p>
+{% endif %}
+
+        .chart-card {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        canvas {
+            max-height: 420px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #6a5cff, #7c6dff);
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h2>📈 Price Trend Analysis</h2>
+        <p>Average house price trend based on your predictions</p>
+    </div>
+
+    <div class="chart-card">
+        <canvas id="priceChart"></canvas>
+    </div>
+
+    <a href="/user_dashboard" class="back-btn">⬅ Back to Dashboard</a>
+
+</div>
+
+<script>
+new Chart(document.getElementById("priceChart"), {
+    type: "line",
+    data: {
+        labels: labels,
+        datasets: [{
+            label: "Average Price (₹)",
+            data: prices,
+            borderColor: "#6a5cff",
+            backgroundColor: "rgba(106,92,255,0.25)",
+            fill: true,
+            tension: 0.45,
+            borderWidth: 4,
+            pointRadius: 6,
+            pointHoverRadius: 9,
+            pointBackgroundColor: "#fff",
+            pointBorderWidth: 3
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                labels: { font: { size: 14 } }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(ctx) {
+                        return "₹ " + ctx.raw.toLocaleString();
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                ticks: {
+                    callback: value => "₹ " + value.toLocaleString()
+                }
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

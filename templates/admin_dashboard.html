@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+            min-height: 100vh;
+            padding: 40px 15px;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            border-radius: 22px;
+            padding: 40px;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 6px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 35px;
+        }
+
+        /* ===== STATS ===== */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+            gap: 22px;
+            margin-bottom: 35px;
+        }
+
+        .stat-box {
+            padding: 28px;
+            border-radius: 18px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            transition: 0.25s ease;
+        }
+
+        .stat-box:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+}
+
+
+        .stat-box:nth-child(1) {
+            background: linear-gradient(135deg,#6366f1,#8b5cf6);
+        }
+
+        .stat-box:nth-child(2) {
+            background: linear-gradient(135deg,#0ea5e9,#06b6d4);
+        }
+
+        .stat-box:nth-child(3) {
+            background: linear-gradient(135deg,#10b981,#22c55e);
+        }
+
+        .stat-box h2 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .stat-box p {
+            margin-top: 6px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* ===== TABLE ===== */
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 25px;
+            border-radius: 14px;
+            border: 1px solid #e5e7eb;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            background: white;
+        }
+
+        th {
+            background: #0f172a;
+            color: white;
+            padding: 14px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eef2f7;
+            text-align: center;
+        }
+
+        tr:hover td {
+            background: #f1f5ff;
+        }
+
+        /* ===== BUTTONS ===== */
+        .actions {
+            text-align: center;
+            margin: 30px 0 10px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg,#6366f1,#8b5cf6);
+            color: white;
+            padding: 12px 22px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 6px;
+            transition: 0.25s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .export-btn {
+            background: linear-gradient(135deg,#10b981,#22c55e);
+        }
+
+        /* ===== CHARTS ===== */
+        .chart-box {
+            margin-top: 40px;
+            padding: 28px;
+            border-radius: 18px;
+            background: #f8fafc;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+        }
+
+        .chart-box h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .chart-box {
+    position: relative;
+    
+}
+
+.chart-box canvas {
+    width: 100% !important;
+
+}
+
+
+        @media(max-width:768px){
+            .container { padding:22px; }
+            h1 { font-size: 26px; }
+        }
+        .chart-wrapper {
+    height: 260px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .chart-wrapper {
+        height: 220px;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+   <!-- ===== PREMIUM HEADER ===== -->
+<div class="premium-header">
+    <h1>📊 Admin Dashboard</h1>
+    <p>House Price Prediction — Analytics & Insights</p>
+</div>
+
+<!-- ===== PREMIUM LOADER ===== -->
+<div id="loader">
+    <div class="spinner"></div>
+    <p>Loading Dashboard...</p>
+</div>
+
+
+
+    <!-- ===== STATS ===== -->
+    <div class="stats">
+        <div class="stat-box">
+            <h2 class="stat-number" data-target="{{ total_predictions }}">0</h2>
+
+            <p>Total Predictions</p>
+        </div>
+        <div class="stat-box">
+           <h2 class="stat-number" data-target="{{ total_models }}">0</h2>
+
+            <p>ML Models Used</p>
+        </div>
+        <div class="stat-box">
+            <h2 class="stat-number" data-target="{{ market_insight }}">0</h2>
+            <p>Average Market Price (₹)</p>
+
+            
+        </div>
+    </div>
+
+    <!-- ===== SMART SEARCH ===== -->
+<input type="text"
+       id="searchInput"
+       placeholder="🔍 Search by area, model, price..."
+       style="
+           width:100%;
+           padding:12px;
+           margin-bottom:18px;
+           border-radius:12px;
+           border:1px solid #d1d5db;
+           font-size:14px;
+           outline:none;
+       ">
+
+
+    <!-- ===== TABLE ===== -->
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Area</th>
+                    <th>BHK</th>
+                    <th>Bath</th>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Date</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in predictions %}
+                <tr>
+    <td>{{ p.area }}</td>
+    <td>{{ p.bedrooms }}</td>
+    <td>{{ p.bathrooms }}</td>
+    <td>{{ p.model }}</td>
+    <td>₹ {{ "{:,}".format(p.price) }}</td>
+    <td>{{ p.time }}</td>
+    <td>
+        <a href="/delete/{{ p.id }}"
+           onclick="return confirm('Delete this record?')"
+           style="color:#ef4444;font-weight:600;">
+            Delete
+        </a>
+    </td>
+</tr>
+
+
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="actions">
+        <a href="/download"><button class="btn export-btn">📄 Download CSV</button></a>
+        <a href="/logout"><button class="btn">🚪 Logout</button></a>
+    </div>
+    <!-- ===== KPI CARDS (ADD HERE) ===== -->
+<div class="kpi-grid">
+    <div class="kpi-card">
+        <h4>Total Predictions</h4>
+        <h2 class="stat-number" data-target="{{ total_predictions }}">0</h2>
+    </div>
+
+    <div class="kpi-card">
+        <h4>Models Used</h4>
+        <h2 class="stat-number" data-target="{{ total_models }}">0</h2>
+    </div>
+
+    <div class="kpi-card">
+        <h4>Market Avg Price</h4>
+        <h2>₹ {{ market_insight }}</h2>
+    </div>
+</div>
+
+
+<!-- ===== CHART 1 ===== -->
+<div class="chart-box">
+    <h3>📈 Price vs Area</h3>
+
+    <div class="chart-wrapper">
+        <canvas id="scatterChart"></canvas>
+    </div>
+</div>
+
+    
+
+    <!-- ===== CHART 2 ===== -->
+    <div class="chart-box">
+    <h3>📊 Random Forest Average Price</h3>
+
+    <div class="chart-wrapper">
+        <canvas id="barChart"></canvas>
+    </div>
+</div>
+   <div class="chart-box">
+    <h3>📅 Monthly Prediction Trend</h3>
+    <p class="chart-subtitle">
+        AI-powered demand activity over time
+    </p>
+
+    <div class="chart-wrapper">
+        <canvas id="monthlyChart"></canvas>
+    </div>
+</div>
+
+
+</div>
+<script>
+const rawData = ({{ chart_data | tojson }} || []).map(d => ({
+    x: Number(d.x || d.area || 0),
+    y: Number(d.y || d.price || 0),
+    model: d.model || "Unknown",
+    time: d.time || null
+}));
+
+// -------- SCATTER DATA --------
+const scatterData = rawData
+  .filter(d =>
+      d.x !== null &&
+      d.y !== null &&
+      !isNaN(d.x) &&
+      !isNaN(d.y)
+  )
+  .map(d => ({
+      x: Number(d.x),
+      y: Number(d.y)
+  }));
+// -------- SIMPLE TREND LINE (BEST FIT) --------
+function getTrendLine(data) {
+    const n = data.length;
+    if (!n) return [];
+
+    let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+
+    data.forEach(p => {
+        sumX += p.x;
+        sumY += p.y;
+        sumXY += p.x * p.y;
+        sumXX += p.x * p.x;
+    });
+
+    const slope = (n * sumXY - sumX * sumY) /
+                  (n * sumXX - sumX * sumX || 1);
+
+    const intercept = (sumY - slope * sumX) / n;
+
+    const sorted = [...data].sort((a,b)=>a.x-b.x);
+
+    return sorted.map(p => ({
+        x: p.x,
+        y: slope * p.x + intercept
+    }));
+}
+
+const trendLine = getTrendLine(scatterData);
+
+// ===== ULTRA SCATTER =====
+
+Chart.register(ChartDataLabels);
+Chart.register(ChartZoom);
+
+const scatterCtx = document.getElementById("scatterChart").getContext("2d");
+
+new Chart(scatterCtx, {
+    type: "scatter",
+    data: {
+        datasets: [
+            {
+                label: "Predictions",
+                data: scatterData,
+                backgroundColor: "#3b82f6",
+                pointRadius: 6,
+                pointHoverRadius: 10
+            },
+            {
+                label: "Trend Line",
+                data: trendLine,
+                type: "line",
+                borderColor: "#ef4444",
+                borderWidth: 3,
+                tension: 0.35,
+                pointRadius: 0
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+        animation: {
+            duration: 2000,
+            easing: "easeOutQuart"
+        },
+
+       plugins: {
+    legend: {
+        position: "top"
+    },
+
+    datalabels: {
+        display: false
+    },
+
+    zoom: {
+        wheel: { enabled: true },
+        pinch: { enabled: true },
+        mode: "xy"
+    },
+    pan: {
+        enabled: true,
+        mode: "xy"
+    },
+
+    tooltip: {
+        callbacks: {
+            label: ctx =>
+                "₹ " + ctx.raw.y.toLocaleString("en-IN")
+        }
+    }
+},
+
+        scales: {
+            x: {
+                title: { display: true, text: "Area (sqft)" },
+                grid: { display: false }
+            },
+            y: {
+                title: { display: true, text: "Price (₹)" },
+                ticks: {
+                    callback: v => "₹ " + v.toLocaleString("en-IN")
+                }
+            }
+        }
+    }
+});
+
+// ===== RANDOM FOREST PROFESSIONAL =====
+
+const rfData = rawData.filter(d => d.model === "Random Forest");
+
+// ---- average calculation ----
+const rfAvg = rfData.length
+    ? rfData.reduce((sum, d) => sum + Number(d.y), 0) / rfData.length
+    : 0;
+
+// ---- empty protection ----
+if (rfData.length === 0) {
+    document.getElementById("barChart").parentElement.innerHTML =
+        "<p style='text-align:center;color:#64748b;'>No Random Forest data available</p>";
+} else {
+
+    const ctxBar = document.getElementById("barChart").getContext("2d");
+
+    // ---- gradient ----
+    const gradient = ctxBar.createLinearGradient(0, 0, 0, 400);
+    gradient.addColorStop(0, "rgba(34,197,94,0.9)");
+    gradient.addColorStop(1, "rgba(34,197,94,0.4)");
+
+    new Chart(ctxBar, {
+        type: "bar",
+        data: {
+            labels: ["Random Forest"],
+            datasets: [{
+                label: "Average Price (₹)",
+                data: [rfAvg],
+                backgroundColor: gradient,
+                borderRadius: 16,
+                barThickness: 90
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+
+            animation: {
+                duration: 1800,
+                easing: "easeOutQuart"
+            },
+
+            plugins: {
+                legend: {
+                    labels: {
+                        font: { weight: "600" }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: ctx =>
+                            "₹ " + Math.round(ctx.raw).toLocaleString("en-IN")
+                    }
+                }
+            },
+
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    suggestedMax: rfAvg * 1.25,
+                    ticks: {
+                        callback: value =>
+                            "₹ " + Math.round(value).toLocaleString("en-IN")
+                    },
+                    grid: {
+                        color: "rgba(0,0,0,0.06)"
+                    }
+                },
+                x: {
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+</script>
+
+<script>
+document.getElementById("searchInput").addEventListener("keyup", function () {
+    let value = this.value.toLowerCase();
+
+    document.querySelectorAll("tbody tr").forEach(row => {
+        row.style.display =
+            row.innerText.toLowerCase().includes(value) ? "" : "none";
+    });
+});
+</script>
+
+<script>
+
+
+/* ===== MONTHLY PREDICTIONS — PREMIUM UPGRADE ===== */
+
+const monthlyData = {{ chart_data | tojson }};
+
+// ---- group predictions per month ----
+const monthlyCounts = {};
+
+monthlyData.forEach(d => {
+    if (!d.time) return;
+    const date = new Date(d.time);
+    const label = date.toLocaleString("en-US", {
+        month: "short",
+        year: "numeric"
+    });
+    monthlyCounts[label] = (monthlyCounts[label] || 0) + 1;
+});
+
+let labels = Object.keys(monthlyCounts);
+
+if (labels.length === 1) {
+    labels = [labels[0], labels[0]];
+    monthlyCounts[labels[1]] = monthlyCounts[labels[0]];
+}
+
+// ---- empty state ----
+if (labels.length === 0) {
+    document.getElementById("monthlyChart").parentElement.innerHTML =
+        "<p style='text-align:center;color:#64748b;'>No monthly data available</p>";
+} else {
+
+    const ctx = document.getElementById("monthlyChart").getContext("2d");
+
+    // ---- premium gradient ----
+    const gradient = ctx.createLinearGradient(0, 0, 0, 360);
+    gradient.addColorStop(0, "rgba(99,102,241,0.45)");
+    gradient.addColorStop(1, "rgba(99,102,241,0.05)");
+
+    new Chart(ctx, {
+        type: "line",
+        data: {
+            labels,
+            datasets: [{
+    data: labels.map(l => monthlyCounts[l] || 0),
+    borderColor: "#2f80ed",
+    borderWidth: 3,
+    tension: 0.4,
+    pointRadius: 6,
+    fill: true,
+    spanGaps: true,
+    backgroundColor: gradient
+}]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    backgroundColor: "#ffffff",
+                    titleColor: "#000",
+                    bodyColor: "#000",
+                    borderColor: "#e5e7eb",
+                    borderWidth: 1,
+                    callbacks: {
+                        label: ctx => ctx.raw + " predictions"
+                    }
+                }
+            },
+
+            scales: {
+                x: {
+                    grid: {
+                        drawBorder: false,
+                        color: "rgba(0,0,0,0.05)",
+                        borderDash: [4,4]
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        drawBorder: false,
+                        color: "rgba(0,0,0,0.05)",
+                        borderDash: [4,4]
+                    },
+                    ticks: {
+                        precision: 0
+                    }
+                }
+            }
+        }
+    });
+}
+</script>
+
+<script>
+document.querySelectorAll(".stat-number").forEach(el => {
+    const target = +el.getAttribute("data-target");
+    let count = 0;
+
+    const update = () => {
+        count += target / 50;
+
+        if (count < target) {
+            el.innerText = Math.floor(count).toLocaleString();
+            requestAnimationFrame(update);
+        } else {
+            el.innerText = Number(target).toLocaleString();
+        }
+    };
+
+    update();
+});
+</script>
+
+<script>
+window.addEventListener("load", () => {
+    document.getElementById("loader").style.display = "none";
+});
+</script>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+
+<script>
+const socket = io();
+
+let count = 0;
+
+socket.on("new_notification", function(data) {
+
+    count++;
+
+    document.getElementById("notification-count").innerText = count;
+
+    console.log("Notification:", data.message);
+
+});
+</script>
+
+
+</body>
+</html>

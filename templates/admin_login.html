@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .admin-container {
+            background: #ffffff;
+            width: 95%;
+            max-width: 420px;
+            padding: 40px;
+            border-radius: 22px;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+
+        .subtitle {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            font-size: 15px;
+        }
+
+        input:focus {
+            border-color: #2a5298;
+            outline: none;
+            box-shadow: 0 0 8px rgba(42,82,152,0.3);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            border-radius: 50px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            transition: 0.3s;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+        }
+
+        .divider {
+            margin: 25px 0;
+            height: 1px;
+            background: #e5e7eb;
+        }
+
+        .alt-links a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            font-size: 14px;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        .alt-links a:hover {
+            text-decoration: underline;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 22px;
+            border-radius: 30px;
+            background: #ff5f6d;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #e04855;
+        }
+
+        .error {
+            color: #dc2626;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="admin-container">
+
+    <h2>🔐 Admin Login</h2>
+    <p class="subtitle">Authorized access only</p>
+
+    {% if error %}
+        <div class="error">{{ error }}</div>
+    {% endif %}
+
+   <form method="POST" action="/admin/login">
+        <div class="input-group">
+            <input type="text" name="username" placeholder="Admin Username" required>
+            <input type="password" name="password" placeholder="Admin Password" required>
+        </div>
+
+        <button type="submit" class="login-btn">Login as Admin</button>
+    </form>
+
+    <div class="divider"></div>
+
+    <div class="alt-links">
+        <a href="/login_user">👤 Login as User</a>
+        <a href="/signup">📝 Create New Account</a>
+    </div>
+
+    <a href="/" class="back-btn">🏠 Back to Home</a>
+
+</div>
+
+</body>
+</html>

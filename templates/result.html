@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicted Price</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container" style="max-width: 800px; margin: 40px auto;">
+
+    <h1 style="text-align:center;">🏠 House Price Prediction</h1>
+
+    <p class="subtitle" style="text-align:center;">
+        Using <strong>{{ model_used }}</strong>
+    </p>
+
+    <!-- FINAL PRICE -->
+    <h2 style="text-align:center; margin: 30px 0; font-size: 34px;">
+        💰 Estimated Price:
+        <span style="color:#16a34a;">
+            ₹ {{ "{:,.0f}".format(price) }}
+        </span>
+    </h2>
+
+    <!-- PRICE BREAKDOWN -->
+    <div class="card" style="padding:25px; margin-top:30px;">
+        <h3>📊 Price Breakdown</h3>
+
+        <p>🏗️ <strong>Base ML Price:</strong>
+            ₹ {{ "{:,.0f}".format(breakdown.ml_price) }}
+        </p>
+
+        <p>➕ <strong>Amenity Bonus:</strong>
+            ₹ {{ "{:,.0f}".format(breakdown.amenity_bonus) }}
+        </p>
+        <p><strong>Amenity Bonus:</strong>
+   ₹ {{ "{:,.0f}".format(breakdown.amenity_bonus) }}
+</p>
+
+{% if breakdown.amenity_details %}
+    <h4 style="margin-top:15px;">🏷️ Amenities Used</h4>
+    <ul style="margin-left:20px;">
+        {% for name, price in breakdown.amenity_details.items() %}
+            <li>
+                {{ name }} :
+                ₹ {{ "{:,.0f}".format(price) }}
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No amenities selected</p>
+{% endif %}
+
+
+        <p>✨ <strong>Extra Bonus:</strong>
+            ₹ {{ "{:,.0f}".format(breakdown.extra_bonus) }}
+        </p>
+
+        <hr>
+
+        <p style="font-size:18px;">
+            ✅ <strong>Final Price:</strong>
+            <span style="color:#16a34a;">
+                ₹ {{ "{:,.0f}".format(breakdown.final_price) }}
+            </span>
+        </p>
+    </div>
+
+    <!-- ACTION BUTTON -->
+    <div style="text-align:center; margin-top:30px;">
+        <a href="/" class="btn">🏠 Back to Home</a>
+    </div>
+
+</div>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+<script>
+
+const socket = io();
+
+let notificationCount = 0;
+
+// Connection check
+socket.on("connect", function(){
+    console.log("✅ Connected to notification server");
+});
+
+// Receive notification
+socket.on("new_notification", function(data){
+
+    console.log("📢 Notification received:", data);
+
+    const badge = document.getElementById("notifCount");
+    const list = document.getElementById("notificationList");
+
+    // Add notification item
+    if(list){
+
+        if(list.innerHTML.includes("No notifications yet")){
+            list.innerHTML = "";
+        }
+
+        const item = document.createElement("li");
+
+        item.innerHTML =
+        "📢 " + data.message +
+        " <small style='color:gray'>(" + data.time + ")</small>";
+
+        list.prepend(item);
+    }
+
+    // Update badge count
+    if(badge){
+        let count = parseInt(badge.innerText) || 0;
+        badge.innerText = count + 1;
+    }
+
+});
+
+</script>
+</body>
+</html>
+
