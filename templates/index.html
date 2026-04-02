@@ -312,7 +312,7 @@ transform:scale(1.1);
 
 <a href="#predict">💰 Predict Price</a>
 
-<a href="/history">📜 Prediction History</a>
+<a href="javascript:void(0)" onclick="goToHistory()">📜 Prediction history</a>
 
 <a href="/about">ℹ About Project</a>
 
@@ -646,5 +646,22 @@ document.getElementById("notifCount").innerText = notificationCount;
 });
 
 </script>
+
+<script>
+function goToHistory() {
+    const menu = document.getElementById("sidebarMenu");
+
+    // close menu first
+    menu.style.left = "-250px";
+
+    // small delay for smooth close animation
+    setTimeout(() => {
+        window.location.href = "/user/history";
+    }, 300);
+}
+</script>
+
+
+
 </body>
 </html>

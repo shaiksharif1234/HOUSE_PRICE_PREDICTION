@@ -1,0 +1,53 @@
+@startuml
+skinparam dpi 180
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam roundcorner 20
+skinparam defaultTextAlignment center
+
+skinparam rectangle {
+    BorderColor #1E293B
+    BorderThickness 2
+    BackgroundColor #F8FAFC
+    FontSize 14
+}
+
+skinparam actorStyle awesome
+
+left to right direction
+
+actor User
+actor Admin
+
+rectangle "USER DASHBOARD" as UD {
+    rectangle "Login / Register" as U1
+    rectangle "Predict Price" as U2
+    rectangle "View Dashboard" as U3
+    rectangle "Prediction History" as U4
+}
+
+rectangle "SYSTEM CORE" as SYS {
+    rectangle "AI Prediction Engine" as S1
+    rectangle "Database Storage" as S2
+}
+
+rectangle "ADMIN DASHBOARD" as AD {
+    rectangle "Manage Users" as A1
+    rectangle "View Analytics" as A2
+    rectangle "Manage Database" as A3
+}
+
+User --> U1
+User --> U2
+User --> U3
+User --> U4
+
+U2 --> S1
+S1 --> S2
+
+Admin --> A1
+Admin --> A2
+Admin --> A3
+A2 --> S2
+A3 --> S2
+@enduml
