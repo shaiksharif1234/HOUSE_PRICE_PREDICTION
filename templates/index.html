@@ -420,18 +420,40 @@ font-weight:600;">
 <div class="form-grid">
 
 
-<input type="number" name="area" placeholder="Area (sq ft)*"
-value="{{ form.area if form else '' }}" required>
+<input 
+  type="number" 
+  name="area" 
+  placeholder="Area (sq ft)*"
+  min="300" 
+  max="10000" 
+  step="1"
+  value="{{ form.area if form else '' }}" 
+  required>
 
 
-<input type="number" name="bedrooms" placeholder="Bedrooms*"
-value="{{ form.bedrooms if form else '' }}" required>
+<input 
+  type="number" 
+  name="bedrooms" 
+  placeholder="Bedrooms (1–10)*"
+  min="1" 
+  max="10" 
+  step="1"
+  value="{{ form.bedrooms if form else '' }}" 
+  required>
 
 
-<input type="number" name="bathrooms" placeholder="Bathrooms*" required>
+<input 
+  type="number" 
+  name="bathrooms" 
+  placeholder="Bathrooms (1–10)*"
+  min="1" 
+  max="10" 
+  step="1"
+  required>
 
-<input type="number" name="balcony" placeholder="Balcony Count">
-
+<input type="number" name="balcony" placeholder="Balcony Count" min="0" max="10">
+<input type="text" id="citySearch" placeholder="🔍 Search City..."
+style="padding:13px;border-radius:12px;border:1px solid #ddd;font-size:15px;">
 
 
 
@@ -443,8 +465,54 @@ value="{{ form.bedrooms if form else '' }}" required>
     <option value="rural">Rural</option>
 </select>
 
-<input type="text" name="city" placeholder="City / Area Name*"
-value="{{ form.city if form else '' }}" required>
+<select name="city" required>
+<option disabled selected>Select City*</option>
+
+<!-- Andhra Pradesh -->
+<option>Visakhapatnam</option>
+<option>Vijayawada</option>
+<option>Guntur</option>
+<option>Rajahmundry</option>
+<option>Nellore</option>
+<option>Tirupati</option>
+<option>Kakinada</option>
+<option>Kurnool</option>
+<option>Anantapur</option>
+
+<!-- Telangana -->
+<option>Hyderabad</option>
+<option>Warangal</option>
+<option>Karimnagar</option>
+
+<!-- Karnataka -->
+<option>Bangalore</option>
+<option>Mysore</option>
+<option>Mangalore</option>
+
+<!-- Tamil Nadu -->
+<option>Chennai</option>
+<option>Coimbatore</option>
+<option>Madurai</option>
+
+<!-- Maharashtra -->
+<option>Mumbai</option>
+<option>Pune</option>
+<option>Nagpur</option>
+
+<!-- Delhi -->
+<option>Delhi</option>
+
+<!-- Gujarat -->
+<option>Ahmedabad</option>
+<option>Surat</option>
+
+<!-- Kerala -->
+<option>Kochi</option>
+<option>Trivandrum</option>
+
+<!-- Add more if needed -->
+
+</select>
 
 <select name="house_age" required>
     <option disabled selected>House Age*</option>
@@ -470,9 +538,9 @@ value="{{ form.city if form else '' }}" required>
 
 
 
-<input type="number" name="total_floors" placeholder="Total Floors">
-<input type="number" name="floor_no" placeholder="Floor Number">
-<input type="number" name="parking_count" placeholder="Parking Count">
+<input type="number" name="total_floors" placeholder="Total Floors" min="1" max="100">
+<input type="number" name="floor_no" placeholder="Floor Number" min="0" max="100">
+<input type="number" name="parking_count" placeholder="Parking Count" min="0" max="10">
 
 <select name="facing">
     <option disabled selected>Facing</option>
@@ -489,9 +557,24 @@ value="{{ form.city if form else '' }}" required>
     <option value="high">High</option>
 </select>
 
-<input type="number" name="carpet_area" placeholder="Carpet Area">
+<input 
+  type="number" 
+  name="carpet_area" 
+  placeholder="Carpet Area (≤ total area)"
+  min="0"
+  max="10000"
+  step="1"
+>
 
-<input type="number" name="monthly_maintenance" placeholder="Monthly Maintenance (₹)">
+<input 
+  type="number" 
+  name="maintenance_cost" 
+  placeholder="Monthly Maintenance (₹)"
+  min="0"
+  max="100000"
+  step="1"
+>
+
 </div>
 
 <div class="amenity-title">Amenities
@@ -661,7 +744,28 @@ function goToHistory() {
 }
 </script>
 
+<script>
+// ===== CITY SEARCH FILTER =====
+const citySearch = document.getElementById("citySearch");
+const cityDropdown = document.querySelector("select[name='city']");
 
+if(citySearch && cityDropdown){
+citySearch.addEventListener("keyup", function () {
+    const filter = citySearch.value.toLowerCase();
+    const options = cityDropdown.getElementsByTagName("option");
+
+    for (let i = 0; i < options.length; i++) {
+        let txt = options[i].textContent || options[i].innerText;
+
+        if (txt.toLowerCase().includes(filter)) {
+            options[i].style.display = "";
+        } else {
+            options[i].style.display = "none";
+        }
+    }
+});
+}
+</script>
 
 </body>
 </html>

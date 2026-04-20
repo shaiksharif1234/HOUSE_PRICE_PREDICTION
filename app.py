@@ -1,7 +1,22 @@
 import csv
 import io
 from datetime import datetime
+def get_city_list():
+    cities = set()
 
+    try:
+        with open("dataset.csv", "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+
+            for row in reader:
+                city = row.get("city")  # column name must match dataset
+                if city:
+                    cities.add(city.strip())
+
+    except Exception as e:
+        print("CITY LOAD ERROR:", e)
+
+    return sorted(list(cities))
 from flask import Flask, render_template, request, redirect, session, send_file
 from flask_socketio import SocketIO
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -52,6 +67,9 @@ def handle_connect():
     
  
 # ---------------- HOME ----------------
+
+import os
+
 @app.route("/")
 def home():
     try:
@@ -72,10 +90,15 @@ def home():
         rows = []
         count = 0
 
+    # ✅ STEP 1: Read dataset
+    cities = get_city_list()
+
+    # ✅ STEP 3: Send cities to frontend
     return render_template(
         "index.html",
         notif_count=count,
-        notifications=rows
+        notifications=rows,
+        cities=cities   # 👈 IMPORTANT
     )
 # ---------------- PREDICT ----------------
 @app.route("/predict", methods=["GET", "POST"])
@@ -98,10 +121,11 @@ def predict():
         value = request.form.get(field)
 
         if value is None or value.strip() == "":
-            return render_template(
-    "index.html",
-    error="Please fill all required fields",
-    form=request.form
+           return render_template(
+            "index.html",
+             error="Some error",
+             form=request.form,
+             cities=get_city_list()
 )
 
     # -------- SAFE INTEGER CONVERTER --------
@@ -119,16 +143,89 @@ def predict():
     area = to_int("area")
     bedrooms = to_int("bedrooms")
     bathrooms = to_int("bathrooms")
+    city = request.form.get("city")
 
     # -------- OPTIONAL NUMERIC INPUTS --------
     balcony = to_int("balcony")
     floor_no = to_int("floor_no")
     total_floors = to_int("total_floors")
-    facing = to_int("facing")
-
+    facing = request.form.get("facing")
     carpet_area = to_int("carpet_area", area)
     parking_count = to_int("parking_count", 1)
     maintenance_cost = to_int("maintenance_cost", 0)
+    
+    # -------- EXTRA FIELD VALIDATION --------
+
+# Balcony (0–10 allowed)
+    if not (0 <= balcony <= 10):
+     return render_template(
+    "index.html",
+    error="Balcony must be between 0 and 10",
+    form=request.form,
+    cities=get_city_list()
+)
+
+# Parking (0–10 allowed)
+    if not (0 <= parking_count <= 10):
+     return render_template(
+        "index.html",
+        error="Parking count must be between 0 and 10",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Total floors (1–100)
+    if total_floors != 0 and not (1 <= total_floors <= 100):
+     return render_template(
+        "index.html",
+        error="Total floors must be between 1 and 100",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Floor number must be valid
+    if floor_no < 0:
+     return render_template(
+        "index.html",
+        error="Floor number cannot be negative",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Floor logic (VERY IMPORTANT)
+    if total_floors > 0 and floor_no > total_floors:
+     return render_template(
+        "index.html",
+        error="Floor number cannot exceed total floors",
+        form=request.form,
+    cities=get_city_list()
+    )
+     
+     # Carpet area should not exceed total area
+    if carpet_area > area:
+     return render_template(
+        "index.html",
+        error="Carpet area cannot be greater than total area",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Optional realistic range
+    if carpet_area < 0:
+     return render_template(
+        "index.html",
+        error="Carpet area cannot be negative"
+    )
+    
+    
+    # Maintenance cost range
+    if not (0 <= maintenance_cost <= 100000):
+     return render_template(
+        "index.html",
+        error="Maintenance cost must be between 0 and 100000",
+        form=request.form,
+    cities=get_city_list()
+    )
 
     # -------- FURNISHING (STRING → NUMBER SAFE) --------
     furnishing_map = {
@@ -156,28 +253,55 @@ def predict():
         "power_backup": yes("power_backup"),
         "water_supply": yes("water_supply"),
         "wifi": yes("wifi"),
-        "maintenance": yes("maintenance"),
+
         "fire_safety": yes("fire_safety"),
         "cctv": yes("cctv"),
         "intercom": yes("intercom"),
-        "rainwater": yes("rainwater"),
-        "visitor_parking": yes("visitor_parking"),
+        
+        
     }
 
     
 
     
-    # 🚨 Prevent bad inputs
-    if area <= 0 or bedrooms <= 0 or bathrooms <= 0:
-     return render_template("index.html", error="Invalid property details")
+    
 
+# 🚨 STRICT VALIDATION (REALISTIC LIMITS)
 
+# Area validation
+    if not (300 <= area <= 10000):
+     return render_template(
+        "index.html",
+        error="Area must be between 300 and 10000 sq ft",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Bedrooms validation
+    if not (1 <= bedrooms <= 10):
+     return render_template(
+        "index.html",
+        error="Bedrooms must be between 1 and 10",
+        form=request.form,
+    cities=get_city_list()
+    )
+
+# Bathrooms validation
+    if not (1 <= bathrooms <= 10):
+     return render_template(
+        "index.html",
+        error="Bathrooms must be between 1 and 10",
+        form=request.form,
+    cities=get_city_list()
+    )
+    
 
     # -------- PREDICTION --------
     final_price, breakdown = predict_price(
     area=area,
     bedrooms=bedrooms,
     bathrooms=bathrooms,
+    city=city,
 
     parking=amenities["parking"],
     gym=amenities["gym"],
@@ -190,15 +314,15 @@ def predict():
     power_backup=amenities["power_backup"],
     water_supply=amenities["water_supply"],
     wifi=amenities["wifi"],
-    maintenance=amenities["maintenance"],
+    
     fire_safety=amenities["fire_safety"],
     cctv=amenities["cctv"],
     intercom=amenities["intercom"],
-    rainwater=amenities["rainwater"],
-    visitor_parking=amenities["visitor_parking"],
+    
+    
 
     property_type=request.form.get("property_type", "apartment"),
-    quality=request.form.get("quality", "medium"),
+   quality=request.form.get("construction_quality", "medium"),
     carpet_area=carpet_area,
     parking_count=parking_count,
     maintenance_cost=maintenance_cost
