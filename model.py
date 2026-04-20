@@ -121,8 +121,8 @@ def predict_price(
     parking, gym, pool, lift, security,
     garden, play_area, club_house,
     power_backup, water_supply,
-    wifi, maintenance, fire_safety,
-    cctv, intercom, rainwater, visitor_parking,
+    wifi,
+    fire_safety, cctv, intercom,
     property_type="apartment",
     quality="medium",
     carpet_area=0,
@@ -147,12 +147,14 @@ def predict_price(
     input_dict["Power_Backup"] = power_backup
     input_dict["Water_Supply"] = water_supply
     input_dict["WiFi"] = wifi
-    input_dict["Maintenance"] = maintenance
+    
     input_dict["Fire_Safety"] = fire_safety
     input_dict["CCTV"] = cctv
     input_dict["Intercom"] = intercom
-    input_dict["Rainwater"] = rainwater
-    input_dict["Visitor_Parking"] = visitor_parking
+    
+    # Safe fallback (if column exists in model)
+    if "Maintenance_Cost" in input_dict:
+     input_dict["Maintenance_Cost"] = maintenance_cost
 
     # ================================
     # CITY HANDLING
@@ -160,6 +162,8 @@ def predict_price(
     city_col = f"City_{city}"
     if city_col in input_dict:
         input_dict[city_col] = 1
+    else:
+     print("⚠ Unknown city:", city)
 
     # ================================
     # PREDICTION
