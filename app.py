@@ -90,16 +90,18 @@ def home():
         rows = []
         count = 0
 
-    # ✅ STEP 1: Read dataset
-    cities = get_city_list()
+   # cities optional now (frontend handles it)
+    try:
+     cities = get_city_list()
+    except:
+     cities = []
 
-    # ✅ STEP 3: Send cities to frontend
     return render_template(
-        "index.html",
-        notif_count=count,
-        notifications=rows,
-        cities=cities   # 👈 IMPORTANT
-    )
+    "index.html",
+    notif_count=count,
+    notifications=rows,
+    cities=cities
+)
 # ---------------- PREDICT ----------------
 @app.route("/predict", methods=["GET", "POST"])
 def predict():
@@ -111,7 +113,6 @@ def predict():
         "area",
         "bedrooms",
         "bathrooms",
-        "location",
         "city",
         "house_age",
         "furnishing"
@@ -125,7 +126,7 @@ def predict():
             "index.html",
              error="Some error",
              form=request.form,
-             cities=get_city_list()
+             
 )
 
     # -------- SAFE INTEGER CONVERTER --------
@@ -144,6 +145,18 @@ def predict():
     bedrooms = to_int("bedrooms")
     bathrooms = to_int("bathrooms")
     city = request.form.get("city")
+    allowed_cities = [
+    "Rajahmundry", "Visakhapatnam", "Vijayawada", "Guntur",
+    "Kakinada", "Tirupati", "Hyderabad", "Warangal",
+    "Bangalore", "Chennai", "Mumbai", "Delhi", "Pune"
+]
+
+    if city not in allowed_cities:
+      return render_template(
+        "index.html",
+        error="Invalid city selected",
+        form=request.form
+    )
 
     # -------- OPTIONAL NUMERIC INPUTS --------
     balcony = to_int("balcony")
@@ -162,7 +175,7 @@ def predict():
     "index.html",
     error="Balcony must be between 0 and 10",
     form=request.form,
-    cities=get_city_list()
+    
 )
 
 # Parking (0–10 allowed)
@@ -171,7 +184,7 @@ def predict():
         "index.html",
         error="Parking count must be between 0 and 10",
         form=request.form,
-    cities=get_city_list()
+    
     )
 
 # Total floors (1–100)
@@ -180,7 +193,7 @@ def predict():
         "index.html",
         error="Total floors must be between 1 and 100",
         form=request.form,
-    cities=get_city_list()
+    
     )
 
 # Floor number must be valid
@@ -189,7 +202,7 @@ def predict():
         "index.html",
         error="Floor number cannot be negative",
         form=request.form,
-    cities=get_city_list()
+    
     )
 
 # Floor logic (VERY IMPORTANT)
@@ -198,7 +211,7 @@ def predict():
         "index.html",
         error="Floor number cannot exceed total floors",
         form=request.form,
-    cities=get_city_list()
+    
     )
      
      # Carpet area should not exceed total area
@@ -207,7 +220,7 @@ def predict():
         "index.html",
         error="Carpet area cannot be greater than total area",
         form=request.form,
-    cities=get_city_list()
+    
     )
 
 # Optional realistic range
@@ -224,7 +237,7 @@ def predict():
         "index.html",
         error="Maintenance cost must be between 0 and 100000",
         form=request.form,
-    cities=get_city_list()
+    
     )
 
     # -------- FURNISHING (STRING → NUMBER SAFE) --------

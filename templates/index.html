@@ -453,19 +453,15 @@ font-weight:600;">
 
 <input type="number" name="balcony" placeholder="Balcony Count" min="0" max="10">
 <input type="text" id="citySearch" placeholder="🔍 Search City..."
-style="padding:13px;border-radius:12px;border:1px solid #ddd;font-size:15px;">
+style="padding:13px;border-radius:12px;border:1px solid #ddd;font-size:15px;"
+style="grid-column: span 2;">
 
 
 
 
-<select name="location" required>
-    <option disabled selected>Location Type*</option>
-    <option value="prime">Prime</option>
-    <option value="city">City</option>
-    <option value="rural">Rural</option>
-</select>
 
-<select name="city" required>
+
+<select name="city" id="cityDropdown" required>
 <option disabled selected>Select City*</option>
 
 <!-- Andhra Pradesh -->
@@ -746,26 +742,28 @@ function goToHistory() {
 
 <script>
 // ===== CITY SEARCH FILTER =====
-const citySearch = document.getElementById("citySearch");
-const cityDropdown = document.querySelector("select[name='city']");
 
-if(citySearch && cityDropdown){
+const citySearch = document.getElementById("citySearch");
+const cityDropdown = document.getElementById("cityDropdown");
+
 citySearch.addEventListener("keyup", function () {
-    const filter = citySearch.value.toLowerCase();
-    const options = cityDropdown.getElementsByTagName("option");
+
+    let filter = this.value.toLowerCase();
+    let options = cityDropdown.options;
 
     for (let i = 0; i < options.length; i++) {
-        let txt = options[i].textContent || options[i].innerText;
 
-        if (txt.toLowerCase().includes(filter)) {
+        let txt = options[i].text.toLowerCase();
+
+        if (txt.includes(filter)) {
             options[i].style.display = "";
         } else {
             options[i].style.display = "none";
         }
     }
 });
-}
 </script>
+
 
 </body>
 </html>
