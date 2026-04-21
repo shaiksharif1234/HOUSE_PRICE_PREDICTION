@@ -50,7 +50,6 @@ def train_and_save_model():
     X = data[feature_columns]
     y = data["Price"]
 
-    # ✅ INSIDE FUNCTION
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
     )
@@ -67,9 +66,7 @@ def train_and_save_model():
     score = r2_score(y_test, model.predict(X_test))
     print(f"✅ R² Score: {score:.4f}")
 
-    # ================================
     # SAVE
-    # ================================
     joblib.dump(model, MODEL_PATH)
     joblib.dump("Random Forest", MODEL_NAME_PATH)
     joblib.dump(feature_columns, FEATURE_PATH)
@@ -84,14 +81,14 @@ def train_and_save_model():
 # LOAD MODEL
 # =====================================================
 def load_model():
-     global best_model, best_name, feature_columns
+    global best_model, best_name, feature_columns
 
-if not os.path.exists(MODEL_PATH):
+    if not os.path.exists(MODEL_PATH):
         train_and_save_model()
 
-best_model = joblib.load(MODEL_PATH)
-best_name = joblib.load(MODEL_NAME_PATH)
-feature_columns = joblib.load(FEATURE_PATH)
+    best_model = joblib.load(MODEL_PATH)
+    best_name = joblib.load(MODEL_NAME_PATH)
+    feature_columns = joblib.load(FEATURE_PATH)
 
 
 load_model()
@@ -116,56 +113,58 @@ def predict_price(
 ):
 
     # ================================
-# BUILD INPUT
-# ================================
-     input_dict = {col: 0 for col in feature_columns}
+    # BUILD INPUT
+    # ================================
+    input_dict = {col: 0 for col in feature_columns}
 
-     input_dict["Area"] = area
-     input_dict["Carpet_Area"] = carpet_area
-     input_dict["Bedrooms"] = bedrooms
-     input_dict["Bathrooms"] = bathrooms
-     input_dict["Parking_Count"] = parking_count
-     input_dict["Maintenance_Cost"] = maintenance_cost
+    input_dict["Area"] = area
+    input_dict["Carpet_Area"] = carpet_area
+    input_dict["Bedrooms"] = bedrooms
+    input_dict["Bathrooms"] = bathrooms
+    input_dict["Parking_Count"] = parking_count
+    input_dict["Maintenance_Cost"] = maintenance_cost
 
-# Amenities
-     input_dict["Lift"] = lift
-     input_dict["Power_Backup"] = power_backup
-     input_dict["Water_Supply"] = water_supply
-     input_dict["WiFi"] = wifi
-     input_dict["Fire_Safety"] = fire_safety
-     input_dict["CCTV"] = cctv
-     input_dict["Intercom"] = intercom
+    # Amenities
+    input_dict["Lift"] = lift
+    input_dict["Power_Backup"] = power_backup
+    input_dict["Water_Supply"] = water_supply
+    input_dict["WiFi"] = wifi
+    input_dict["Fire_Safety"] = fire_safety
+    input_dict["CCTV"] = cctv
+    input_dict["Intercom"] = intercom
 
-# ================================
-# CATEGORY ENCODING
-# ================================
-     for col, val in {
-    "City": city,
-    "Property_Type": property_type,
-    "Quality": quality
-}.items():
-      dummy_col = f"{col}_{val}"
-     if dummy_col in input_dict:
-        input_dict[dummy_col] = 1
+    # ================================
+    # CATEGORY ENCODING
+    # ================================
+    for col, val in {
+        "City": city,
+        "Property_Type": property_type,
+        "Quality": quality
+    }.items():
+        dummy_col = f"{col}_{val}"
+        if dummy_col in input_dict:
+            input_dict[dummy_col] = 1
+        else:
+         print(f"⚠ Unknown category: {dummy_col}")
 
-# ================================
-# SAFE DATAFRAME
-# ================================
-        import pandas as pd
+    # ================================
+    # SAFE DATAFRAME
+    # ================================
+    input_df = pd.DataFrame([input_dict])
+    input_df = input_df.reindex(columns=feature_columns, fill_value=0)
+    input_df = input_df.astype(float)
+    if best_model is None:
+     raise Exception("Model not loaded properly")
 
-        input_df = pd.DataFrame(input_dict)
-        input_df = input_df.reindex(columns=feature_columns, fill_value=0)
+    ml_price = int(best_model.predict(input_df)[0])
 
-        ml_price = int(best_model.predict(input_df)[0])
-
-
-        if ml_price < 500000:
-         ml_price = 500000
+    if ml_price < 500000:
+        ml_price = 500000
 
     # ================================
     # AMENITY BONUS
     # ================================
-     amenity_bonus = (
+    amenity_bonus = (
         parking * 150000 +
         gym * 200000 +
         pool * 350000 +
@@ -173,12 +172,13 @@ def predict_price(
         security * 120000
     )
 
-     final_price = ml_price + amenity_bonus
+    final_price = ml_price + amenity_bonus
 
-     breakdown = {
+    breakdown = {
         "ml_price": ml_price,
         "amenity_bonus": amenity_bonus,
         "final_price": final_price,
         "model_used": best_name
-}
-     return final_price, breakdown
+    }
+
+    return final_price, breakdown

@@ -115,6 +115,7 @@
 {% if predictions %}
     <table>
         <tr>
+            <th>City</th>
             <th>Area (sq.ft)</th>
             <th>BHK</th>
             <th>Bath</th>
@@ -125,6 +126,7 @@
 
         {% for p in predictions %}
         <tr>
+    <td>{{ p.city }}</td>        
     <td>{{ p.area }}</td>
     <td>{{ p.bedrooms }}</td>
     <td>{{ p.bathrooms }}</td>

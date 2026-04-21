@@ -17,6 +17,7 @@ def create_table():
             area INTEGER,
             bedrooms INTEGER,
             bathrooms INTEGER,
+            city TEXT,
             model TEXT,
             price INTEGER,
             time TEXT,

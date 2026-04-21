@@ -4,13 +4,13 @@ from datetime import datetime
 def get_city_list():
     cities = set()
 
-    try:
-        with open("dataset.csv", "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
+    try: 
+        with open("data.csv", "r", encoding="utf-8") as f:
+         reader = csv.DictReader(f)
 
-            for row in reader:
-                city = row.get("city")  # column name must match dataset
-                if city:
+        for row in reader:
+         city = row.get("City")  # FIXED (capital C) column name must match dataset
+        if city:
                     cities.add(city.strip())
 
     except Exception as e:
@@ -308,40 +308,69 @@ def predict():
     cities=get_city_list()
     )
     
+    # -------- BUILD AMENITY DETAILS FOR UI --------
+    amenity_prices = {
+    "parking": 200000,
+    "gym": 300000,
+    "pool": 400000,
+    "lift": 150000,
+    "security": 180000,
+    "garden": 120000,
+    "play_area": 130000,
+    "club_house": 250000,
+    "power_backup": 170000,
+    "water_supply": 100000,
+    "wifi": 80000,
+    "fire_safety": 160000,
+    "cctv": 140000,
+    "intercom": 90000
+}
+
+    amenity_details = {}
+
+    for key, value in amenities.items():
+     if value == 1:
+        amenity_details[key] = amenity_prices.get(key, 0)
 
     # -------- PREDICTION --------
-    final_price, breakdown = predict_price(
-    area=area,
-    bedrooms=bedrooms,
-    bathrooms=bathrooms,
-    city=city,
+    try:
+     final_price, breakdown = predict_price(
+        area=area,
+        bedrooms=bedrooms,
+        bathrooms=bathrooms,
+        city=city,
 
-    parking=amenities["parking"],
-    gym=amenities["gym"],
-    pool=amenities["pool"],
-    lift=amenities["lift"],
-    security=amenities["security"],
-    garden=amenities["garden"],
-    play_area=amenities["play_area"],
-    club_house=amenities["club_house"],
-    power_backup=amenities["power_backup"],
-    water_supply=amenities["water_supply"],
-    wifi=amenities["wifi"],
-    
-    fire_safety=amenities["fire_safety"],
-    cctv=amenities["cctv"],
-    intercom=amenities["intercom"],
-    
-    
+        parking=amenities["parking"],
+        gym=amenities["gym"],
+        pool=amenities["pool"],
+        lift=amenities["lift"],
+        security=amenities["security"],
+        garden=amenities["garden"],
+        play_area=amenities["play_area"],
+        club_house=amenities["club_house"],
+        power_backup=amenities["power_backup"],
+        water_supply=amenities["water_supply"],
+        wifi=amenities["wifi"],
 
-    property_type=request.form.get("property_type", "apartment"),
-   quality=request.form.get("construction_quality", "medium"),
-    carpet_area=carpet_area,
-    parking_count=parking_count,
-    maintenance_cost=maintenance_cost
-)
+        fire_safety=amenities["fire_safety"],
+        cctv=amenities["cctv"],
+        intercom=amenities["intercom"],
 
-    # Get model name safely
+        property_type=request.form.get("property_type", "apartment"),
+        quality=request.form.get("construction_quality", "medium"),
+        carpet_area=carpet_area,
+        parking_count=parking_count,
+        maintenance_cost=maintenance_cost
+    )
+    except Exception as e:
+     print("PREDICT ERROR:", e)
+     return f"ERROR: {str(e)}"
+ 
+    breakdown["amenity_details"] = amenity_details
+
+
+# ✅ THIS MUST BE OUTSIDE try-except
+    model_name = breakdown.get("model_used", "Best Model")
     model_name = breakdown.get("model_used", "Best Model")
 
 
@@ -351,12 +380,13 @@ def predict():
 
     conn.execute("""
     INSERT INTO predictions
-    (area, bedrooms, bathrooms, model, price, time, user_email)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    (area, bedrooms, bathrooms,city, model, price, time, user_email)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
 """, (
     area,
     bedrooms,
     bathrooms,
+    city,
     model_name,
     final_price,
     datetime.now().strftime("%d %b %H:%M"),
@@ -465,7 +495,7 @@ def admin_dashboard():
 
     conn = get_db()
     rows = conn.execute("""
-        SELECT id, area, bedrooms, bathrooms, model, price, time
+        SELECT id, area, bedrooms, bathrooms,city, model, price, time
         FROM predictions
         ORDER BY id DESC
     """).fetchall()
@@ -481,12 +511,26 @@ def admin_dashboard():
     )
 
     chart_data = [{
-        "x": r["area"],
-        "y": r["price"],
-        "model": r["model"],
-        "time": r["time"]
-    } for r in rows]
+    "city": r["city"],   # ✅ ADD THIS
+    "price": r["price"], # ✅ REQUIRED
+    "area": r["area"],
+    "model": r["model"],
+    "time": r["time"]
+} for r in rows]
+    from collections import defaultdict
 
+    city_totals = defaultdict(float)
+    city_counts = defaultdict(int)
+
+    for r in rows:
+      if r["city"] and r["price"]:
+        city_totals[r["city"]] += r["price"]
+        city_counts[r["city"]] += 1
+
+    city_avg = {
+    city: int(city_totals[city] / city_counts[city])
+    for city in city_totals
+    }
     return render_template(
         "admin_dashboard.html",
         predictions=rows,
@@ -532,7 +576,7 @@ def user_history():
 
     conn = get_db()
     rows = conn.execute("""
-        SELECT id, area, bedrooms, bathrooms, model, price, time
+        SELECT id, area, bedrooms, bathrooms,city, model, price, time
         FROM predictions
         WHERE user_email = ?
         ORDER BY id DESC
@@ -597,22 +641,25 @@ def user_profile():
 
 @app.route("/user/chart")
 def user_chart():
-    if not session.get("user"):
-        return redirect("/login_user")
+
+    if "user_email" not in session:
+        return redirect(url_for("login"))
 
     conn = get_db()
+
+    # ⭐ City-wise Average Price Query
     rows = conn.execute("""
-        SELECT 
-            substr(time,1,7) AS month,
-            AVG(price) AS avg_price
+        SELECT city, AVG(price) as avg_price
         FROM predictions
         WHERE user_email = ?
-        GROUP BY month
-        ORDER BY month
-    """, (session.get("user_email"),)).fetchall()
+        GROUP BY city
+        ORDER BY avg_price DESC
+    """, (session["user_email"],)).fetchall()
+
     conn.close()
 
-    labels = [r["month"] for r in rows]
+    # Convert data for chart
+    labels = [r["city"] for r in rows]
     prices = [int(r["avg_price"]) for r in rows]
 
     return render_template(
@@ -810,4 +857,6 @@ import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
+    app.config["DEBUG"] = True
+    app.config["PROPAGATE_EXCEPTIONS"] = True
     socketio.run(app, host="0.0.0.0", port=port, allow_unsafe_werkzeug=True)

@@ -252,6 +252,7 @@
         <table>
             <thead>
                 <tr>
+                    <th>City</th>
                     <th>Area</th>
                     <th>BHK</th>
                     <th>Bath</th>
@@ -265,6 +266,7 @@
             <tbody>
                 {% for p in predictions %}
                 <tr>
+    <td>{{ p.city }}</td>            
     <td>{{ p.area }}</td>
     <td>{{ p.bedrooms }}</td>
     <td>{{ p.bathrooms }}</td>
@@ -329,10 +331,10 @@
     </div>
 </div>
    <div class="chart-box">
-    <h3>📅 Monthly Prediction Trend</h3>
-    <p class="chart-subtitle">
-        AI-powered demand activity over time
-    </p>
+    <h3>🏙️ City-wise Price Trend Analysis</h3>
+<p class="chart-subtitle">
+    Average property price across cities
+</p>
 
     <div class="chart-wrapper">
         <canvas id="monthlyChart"></canvas>
@@ -561,58 +563,55 @@ document.getElementById("searchInput").addEventListener("keyup", function () {
 
 <script>
 
+/* ===== CITY-WISE PRICE TREND ===== */
 
-/* ===== MONTHLY PREDICTIONS — PREMIUM UPGRADE ===== */
+const cityData = {{ chart_data | tojson }};
 
-const monthlyData = {{ chart_data | tojson }};
+// ---- group by city ----
+const cityPrices = {};
+const cityCounts = {};
 
-// ---- group predictions per month ----
-const monthlyCounts = {};
+cityData.forEach(d => {
+    if (!d.city || !d.price) return;
 
-monthlyData.forEach(d => {
-    if (!d.time) return;
-    const date = new Date(d.time);
-    const label = date.toLocaleString("en-US", {
-        month: "short",
-        year: "numeric"
-    });
-    monthlyCounts[label] = (monthlyCounts[label] || 0) + 1;
+    if (!cityPrices[d.city]) {
+        cityPrices[d.city] = 0;
+        cityCounts[d.city] = 0;
+    }
+
+    cityPrices[d.city] += Number(d.price);
+    cityCounts[d.city] += 1;
 });
 
-let labels = Object.keys(monthlyCounts);
-
-if (labels.length === 1) {
-    labels = [labels[0], labels[0]];
-    monthlyCounts[labels[1]] = monthlyCounts[labels[0]];
-}
+// ---- calculate average price ----
+const labels = Object.keys(cityPrices);
+const avgPrices = labels.map(city =>
+    Math.round(cityPrices[city] / cityCounts[city])
+);
 
 // ---- empty state ----
 if (labels.length === 0) {
     document.getElementById("monthlyChart").parentElement.innerHTML =
-        "<p style='text-align:center;color:#64748b;'>No monthly data available</p>";
+        "<p style='text-align:center;color:#64748b;'>No city data available</p>";
 } else {
 
     const ctx = document.getElementById("monthlyChart").getContext("2d");
 
-    // ---- premium gradient ----
     const gradient = ctx.createLinearGradient(0, 0, 0, 360);
-    gradient.addColorStop(0, "rgba(99,102,241,0.45)");
-    gradient.addColorStop(1, "rgba(99,102,241,0.05)");
+    gradient.addColorStop(0, "rgba(16,185,129,0.5)");
+    gradient.addColorStop(1, "rgba(16,185,129,0.05)");
 
     new Chart(ctx, {
-        type: "line",
+        type: "bar",
         data: {
-            labels,
+            labels: labels,
             datasets: [{
-    data: labels.map(l => monthlyCounts[l] || 0),
-    borderColor: "#2f80ed",
-    borderWidth: 3,
-    tension: 0.4,
-    pointRadius: 6,
-    fill: true,
-    spanGaps: true,
-    backgroundColor: gradient
-}]
+                label: "Avg Price (₹)",
+                data: avgPrices,
+                backgroundColor: gradient,
+                borderRadius: 12,
+                barThickness: 40
+            }]
         },
         options: {
             responsive: true,
@@ -621,34 +620,22 @@ if (labels.length === 0) {
             plugins: {
                 legend: { display: false },
                 tooltip: {
-                    backgroundColor: "#ffffff",
-                    titleColor: "#000",
-                    bodyColor: "#000",
-                    borderColor: "#e5e7eb",
-                    borderWidth: 1,
                     callbacks: {
-                        label: ctx => ctx.raw + " predictions"
+                        label: ctx =>
+                            "₹ " + ctx.raw.toLocaleString("en-IN")
                     }
                 }
             },
 
             scales: {
                 x: {
-                    grid: {
-                        drawBorder: false,
-                        color: "rgba(0,0,0,0.05)",
-                        borderDash: [4,4]
-                    }
+                    grid: { display: false }
                 },
                 y: {
                     beginAtZero: true,
-                    grid: {
-                        drawBorder: false,
-                        color: "rgba(0,0,0,0.05)",
-                        borderDash: [4,4]
-                    },
                     ticks: {
-                        precision: 0
+                        callback: val =>
+                            "₹ " + val.toLocaleString("en-IN")
                     }
                 }
             }

@@ -29,47 +29,40 @@
 
     <!-- PRICE BREAKDOWN -->
     <div class="card" style="padding:25px; margin-top:30px;">
-        <h3>📊 Price Breakdown</h3>
+    <h3>📊 Price Breakdown</h3>
 
-        <p>🏗️ <strong>Base ML Price:</strong>
-            ₹ {{ "{:,.0f}".format(breakdown.ml_price) }}
-        </p>
+    <p>🏗️ <strong>Base ML Price:</strong>
+        ₹ {{ "{:,.0f}".format(breakdown.ml_price or 0) }}
+    </p>
 
-        <p>➕ <strong>Amenity Bonus:</strong>
-            ₹ {{ "{:,.0f}".format(breakdown.amenity_bonus) }}
-        </p>
-        <p><strong>Amenity Bonus:</strong>
-   ₹ {{ "{:,.0f}".format(breakdown.amenity_bonus) }}
-</p>
+    <p>➕ <strong>Amenity Bonus:</strong>
+        ₹ {{ "{:,.0f}".format(breakdown.amenity_bonus or 0) }}
+    </p>
 
-{% if breakdown.amenity_details %}
-    <h4 style="margin-top:15px;">🏷️ Amenities Used</h4>
-    <ul style="margin-left:20px;">
-        {% for name, price in breakdown.amenity_details.items() %}
-            <li>
-                {{ name }} :
-                ₹ {{ "{:,.0f}".format(price) }}
-            </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>No amenities selected</p>
-{% endif %}
+    {% if breakdown.amenity_details %}
+        <h4 style="margin-top:15px;">🏷️ Amenities Used</h4>
+        <ul style="margin-left:20px;">
+            {% for name, price in breakdown.amenity_details.items() %}
+                <li>
+                    {{ name }} :
+                    ₹ {{ "{:,.0f}".format(price or 0) }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No amenities selected</p>
+    {% endif %}
 
+    <hr>
 
-        <p>✨ <strong>Extra Bonus:</strong>
-            ₹ {{ "{:,.0f}".format(breakdown.extra_bonus) }}
-        </p>
-
-        <hr>
-
-        <p style="font-size:18px;">
-            ✅ <strong>Final Price:</strong>
-            <span style="color:#16a34a;">
-                ₹ {{ "{:,.0f}".format(breakdown.final_price) }}
-            </span>
-        </p>
-    </div>
+    <p style="font-size:18px;">
+        ✅ <strong>Final Price:</strong>
+        <span style="color:#16a34a;">
+            ₹ {{ "{:,.0f}".format(breakdown.final_price or 0) }}
+        </span>
+    </p>
+</div>
+       
 
     <!-- ACTION BUTTON -->
     <div style="text-align:center; margin-top:30px;">
