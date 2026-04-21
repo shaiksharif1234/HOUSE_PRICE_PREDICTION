@@ -495,9 +495,13 @@ font-weight:600;">
     <option value="Kochi">Kochi</option>
     <option value="Trivandrum">Trivandrum</option>
 </select>
-<!-- Add more if needed -->
 
+<select name="area_name" id="areaDropdown" required>
+    <option value="">Select Area*</option>
 </select>
+
+
+
 
 <select name="house_age" required>
     <option disabled selected>House Age*</option>
@@ -729,30 +733,38 @@ function goToHistory() {
 }
 </script>
 
+
+
 <script>
-// ===== CITY SEARCH FILTER =====
-
-const citySearch = document.getElementById("citySearch");
 const cityDropdown = document.getElementById("cityDropdown");
+const areaDropdown = document.getElementById("areaDropdown");
 
-citySearch.addEventListener("keyup", function () {
+cityDropdown.addEventListener("change", function () {
 
-    let filter = this.value.toLowerCase();
-    let options = cityDropdown.options;
+    const city = this.value;
 
-    for (let i = 0; i < options.length; i++) {
+    areaDropdown.innerHTML = "<option>Loading...</option>";
 
-        let txt = options[i].text.toLowerCase();
+    fetch(`/get_areas?city=${city}`)
+        .then(res => res.json())
+        .then(data => {
 
-        if (txt.includes(filter)) {
-            options[i].style.display = "";
-        } else {
-            options[i].style.display = "none";
-        }
-    }
+            areaDropdown.innerHTML = "<option value=''>Select Area*</option>";
+
+            data.areas.forEach(area => {
+                const opt = document.createElement("option");
+                opt.value = area;
+                opt.textContent = area;
+                areaDropdown.appendChild(opt);
+            });
+
+        })
+        .catch(err => {
+            console.error("Area load error:", err);
+            areaDropdown.innerHTML = "<option>Error loading areas</option>";
+        });
 });
 </script>
-
 
 </body>
 </html>

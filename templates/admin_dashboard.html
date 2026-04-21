@@ -253,7 +253,8 @@
             <thead>
                 <tr>
                     <th>City</th>
-                    <th>Area</th>
+                    <th>Area Name</th>
+                    <th>Area (sqft)</th>
                     <th>BHK</th>
                     <th>Bath</th>
                     <th>Model</th>
@@ -265,25 +266,24 @@
             </thead>
             <tbody>
                 {% for p in predictions %}
-                <tr>
-    <td>{{ p.city }}</td>            
-    <td>{{ p.area }}</td>
-    <td>{{ p.bedrooms }}</td>
-    <td>{{ p.bathrooms }}</td>
-    <td>{{ p.model }}</td>
-    <td>₹ {{ "{:,}".format(p.price) }}</td>
-    <td>{{ p.time }}</td>
-    <td>
-        <a href="/delete/{{ p.id }}"
-           onclick="return confirm('Delete this record?')"
-           style="color:#ef4444;font-weight:600;">
-            Delete
-        </a>
-    </td>
+<tr>
+    <td>{{ p["city"] }}</td>
+    <td>{{ p["area_name"] }}</td>
+    <td>{{ p["area"] }}</td>
+    <td>{{ p["bedrooms"] }}</td>
+    <td>{{ p["bathrooms"] }}</td>
+    <td>{{ p["model"] }}</td>
+    <td>₹ {{ "{:,}".format(p["price"]) }}</td>
+    <td>{{ p["time"] }}</td>
+   <td>
+    <a href="/delete/{{ p['id'] }}"
+       onclick="return confirm('Delete this record?')"
+       style="color:#ef4444;font-weight:600;">
+        Delete
+    </a>
+</td>
 </tr>
-
-
-                {% endfor %}
+{% endfor %}
             </tbody>
         </table>
     </div>
@@ -472,7 +472,7 @@ new Chart(scatterCtx, {
     }
 });
 
-// ===== RANDOM FOREST PROFESSIONAL =====
+// ===== RANDOM FOREST PROFESSIONAL (UPGRADED) =====
 
 const rfData = rawData.filter(d => d.model === "Random Forest");
 
@@ -489,10 +489,10 @@ if (rfData.length === 0) {
 
     const ctxBar = document.getElementById("barChart").getContext("2d");
 
-    // ---- gradient ----
+    // ---- premium gradient ----
     const gradient = ctxBar.createLinearGradient(0, 0, 0, 400);
-    gradient.addColorStop(0, "rgba(34,197,94,0.9)");
-    gradient.addColorStop(1, "rgba(34,197,94,0.4)");
+    gradient.addColorStop(0, "#22c55e");
+    gradient.addColorStop(1, "#4ade80");
 
     new Chart(ctxBar, {
         type: "bar",
@@ -502,26 +502,40 @@ if (rfData.length === 0) {
                 label: "Average Price (₹)",
                 data: [rfAvg],
                 backgroundColor: gradient,
-                borderRadius: 16,
+                borderRadius: 18,
                 barThickness: 90
             }]
         },
+
         options: {
             responsive: true,
             maintainAspectRatio: false,
 
+            layout: {
+                padding: {
+                    top: 30
+                }
+            },
+
             animation: {
-                duration: 1800,
-                easing: "easeOutQuart"
+                duration: 2000,
+                easing: "easeOutCubic"
             },
 
             plugins: {
                 legend: {
+                    display: true,
                     labels: {
-                        font: { weight: "600" }
+                        font: {
+                            size: 14,
+                            weight: "600"
+                        }
                     }
                 },
+
                 tooltip: {
+                    backgroundColor: "#111",
+                    padding: 10,
                     callbacks: {
                         label: ctx =>
                             "₹ " + Math.round(ctx.raw).toLocaleString("en-IN")
@@ -532,37 +546,55 @@ if (rfData.length === 0) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    suggestedMax: rfAvg * 1.25,
+                    suggestedMax: rfAvg * 1.3,
+
                     ticks: {
+                        font: { size: 12 },
                         callback: value =>
                             "₹ " + Math.round(value).toLocaleString("en-IN")
                     },
+
                     grid: {
-                        color: "rgba(0,0,0,0.06)"
+                        color: "rgba(0,0,0,0.05)"
                     }
                 },
+
                 x: {
+                    ticks: {
+                        font: { size: 13, weight: "600" }
+                    },
                     grid: { display: false }
                 }
             }
-        }
+        },
+
+        // ===== VALUE LABEL ON TOP =====
+        plugins: [{
+            id: "valueOnTop",
+            afterDatasetsDraw(chart) {
+                const { ctx } = chart;
+
+                chart.data.datasets.forEach((dataset, i) => {
+                    const meta = chart.getDatasetMeta(i);
+
+                    meta.data.forEach((bar, index) => {
+                        const value = dataset.data[index];
+
+                        ctx.fillStyle = "#111";
+                        ctx.font = "bold 14px sans-serif";
+                        ctx.textAlign = "center";
+
+                        ctx.fillText(
+                            "₹ " + Math.round(value).toLocaleString("en-IN"),
+                            bar.x,
+                            bar.y - 12
+                        );
+                    });
+                });
+            }
+        }]
     });
 }
-</script>
-
-<script>
-document.getElementById("searchInput").addEventListener("keyup", function () {
-    let value = this.value.toLowerCase();
-
-    document.querySelectorAll("tbody tr").forEach(row => {
-        row.style.display =
-            row.innerText.toLowerCase().includes(value) ? "" : "none";
-    });
-});
-</script>
-
-<script>
-
 /* ===== CITY-WISE PRICE TREND ===== */
 
 const cityData = {{ chart_data | tojson }};

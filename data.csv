@@ -1,0 +1,1501 @@
+Area,Bedrooms,Bathrooms,Balcony,Floor_No,Total_Floors,Carpet_Area,Parking_Count,Maintenance_Cost,City,Property_Type,Quality,Furnishing,Property_Age,Facing,Parking,Gym,Pool,Lift,Security,Garden,Play_Area,Club_House,Power_Backup,Water_Supply,WiFi,Maintenance,Fire_Safety,CCTV,Intercom,Rainwater,Visitor_Parking,Price
+Madhurawada,3,4,3,6,26,1140,2,5578,Visakhapatnam,apartment,high,semi,0-5,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,9062748
+Gannavaram,2,3,1,14,19,2610,0,3202,Vijayawada,independent,high,unfurnished,0-5,6,1,1,0,1,1,1,1,0,1,0,1,1,1,0,1,0,1,27024675
+Arundelpet,3,4,1,16,17,1081,1,1021,Guntur,villa,medium,semi,0-5,6,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,11763593
+Dowleswaram,1,1,0,12,13,1196,0,64,Rajahmundry,independent,low,unfurnished,20+,7,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,6754610
+Magunta Layout,4,4,0,15,23,2000,0,6242,Nellore,villa,high,full,0-5,2,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,1,15424732
+Renigunta,3,2,3,3,5,1170,0,1678,Tirupati,apartment,high,full,10-20,5,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,15372597
+Ramanayyapeta,4,3,2,0,1,2098,1,6776,Kakinada,apartment,low,full,10-20,5,1,0,0,1,0,0,0,1,1,1,0,0,1,1,1,1,0,31608911
+Ashok Nagar,2,1,1,19,20,1389,1,7554,Kurnool,apartment,low,unfurnished,10-20,0,1,1,1,1,0,0,1,0,0,0,1,1,0,1,1,1,1,17164164
+Bellary Road,4,5,0,5,24,676,1,197,Anantapur,independent,high,unfurnished,0-5,3,0,1,1,0,0,1,1,0,1,0,1,0,0,0,1,1,0,9183857
+Gachibowli,1,2,1,7,8,963,0,6616,Hyderabad,independent,high,semi,5-10,2,0,1,1,1,1,0,1,1,0,1,0,1,1,1,0,0,1,13162512
+Kazipet,1,2,2,15,16,2468,1,3191,Warangal,independent,low,semi,20+,3,1,0,1,1,0,0,0,0,1,1,1,1,1,1,0,1,0,28007044
+Jyothinagar,4,3,1,15,20,625,2,1218,Karimnagar,apartment,high,full,5-10,6,1,1,1,1,1,0,0,1,1,0,0,1,0,1,0,1,0,6841165
+Yelahanka,1,1,3,18,19,1588,0,7679,Bangalore,villa,low,semi,0-5,5,0,1,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,19811510
+Jayalakshmipuram,1,2,3,17,25,2160,1,569,Mysore,villa,medium,full,5-10,6,1,0,0,1,1,1,0,1,0,0,0,1,1,0,0,1,0,16050743
+Kankanady,2,1,3,12,28,2122,0,4131,Mangalore,apartment,medium,semi,20+,2,0,0,1,1,1,1,0,0,1,0,0,1,0,1,0,1,1,23177490
+Anna Nagar,2,3,1,10,28,1044,0,5691,Chennai,independent,medium,unfurnished,20+,3,1,0,0,0,1,1,1,0,1,1,1,1,0,0,1,0,0,13232349
+Gandhipuram,3,3,0,8,12,1398,1,4729,Coimbatore,independent,medium,semi,5-10,7,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,1,13577933
+Tallakulam,2,1,0,13,28,1211,0,2141,Madurai,apartment,medium,semi,20+,4,0,1,0,1,1,0,0,1,1,1,0,1,1,1,0,1,1,20237112
+Andheri,4,3,3,4,13,2417,2,6401,Mumbai,independent,medium,full,20+,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,29462651
+Kothrud,2,3,2,16,26,2560,1,7113,Pune,villa,medium,full,0-5,6,1,1,0,1,0,0,0,1,1,0,0,0,0,1,1,0,0,19148386
+Wardha Road,3,2,2,15,16,2340,2,2143,Nagpur,independent,medium,unfurnished,20+,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0,0,13677214
+Saket,1,2,3,8,9,2910,2,7551,Delhi,independent,medium,full,20+,4,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,1,1,34376081
+SG Highway,3,3,0,2,23,2616,2,6801,Ahmedabad,villa,medium,unfurnished,0-5,5,0,1,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,17177616
+Varachha,2,1,2,6,25,2132,1,7419,Surat,apartment,medium,full,10-20,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,17787890
+Fort Kochi,1,1,0,16,25,2802,1,5236,Kochi,villa,low,unfurnished,0-5,6,0,1,1,0,0,1,0,1,0,0,1,0,1,0,0,0,1,32461905
+Kazhakkoottam,2,2,2,15,23,1515,1,2783,Trivandrum,villa,low,semi,20+,3,1,1,1,1,1,1,1,0,0,1,1,0,1,0,0,0,0,14479171
+Seethammadhara,4,3,0,13,14,3090,1,7026,Visakhapatnam,independent,low,semi,5-10,7,1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,1,32935012
+Poranki,2,3,2,16,17,1403,0,7266,Vijayawada,apartment,high,semi,20+,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,0,15097567
+Arundelpet,1,1,3,0,17,585,1,3419,Guntur,independent,medium,semi,5-10,5,1,0,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0,6044130
+Morampudi,1,1,1,10,19,1723,1,6949,Rajahmundry,villa,medium,semi,10-20,2,0,0,1,1,0,1,0,1,0,1,1,0,1,0,0,0,0,11690496
+Stonehousepet,1,1,0,19,24,2149,1,6196,Nellore,apartment,medium,full,10-20,7,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,25240100
+Renigunta,3,4,0,17,29,1960,2,7956,Tirupati,villa,medium,unfurnished,5-10,4,1,0,0,0,1,1,1,1,0,1,1,0,0,0,1,0,0,20492575
+Ramanayyapeta,4,4,2,15,29,2165,0,2055,Kakinada,independent,low,full,10-20,6,1,1,1,1,1,0,1,1,1,0,1,1,0,1,0,0,0,22375959
+Nandyal Road,2,3,2,12,18,1274,2,1906,Kurnool,independent,low,semi,10-20,0,0,0,1,1,1,1,0,0,0,1,0,1,1,0,0,0,1,9746817
+Kalyandurg Road,3,3,1,14,15,2493,2,7721,Anantapur,apartment,medium,semi,20+,1,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1,1,1,20407543
+Kondapur,3,4,0,2,19,2258,0,2595,Hyderabad,independent,medium,semi,20+,3,0,1,0,1,1,0,1,1,1,0,1,0,1,0,0,1,1,16925469
+Nakkalagutta,3,2,3,16,17,2692,1,4749,Warangal,apartment,medium,full,10-20,3,0,0,0,0,1,1,1,1,0,0,1,1,1,0,1,1,1,22485075
+Housing Board Colony,1,1,0,8,11,1640,1,2038,Karimnagar,villa,high,unfurnished,0-5,5,1,1,1,1,0,1,0,0,1,1,0,0,0,1,1,1,1,20302485
+Indiranagar,1,1,3,2,21,1158,2,7546,Bangalore,villa,low,unfurnished,5-10,0,1,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,7650792
+Vijayanagar,2,2,0,7,8,964,2,197,Mysore,independent,high,full,20+,1,1,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,10032375
+Derebail,2,2,1,9,10,2716,0,5237,Mangalore,apartment,high,full,20+,4,1,1,1,0,0,1,0,0,0,1,1,0,1,0,0,0,0,25489850
+Anna Nagar,3,4,0,19,20,1311,1,3205,Chennai,independent,high,semi,5-10,2,1,1,0,1,1,1,0,0,0,1,1,0,1,1,1,1,1,11787259
+Saravanampatti,3,3,0,8,22,1885,1,3367,Coimbatore,villa,high,full,0-5,5,0,0,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,14351583
+KK Nagar,4,3,0,8,9,664,0,1625,Madurai,villa,high,semi,10-20,1,0,0,1,0,0,1,0,0,1,1,0,0,1,1,0,1,0,12191100
+Dadar,3,3,1,17,21,564,0,5203,Mumbai,apartment,medium,semi,20+,6,0,1,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,5145825
+Kothrud,1,1,3,7,19,784,1,5490,Pune,villa,medium,unfurnished,5-10,5,1,0,0,1,0,1,0,0,0,0,1,1,1,0,1,1,1,12192171
+Dharampeth,3,3,2,7,8,2352,2,6103,Nagpur,independent,high,unfurnished,20+,5,0,0,0,0,0,0,1,0,1,1,0,1,1,1,1,1,1,20540797
+Dwarka,4,3,1,13,23,976,2,4425,Delhi,apartment,high,unfurnished,10-20,7,0,0,1,0,1,1,1,0,0,0,1,0,1,0,1,0,0,9046080
+Maninagar,4,3,0,5,9,833,2,5619,Ahmedabad,villa,low,semi,5-10,7,0,1,0,1,1,0,1,0,0,1,0,1,1,0,0,0,0,5633996
+Vesu,4,4,1,12,13,2526,2,6981,Surat,apartment,medium,unfurnished,5-10,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,1,0,1,18576105
+Kakkanad,1,1,0,6,10,2719,1,3028,Kochi,villa,medium,semi,10-20,0,0,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,0,14192396
+Technopark,3,4,3,4,24,552,2,7315,Trivandrum,independent,high,unfurnished,5-10,2,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,1,8429547
+Seethammadhara,3,4,1,4,12,1477,1,4197,Visakhapatnam,independent,low,full,10-20,0,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,13884972
+Poranki,4,3,1,11,15,1163,0,5657,Vijayawada,independent,low,full,5-10,4,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,7722728
+Lakshmipuram,3,3,2,9,10,1161,2,3223,Guntur,apartment,medium,full,0-5,2,1,1,0,0,1,0,0,1,0,1,0,1,0,0,1,0,1,9048614
+Morampudi,4,4,1,2,10,1942,2,4854,Rajahmundry,independent,high,full,5-10,3,0,1,0,0,1,0,1,0,1,1,1,0,0,1,1,0,0,20359427
+Magunta Layout,1,1,1,16,17,792,1,2033,Nellore,villa,medium,unfurnished,0-5,7,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,9495267
+Korlagunta,3,3,3,10,13,1955,2,6707,Tirupati,independent,low,full,5-10,4,0,0,1,1,0,1,0,1,0,0,1,0,1,1,0,0,1,16997733
+Indrapalem,1,2,3,16,29,2675,2,2737,Kakinada,villa,low,full,20+,2,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,1,22896772
+Nandyal Road,2,2,0,14,15,1423,2,954,Kurnool,independent,medium,full,0-5,7,1,1,1,0,1,1,0,1,0,0,0,1,1,0,1,1,0,13228864
+Housing Board Colony,3,3,3,12,13,2999,2,2383,Anantapur,apartment,high,full,20+,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1,0,22812799
+Kukatpally,1,1,2,17,18,2592,0,2012,Hyderabad,villa,low,semi,10-20,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,0,1,0,18314546
+Subedari,3,4,1,4,29,1446,1,7491,Warangal,villa,low,semi,5-10,0,1,1,1,0,1,1,1,1,0,0,1,1,0,0,1,0,1,10848069
+Housing Board Colony,1,1,2,14,19,1205,2,3609,Karimnagar,villa,medium,unfurnished,20+,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,15825334
+Indiranagar,2,1,0,14,16,3221,1,1682,Bangalore,apartment,high,full,0-5,1,1,1,0,1,0,0,1,0,0,1,1,1,0,1,1,0,1,17826254
+Vijayanagar,1,1,3,14,27,2095,2,6530,Mysore,villa,high,semi,10-20,0,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,1,0,14736038
+Kankanady,4,5,3,12,17,2281,1,2013,Mangalore,villa,high,full,5-10,7,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,1,19889103
+Adyar,2,1,1,7,18,1575,1,6368,Chennai,apartment,low,semi,0-5,4,1,1,1,0,1,1,0,1,1,1,1,0,1,1,0,1,0,15526765
+Peelamedu,1,2,2,5,9,2431,2,2270,Coimbatore,villa,medium,semi,20+,5,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,20817984
+Anna Nagar,2,2,3,11,13,1327,2,2169,Madurai,independent,medium,unfurnished,20+,4,0,0,0,1,0,1,1,1,1,0,1,0,1,1,0,0,0,14058943
+Bandra,3,4,0,14,15,2145,0,7005,Mumbai,independent,medium,unfurnished,20+,3,0,1,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1,23287831
+Kothrud,3,3,3,5,7,2597,2,4281,Pune,apartment,high,unfurnished,5-10,7,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,0,0,36535781
+Dharampeth,2,2,3,14,15,982,0,3155,Nagpur,independent,medium,unfurnished,10-20,0,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,11168643
+Dwarka,2,2,0,9,12,1125,0,6276,Delhi,independent,low,unfurnished,20+,5,1,1,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,12790855
+Navrangpura,3,2,3,17,18,928,2,1316,Ahmedabad,villa,low,unfurnished,10-20,2,1,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0,0,10329025
+Adajan,2,1,0,6,24,696,1,918,Surat,independent,medium,unfurnished,20+,7,1,1,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,10765460
+Edappally,3,3,2,9,18,2362,1,3719,Kochi,apartment,high,unfurnished,5-10,3,0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,15128002
+Kazhakkoottam,1,1,0,15,16,2001,0,3230,Trivandrum,independent,medium,unfurnished,5-10,5,1,1,0,1,1,1,0,0,0,0,0,0,0,1,1,1,0,12904523
+Seethammadhara,3,2,3,6,15,2998,0,5592,Visakhapatnam,apartment,low,full,20+,5,1,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,26311176
+Benz Circle,1,1,0,11,12,2718,0,3022,Vijayawada,independent,high,full,5-10,5,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,42314014
+Nallapadu,1,1,1,18,19,722,0,3635,Guntur,villa,medium,semi,5-10,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,6807477
+Danavaipeta,4,4,2,0,12,2234,1,6702,Rajahmundry,villa,medium,unfurnished,5-10,3,0,1,0,0,1,1,1,0,0,1,1,1,1,0,1,0,0,26352548
+Vedayapalem,3,4,1,17,19,2896,0,1462,Nellore,apartment,high,unfurnished,10-20,3,1,0,0,0,0,1,1,0,0,0,1,0,1,0,1,0,1,21979760
+Korlagunta,1,1,0,1,3,2743,1,3906,Tirupati,villa,low,full,0-5,0,0,0,1,1,1,0,1,1,1,1,1,0,0,1,1,1,0,22844916
+ADB Road,1,1,2,5,9,2202,0,6704,Kakinada,apartment,high,unfurnished,20+,5,1,1,0,1,1,0,1,0,1,1,1,0,1,1,1,0,0,21256754
+Ashok Nagar,2,2,3,3,5,1643,2,3374,Kurnool,independent,medium,semi,5-10,0,0,1,1,0,1,1,1,1,0,1,1,0,0,1,0,1,1,12467596
+Housing Board Colony,4,3,0,19,20,2086,2,4895,Anantapur,apartment,medium,semi,0-5,5,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,19354462
+Kondapur,2,3,1,10,15,863,0,243,Hyderabad,independent,low,semi,5-10,1,0,0,1,1,1,1,1,1,0,1,0,1,1,0,0,0,0,7064812
+Nakkalagutta,2,2,0,1,25,2039,0,4259,Warangal,villa,medium,semi,0-5,3,0,0,0,1,0,0,0,1,1,0,1,1,0,0,1,0,1,26531825
+Housing Board Colony,1,2,1,19,20,556,2,4485,Karimnagar,independent,high,full,10-20,4,0,1,1,0,1,1,0,1,0,0,1,0,0,0,0,0,0,8868314
+Whitefield,4,4,1,18,19,1734,0,7427,Bangalore,independent,low,unfurnished,10-20,3,1,0,1,1,1,1,0,1,0,0,1,0,1,1,0,0,0,20215059
+Kuvempunagar,3,2,0,4,23,1790,2,6548,Mysore,villa,high,unfurnished,5-10,6,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,1,16634545
+Surathkal,4,5,2,19,23,854,1,5827,Mangalore,villa,high,unfurnished,0-5,3,0,1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,9811472
+T Nagar,2,1,3,10,23,741,2,6869,Chennai,apartment,high,unfurnished,20+,6,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,7139741
+Singanallur,3,2,0,19,21,833,2,365,Coimbatore,independent,high,full,10-20,2,1,0,0,1,0,0,1,1,1,1,1,1,1,0,1,1,1,11936710
+Tallakulam,1,1,1,14,18,721,1,6979,Madurai,apartment,low,semi,10-20,5,0,1,1,0,1,1,0,1,1,1,0,0,1,0,1,1,1,4960683
+Andheri,3,2,3,17,23,862,2,4941,Mumbai,apartment,medium,semi,20+,5,1,0,1,1,0,1,0,1,0,0,1,1,1,0,0,0,1,5649357
+Hadapsar,1,1,0,7,14,2504,2,4758,Pune,villa,high,unfurnished,5-10,3,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,1,0,27003375
+Sitabuldi,1,1,3,2,22,2647,0,5149,Nagpur,independent,low,unfurnished,10-20,7,1,1,1,1,0,1,0,0,0,1,1,0,1,1,1,1,0,22094492
+Dwarka,4,4,2,1,9,1673,0,2547,Delhi,villa,medium,semi,5-10,5,1,0,1,1,0,1,0,0,1,0,1,0,0,0,1,1,0,18991660
+Bopal,4,5,0,3,20,1175,1,226,Ahmedabad,apartment,medium,unfurnished,5-10,7,0,0,1,1,1,1,1,0,0,1,0,0,0,1,0,1,0,9407630
+Varachha,3,3,3,1,18,2911,2,3888,Surat,villa,low,semi,5-10,5,0,0,1,1,0,1,0,1,1,0,0,0,0,1,0,1,0,27501547
+Edappally,3,4,2,12,13,896,2,2010,Kochi,independent,medium,full,10-20,0,1,1,0,0,1,0,1,1,0,0,0,0,1,1,1,0,1,13539375
+Vazhuthacaud,3,2,2,9,10,2089,2,4676,Trivandrum,apartment,low,semi,20+,4,1,1,1,1,1,0,0,1,0,0,1,0,1,1,0,1,1,24815700
+Seethammadhara,4,3,3,11,12,1789,2,162,Visakhapatnam,villa,medium,semi,10-20,1,0,0,1,1,0,0,1,1,0,1,1,1,0,0,0,1,1,20084425
+Gannavaram,3,3,2,14,18,2339,2,1171,Vijayawada,independent,high,unfurnished,5-10,1,1,1,1,1,0,0,1,0,1,0,0,0,1,0,1,0,0,13473630
+Arundelpet,1,1,0,8,9,1935,2,6633,Guntur,independent,medium,full,0-5,0,1,0,0,1,1,1,0,0,0,1,0,0,1,1,1,1,1,18790984
+Danavaipeta,1,1,1,15,25,3083,1,3215,Rajahmundry,apartment,high,semi,20+,7,0,1,1,1,0,1,0,1,0,0,0,1,1,0,0,1,1,22246348
+Stonehousepet,4,4,2,7,21,2205,1,7548,Nellore,villa,medium,unfurnished,10-20,1,0,1,1,0,1,1,0,1,1,0,1,0,1,0,0,0,1,20862316
+Korlagunta,4,4,3,8,9,1109,2,5000,Tirupati,villa,medium,semi,20+,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,8268917
+Sarpavaram,4,4,1,13,22,1116,0,5643,Kakinada,apartment,high,unfurnished,10-20,4,0,1,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,9131890
+Ashok Nagar,2,2,1,4,5,1999,0,264,Kurnool,villa,medium,semi,10-20,3,1,0,0,1,0,1,1,0,0,1,1,1,0,1,1,1,1,34022913
+Aravinda Nagar,4,4,1,0,21,2337,1,4136,Anantapur,independent,medium,semi,10-20,0,0,1,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,18192265
+Banjara Hills,4,5,2,5,9,953,0,5063,Hyderabad,independent,high,full,20+,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,6947486
+Hanamkonda,1,2,1,18,19,2207,2,2454,Warangal,villa,medium,semi,20+,4,1,1,0,0,1,0,1,0,1,0,0,1,1,1,1,1,0,19620401
+Jyothinagar,2,3,2,9,19,621,0,7494,Karimnagar,independent,high,unfurnished,20+,2,0,1,1,1,1,0,0,1,1,0,1,0,1,0,1,1,0,5755081
+Indiranagar,2,1,3,3,28,2743,0,7804,Bangalore,apartment,high,full,10-20,7,0,1,0,1,1,1,0,0,1,1,1,0,0,0,0,1,1,33549550
+Jayalakshmipuram,4,3,0,8,29,1956,2,976,Mysore,apartment,low,full,10-20,7,1,1,1,1,0,0,0,0,1,1,0,1,1,0,0,1,1,24429504
+Kadri,4,5,2,3,22,705,2,2901,Mangalore,villa,high,full,0-5,0,1,0,1,1,1,0,1,0,0,1,1,1,0,1,0,1,1,9114512
+Velachery,1,2,3,13,14,1883,0,6796,Chennai,apartment,medium,unfurnished,5-10,7,0,1,1,0,1,0,0,0,0,1,1,1,0,1,1,0,0,16220775
+RS Puram,3,4,2,8,9,2047,2,1517,Coimbatore,independent,low,full,5-10,4,0,1,1,0,1,1,1,0,0,0,1,0,1,0,0,1,0,15324376
+Anna Nagar,1,2,1,12,15,852,2,1875,Madurai,villa,medium,semi,0-5,6,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,1,12676171
+Powai,2,2,2,10,13,529,1,4658,Mumbai,apartment,low,full,20+,2,1,1,0,0,1,0,1,0,1,1,1,1,0,0,1,1,0,7093160
+Hinjewadi,3,2,2,4,21,2238,2,4318,Pune,independent,low,semi,20+,4,1,0,1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,15434599
+Sitabuldi,4,5,0,7,11,1541,1,7992,Nagpur,apartment,high,semi,20+,3,0,0,1,0,1,0,0,0,1,0,0,1,1,1,1,0,0,18598207
+Rohini,3,3,2,16,17,1861,0,5511,Delhi,villa,low,full,20+,0,0,1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,15489335
+Bopal,2,3,0,14,21,1971,0,2169,Ahmedabad,villa,low,full,10-20,5,1,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,1,22279579
+Katargam,1,1,0,18,19,2392,0,7730,Surat,apartment,low,semi,10-20,3,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,17296380
+Aluva,2,1,3,18,19,2465,0,656,Kochi,villa,high,full,20+,2,0,1,0,1,0,0,1,1,0,1,0,0,1,0,0,1,1,22173976
+Kowdiar,2,2,0,18,19,986,1,7166,Trivandrum,villa,medium,full,0-5,5,1,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,10971126
+Dwaraka Nagar,3,2,2,15,16,2604,0,2384,Visakhapatnam,apartment,high,full,5-10,2,0,0,0,0,1,0,0,0,1,1,1,1,0,1,0,0,1,30960078
+Benz Circle,4,4,0,15,16,2216,2,695,Vijayawada,villa,high,full,10-20,1,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,16070316
+Lakshmipuram,3,2,3,2,3,616,2,3336,Guntur,villa,medium,semi,10-20,5,0,0,1,0,1,1,0,0,1,1,0,0,0,0,1,1,1,8467360
+Dowleswaram,2,2,3,1,2,678,2,6046,Rajahmundry,independent,high,full,5-10,7,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,8822481
+Balaji Nagar,2,3,0,9,10,1740,1,1587,Nellore,villa,medium,semi,20+,5,1,0,1,0,1,1,0,1,0,0,0,1,1,1,0,0,1,27046454
+Alipiri,1,1,2,16,26,1539,1,3167,Tirupati,villa,low,full,20+,1,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,13312455
+Jagannaickpur,3,2,1,15,24,2628,0,2448,Kakinada,independent,medium,unfurnished,0-5,3,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,17661093
+Deva Nagar,1,1,0,19,20,903,0,2857,Kurnool,apartment,medium,full,20+,7,0,0,0,1,1,1,1,0,1,0,1,0,0,0,1,0,0,8757641
+Ramnagar,1,1,2,0,4,1105,0,1772,Anantapur,apartment,high,semi,10-20,3,1,1,1,0,1,1,1,1,0,1,0,1,0,0,0,0,0,13809206
+Gachibowli,2,1,3,14,21,2397,0,3748,Hyderabad,villa,medium,unfurnished,20+,5,1,0,0,0,0,1,0,1,1,1,1,0,0,0,1,1,1,25730846
+Kazipet,4,5,0,7,28,678,2,7669,Warangal,villa,high,full,5-10,0,1,0,1,0,1,1,0,0,0,0,1,0,1,0,1,1,1,7157421
+Mankamma Thota,1,1,2,3,15,2834,2,6919,Karimnagar,independent,low,unfurnished,5-10,2,1,1,0,0,0,0,1,1,1,0,0,1,0,1,1,1,1,19853811
+Electronic City,1,1,2,14,28,1113,0,5690,Bangalore,independent,medium,unfurnished,5-10,0,1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,8053342
+Jayalakshmipuram,2,1,2,8,14,621,0,2052,Mysore,apartment,high,semi,0-5,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,10670709
+Derebail,3,3,2,5,29,2142,0,3306,Mangalore,apartment,high,unfurnished,5-10,2,0,1,1,1,0,1,1,0,1,1,1,1,0,1,1,0,1,16485700
+T Nagar,2,3,2,5,22,1673,1,1283,Chennai,apartment,high,unfurnished,5-10,0,0,0,0,1,1,1,0,1,0,1,1,1,1,1,0,1,0,22397726
+Singanallur,2,1,1,11,12,3118,0,3583,Coimbatore,independent,high,unfurnished,20+,1,1,1,1,0,1,1,0,1,0,0,0,0,0,1,0,0,1,20282315
+Tallakulam,4,5,2,1,19,1749,0,2652,Madurai,apartment,high,unfurnished,5-10,2,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,1,0,14409904
+Powai,2,2,0,19,20,1807,2,3786,Mumbai,apartment,low,semi,0-5,0,1,1,1,0,0,0,1,0,1,0,1,0,0,0,1,1,0,14691740
+Wakad,4,5,2,6,26,1608,0,4557,Pune,independent,medium,full,5-10,3,0,0,1,0,1,0,1,0,1,1,1,0,0,1,1,0,0,19220006
+Wardha Road,3,4,3,7,29,2256,0,3607,Nagpur,villa,high,semi,0-5,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,1,15603840
+Rohini,4,5,2,5,21,1842,2,383,Delhi,villa,high,semi,10-20,6,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,21745867
+Maninagar,4,5,3,7,17,2072,2,1822,Ahmedabad,villa,high,semi,10-20,5,0,0,0,1,1,1,0,0,1,1,1,0,0,0,0,0,1,15716775
+Varachha,3,2,2,3,17,2300,1,4199,Surat,independent,medium,unfurnished,10-20,6,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,15550861
+Edappally,4,5,0,0,17,958,2,3171,Kochi,villa,low,full,10-20,3,0,1,1,1,0,1,1,0,0,1,1,0,0,0,1,0,0,13786864
+Vazhuthacaud,1,2,3,5,8,2231,1,5602,Trivandrum,independent,high,semi,0-5,3,0,1,1,0,1,1,1,0,0,0,1,0,1,1,0,0,1,25048884
+Seethammadhara,3,3,3,15,16,907,0,5131,Visakhapatnam,independent,low,full,20+,0,1,0,0,0,1,1,0,1,1,0,0,1,1,1,0,0,1,9300702
+Gannavaram,3,2,0,19,22,2874,2,1549,Vijayawada,independent,medium,unfurnished,20+,3,0,1,1,0,1,0,0,1,1,1,0,1,0,1,1,1,0,19594933
+Lakshmipuram,1,1,1,19,20,1012,0,3275,Guntur,independent,high,semi,5-10,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,11008600
+Dowleswaram,4,5,3,2,15,1333,0,2849,Rajahmundry,independent,medium,full,10-20,1,0,0,1,1,1,0,0,1,0,1,1,0,1,0,0,1,0,16585257
+Vedayapalem,1,2,3,3,4,955,0,283,Nellore,apartment,low,full,0-5,0,1,0,0,1,1,0,0,1,1,1,1,1,1,1,0,1,1,9731946
+Renigunta,2,3,3,14,15,2467,2,72,Tirupati,independent,low,full,0-5,0,1,1,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,18481098
+Indrapalem,4,4,3,10,29,2459,1,1337,Kakinada,independent,medium,semi,20+,6,1,1,1,0,0,1,0,0,0,1,1,0,1,1,0,0,1,19332065
+Deva Nagar,3,3,1,16,17,1898,2,294,Kurnool,apartment,medium,unfurnished,0-5,1,1,0,0,1,0,1,0,0,1,1,1,1,1,1,1,0,0,17541343
+Bellary Road,2,2,2,10,26,2066,1,4351,Anantapur,apartment,high,semi,20+,3,1,0,0,0,0,1,1,1,0,0,1,1,0,1,0,0,0,20261485
+Gachibowli,2,3,2,12,15,2366,2,5059,Hyderabad,apartment,high,semi,10-20,0,0,0,0,1,1,1,0,0,0,1,1,0,1,0,1,1,1,18238608
+Balasamudram,3,2,0,8,9,785,2,7206,Warangal,apartment,medium,unfurnished,5-10,6,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,7915263
+Saraswathi Nagar,1,1,2,7,21,2271,1,6763,Karimnagar,villa,medium,semi,0-5,5,0,1,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,21654738
+BTM Layout,3,3,2,18,22,2297,2,5628,Bangalore,independent,low,semi,0-5,2,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,1,0,12727369
+Gokulam,1,1,3,6,24,2849,2,5388,Mysore,villa,low,full,10-20,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,20859194
+Surathkal,2,1,3,0,29,2442,0,2546,Mangalore,villa,low,full,5-10,4,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,1,14993680
+OMR,2,3,0,7,8,2925,0,3120,Chennai,villa,low,unfurnished,5-10,6,1,1,0,0,1,0,0,0,0,1,1,1,1,0,0,1,1,28036349
+Singanallur,4,5,1,10,11,2881,0,7048,Coimbatore,apartment,high,unfurnished,20+,7,0,1,1,0,1,0,1,0,1,1,1,0,0,0,0,1,1,30991171
+Anna Nagar,3,2,2,5,29,2515,2,990,Madurai,apartment,medium,semi,0-5,4,1,1,1,1,1,0,0,0,1,1,1,1,0,0,1,0,0,24685913
+Powai,2,2,3,10,15,1920,1,2561,Mumbai,independent,medium,full,5-10,5,1,0,1,1,1,0,0,0,1,0,1,0,0,1,0,1,1,22769727
+Hadapsar,4,5,1,9,10,1377,2,2435,Pune,independent,medium,semi,0-5,3,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,1,1,10739668
+Manish Nagar,4,4,0,13,27,1099,2,4550,Nagpur,apartment,medium,semi,5-10,7,0,0,1,0,1,1,1,0,1,1,0,0,0,0,1,0,1,7794437
+Karol Bagh,3,4,2,14,16,802,0,2850,Delhi,independent,high,unfurnished,10-20,5,0,1,0,1,1,0,0,1,1,0,1,1,1,0,1,1,1,14922314
+Satellite,2,3,2,15,16,1714,1,4434,Ahmedabad,apartment,low,full,10-20,2,1,1,0,0,0,1,1,0,0,1,0,1,1,0,1,0,0,9780953
+Adajan,3,2,3,17,18,1383,1,3539,Surat,apartment,medium,full,20+,2,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,13884375
+Kakkanad,3,2,3,6,7,1263,1,1749,Kochi,independent,low,unfurnished,5-10,5,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,1,14832768
+Technopark,2,1,0,1,5,631,1,3875,Trivandrum,villa,high,full,5-10,3,1,0,1,1,1,0,1,1,1,0,1,1,1,0,0,1,0,8597257
+Dwaraka Nagar,4,5,0,8,9,1471,0,1257,Visakhapatnam,independent,high,full,0-5,7,0,0,0,1,1,1,1,0,0,0,1,0,0,1,1,1,0,15545299
+Auto Nagar,3,3,1,19,20,2064,1,7071,Vijayawada,independent,low,full,0-5,5,0,1,1,1,1,1,0,1,0,1,1,1,0,1,1,1,1,33797044
+Pattabhipuram,1,1,1,3,18,1011,2,1879,Guntur,independent,medium,semi,10-20,6,0,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,10725278
+Tilak Road,3,3,0,9,21,2819,0,2837,Rajahmundry,villa,high,unfurnished,10-20,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,1,16360266
+Stonehousepet,4,5,0,2,16,1524,2,1830,Nellore,independent,low,semi,20+,4,0,0,0,0,1,0,0,0,1,1,1,0,1,1,1,0,1,20883699
+Korlagunta,3,3,2,5,24,1806,1,5570,Tirupati,apartment,medium,semi,20+,5,1,0,1,1,0,1,1,0,1,1,1,0,1,0,1,0,1,14220328
+Ramanayyapeta,1,2,0,19,25,1828,2,4861,Kakinada,villa,high,full,5-10,3,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,0,22677233
+Nandyal Road,2,3,0,13,14,1544,1,1134,Kurnool,apartment,low,unfurnished,0-5,7,0,1,1,1,0,0,1,0,0,1,1,0,1,1,1,0,0,12134157
+Housing Board Colony,1,2,3,14,15,1847,2,4660,Anantapur,villa,low,unfurnished,20+,0,1,0,0,1,0,0,1,1,0,1,0,1,0,0,1,0,0,17154805
+Madhapur,3,3,3,0,11,610,1,882,Hyderabad,independent,high,unfurnished,0-5,7,1,0,0,0,1,0,1,1,1,1,1,0,0,1,0,1,1,6044162
+Hanamkonda,3,4,2,16,21,2419,2,4199,Warangal,independent,high,unfurnished,5-10,2,1,1,1,1,1,0,0,0,1,1,1,1,0,0,1,1,0,15712594
+Housing Board Colony,1,2,3,13,19,1280,2,5869,Karimnagar,independent,low,semi,5-10,7,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,12801787
+Whitefield,3,3,0,1,3,2493,1,6773,Bangalore,apartment,medium,semi,10-20,2,1,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,0,16766146
+Jayalakshmipuram,4,5,3,15,23,796,1,3672,Mysore,villa,high,semi,0-5,0,1,0,1,1,0,1,0,0,1,1,0,0,1,1,1,1,0,9918947
+Kankanady,4,3,1,4,6,3197,2,470,Mangalore,independent,medium,unfurnished,20+,2,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,40051603
+T Nagar,3,2,3,12,13,1836,0,5690,Chennai,apartment,high,semi,10-20,3,1,1,0,1,0,0,1,0,1,0,0,1,1,1,1,0,0,23008365
+Peelamedu,1,2,1,19,25,2971,2,277,Coimbatore,apartment,high,unfurnished,0-5,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,21083638
+Thirunagar,1,1,1,16,17,2750,1,4258,Madurai,apartment,high,semi,0-5,2,0,0,0,0,1,0,1,1,0,1,1,0,0,0,1,1,0,23448981
+Thane,4,4,1,17,18,1294,0,4621,Mumbai,independent,high,full,10-20,2,0,1,0,0,0,0,1,1,0,1,1,1,1,1,1,0,0,15421255
+Baner,2,1,2,3,13,2577,1,1956,Pune,independent,medium,unfurnished,5-10,3,1,0,1,0,0,1,1,1,0,0,0,0,0,0,1,1,0,36184050
+Wardha Road,3,4,1,15,16,1133,1,657,Nagpur,apartment,low,unfurnished,10-20,3,1,0,1,0,0,0,1,1,1,1,0,1,1,1,0,0,1,8756907
+Saket,2,3,3,8,9,2084,1,2671,Delhi,independent,high,full,5-10,2,0,0,1,1,0,1,0,0,0,0,1,1,1,1,0,1,0,19280511
+Satellite,4,5,2,12,27,2534,0,7483,Ahmedabad,villa,low,semi,0-5,2,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,1,0,19913192
+Katargam,1,1,1,9,25,971,1,4470,Surat,apartment,medium,full,20+,7,1,1,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,5909062
+Edappally,3,4,3,16,19,2237,0,186,Kochi,villa,low,full,10-20,6,1,1,1,1,0,1,0,1,1,1,0,0,0,0,0,1,0,14453851
+Technopark,2,3,3,11,13,2300,0,5182,Trivandrum,apartment,low,semi,20+,3,1,1,0,0,1,0,1,0,1,1,1,0,0,1,1,0,0,26269334
+Seethammadhara,3,3,3,18,19,714,0,2074,Visakhapatnam,apartment,low,semi,10-20,3,1,1,1,1,1,0,1,1,1,0,0,0,1,0,0,1,1,6532187
+Gannavaram,4,5,3,8,9,996,1,6725,Vijayawada,independent,high,unfurnished,20+,0,1,1,1,1,0,1,0,1,0,0,1,1,1,0,1,1,0,15745046
+Arundelpet,3,3,1,2,25,1003,2,5458,Guntur,villa,high,semi,5-10,1,1,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,1,13037481
+Katheru,3,3,3,16,17,1724,0,4654,Rajahmundry,villa,high,semi,5-10,7,1,1,0,1,0,1,1,0,0,0,0,1,0,1,0,0,1,19467860
+Vedayapalem,2,2,1,19,20,977,0,4873,Nellore,apartment,low,unfurnished,5-10,1,0,0,1,1,0,1,0,1,1,0,0,0,1,1,1,1,0,6591116
+Alipiri,2,1,1,15,20,677,1,4416,Tirupati,villa,high,semi,10-20,0,1,1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,1,8400840
+Sarpavaram,4,4,3,5,6,1207,1,6349,Kakinada,apartment,low,unfurnished,20+,3,1,1,0,0,1,0,0,1,0,0,1,0,1,0,1,0,0,15528655
+Deva Nagar,4,3,0,13,29,1071,2,5675,Kurnool,apartment,medium,full,20+,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1,13753427
+Aravinda Nagar,2,2,2,7,13,1631,2,5764,Anantapur,apartment,medium,full,0-5,6,1,1,0,0,1,0,0,1,0,0,1,1,0,1,0,0,0,9356384
+Kondapur,2,3,3,13,14,2464,1,7604,Hyderabad,apartment,medium,unfurnished,20+,5,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,15695363
+Hanamkonda,3,2,0,19,20,2910,1,5162,Warangal,villa,medium,full,5-10,6,0,0,1,0,1,1,0,1,0,0,1,0,0,0,1,0,1,27867205
+Kothirampur,3,4,3,5,14,2832,0,1243,Karimnagar,independent,high,semi,10-20,7,0,0,0,0,1,0,1,1,1,1,1,0,0,0,0,1,0,21559559
+Indiranagar,1,1,0,19,22,1154,0,6150,Bangalore,independent,medium,unfurnished,10-20,4,0,1,1,0,0,0,1,0,1,0,0,0,1,1,1,0,1,10091862
+Vijayanagar,3,3,1,19,29,806,1,6135,Mysore,independent,medium,semi,10-20,6,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,0,1,6035516
+Derebail,4,3,1,5,27,809,0,5867,Mangalore,villa,low,full,5-10,1,1,0,0,1,1,0,0,0,1,0,1,0,1,1,1,0,0,8818534
+Adyar,2,1,3,2,15,901,2,6403,Chennai,apartment,high,semi,5-10,7,0,0,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0,7086804
+Saravanampatti,2,2,2,12,13,2710,1,18,Coimbatore,villa,high,semi,0-5,5,0,1,0,1,0,1,1,1,0,0,0,1,0,1,0,0,0,20018210
+KK Nagar,1,2,1,19,20,1920,1,273,Madurai,independent,high,semi,20+,5,0,1,0,1,0,0,1,0,1,0,1,1,0,1,0,1,1,17080586
+Andheri,2,2,0,15,16,768,2,1654,Mumbai,apartment,medium,unfurnished,5-10,7,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,8338523
+Wakad,3,4,1,11,15,578,0,3218,Pune,independent,medium,full,20+,2,0,0,0,1,0,1,0,0,1,0,1,1,0,0,0,0,0,4884877
+Sitabuldi,2,1,1,16,17,1879,1,1514,Nagpur,apartment,low,semi,20+,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,1,16219221
+Dwarka,3,3,3,17,27,1324,0,7259,Delhi,independent,high,unfurnished,20+,7,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,0,1,15923947
+Navrangpura,2,2,2,17,18,648,0,7537,Ahmedabad,independent,low,full,10-20,2,0,0,0,1,1,1,1,0,1,1,0,0,0,0,0,1,0,7811058
+Vesu,4,5,3,0,19,2112,0,3197,Surat,apartment,medium,full,5-10,6,0,1,1,1,0,1,0,1,1,1,1,1,1,0,1,0,1,22664258
+Aluva,3,4,1,7,21,2733,0,5765,Kochi,independent,high,full,10-20,6,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,16108981
+Pattom,2,3,1,8,21,1517,2,2580,Trivandrum,apartment,low,unfurnished,10-20,3,0,1,0,1,0,1,0,1,0,1,1,0,1,0,0,0,1,7616218
+MVP Colony,3,3,1,7,8,2012,2,1248,Visakhapatnam,independent,medium,unfurnished,20+,4,1,0,0,1,0,1,0,0,0,1,1,0,1,0,1,1,0,18542548
+Benz Circle,2,3,0,1,16,1787,2,5521,Vijayawada,apartment,low,unfurnished,5-10,4,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,1,1,23607830
+Brodipet,3,4,3,7,9,1584,1,1411,Guntur,independent,high,unfurnished,20+,4,0,0,1,0,1,0,1,0,0,1,1,0,1,0,0,0,1,12710756
+Tilak Road,2,1,1,10,11,735,1,1187,Rajahmundry,apartment,low,semi,20+,7,0,1,0,1,1,1,1,0,0,1,1,0,0,0,0,1,1,4028058
+Vedayapalem,3,4,0,17,20,2356,0,4588,Nellore,apartment,low,semi,10-20,3,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,1,0,17729461
+Korlagunta,2,1,3,14,25,1621,2,6326,Tirupati,independent,medium,full,5-10,2,0,0,1,0,1,1,0,1,1,1,1,1,0,1,0,0,0,14569671
+Ramanayyapeta,3,3,1,3,25,1519,1,6358,Kakinada,apartment,medium,unfurnished,10-20,0,1,1,0,1,0,0,1,1,1,0,0,1,0,1,0,1,1,13128012
+Ashok Nagar,2,3,3,18,20,2014,1,5178,Kurnool,apartment,low,unfurnished,0-5,6,1,1,1,1,0,0,0,1,0,1,0,0,0,0,1,1,0,21398653
+Ramnagar,3,3,0,0,18,1449,0,6120,Anantapur,independent,low,full,20+,6,1,0,1,1,0,1,0,0,0,0,0,1,1,1,0,1,1,17903745
+Kondapur,3,3,2,14,18,1715,2,4482,Hyderabad,villa,low,semi,20+,0,0,0,1,1,0,1,1,0,0,1,1,1,0,0,0,0,1,13750361
+Nakkalagutta,2,2,3,1,17,1277,0,3639,Warangal,apartment,low,unfurnished,5-10,2,0,1,1,1,1,0,0,0,1,1,0,1,1,0,0,1,1,16453919
+Kothirampur,1,1,0,19,20,1318,0,5607,Karimnagar,apartment,medium,unfurnished,5-10,0,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,0,0,7725799
+BTM Layout,4,3,1,10,27,712,1,1128,Bangalore,villa,medium,semi,10-20,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,6132886
+Hebbal,2,2,1,3,4,1000,1,5737,Mysore,villa,medium,semi,0-5,3,1,0,1,1,0,0,0,1,1,0,0,0,1,1,0,1,0,10155843
+Surathkal,4,5,1,7,8,2989,0,4631,Mangalore,independent,medium,full,0-5,6,1,0,1,1,0,1,0,1,1,0,0,0,1,1,0,0,1,21801512
+Velachery,3,3,0,5,14,2697,2,1133,Chennai,villa,high,full,10-20,0,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,18764549
+Singanallur,3,2,1,7,26,929,0,3683,Coimbatore,independent,low,unfurnished,10-20,6,0,1,0,0,1,0,1,1,0,1,1,1,1,0,1,0,1,5727377
+Tallakulam,1,1,0,11,12,2714,0,7507,Madurai,villa,high,unfurnished,5-10,5,0,1,1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,28295299
+Andheri,4,5,0,4,29,991,1,7776,Mumbai,villa,high,semi,0-5,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,9284080
+Kothrud,1,1,1,19,20,998,2,3161,Pune,villa,low,semi,20+,0,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,13417852
+Wardha Road,2,2,1,3,18,2626,2,3672,Nagpur,villa,high,semi,0-5,2,1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,1,0,23355402
+Rohini,1,1,3,8,9,1847,0,6961,Delhi,villa,high,unfurnished,0-5,1,0,0,1,1,0,0,1,1,1,1,0,0,1,0,0,1,0,10760040
+Bopal,4,4,2,19,24,1159,2,7787,Ahmedabad,apartment,high,full,10-20,3,0,0,0,1,1,1,0,1,1,1,1,0,1,1,0,0,1,9872102
+Piplod,1,1,3,16,24,1134,2,7216,Surat,villa,high,unfurnished,5-10,6,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1,1,1,13367457
+Vyttila,4,4,3,19,20,958,1,6954,Kochi,villa,medium,full,0-5,1,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,1,1,5917297
+Vazhuthacaud,1,1,3,1,12,1977,1,2793,Trivandrum,independent,high,unfurnished,10-20,0,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,19691372
+MVP Colony,4,3,1,5,13,3086,1,3089,Visakhapatnam,independent,medium,semi,0-5,2,1,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,42842277
+Benz Circle,2,1,2,4,9,1762,0,6085,Vijayawada,villa,low,unfurnished,0-5,2,1,1,1,1,0,0,0,1,0,1,1,1,1,1,0,1,1,20582010
+Pattabhipuram,2,1,0,2,19,2682,2,4611,Guntur,apartment,medium,semi,0-5,5,0,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,18407773
+Dowleswaram,1,1,3,10,28,2816,1,4564,Rajahmundry,apartment,medium,unfurnished,5-10,7,1,1,0,1,0,1,1,1,0,1,1,0,0,0,0,1,1,28324703
+Balaji Nagar,2,2,2,5,17,1905,1,919,Nellore,villa,low,semi,0-5,0,1,0,1,0,0,1,1,1,0,1,1,1,1,1,0,1,1,15077332
+Tiruchanoor,4,4,1,10,23,1939,1,342,Tirupati,apartment,low,semi,5-10,6,0,0,1,1,0,0,1,0,1,1,1,1,1,1,0,1,1,12666623
+ADB Road,4,3,2,1,26,812,0,942,Kakinada,apartment,medium,full,5-10,4,1,0,1,0,0,1,1,0,1,1,1,0,0,1,1,0,1,4898491
+Ashok Nagar,2,1,2,2,26,1737,1,1273,Kurnool,independent,medium,unfurnished,0-5,5,1,1,0,0,0,1,1,1,1,1,0,1,1,1,0,1,0,19125840
+Aravinda Nagar,1,2,1,19,20,1624,1,5297,Anantapur,independent,high,full,10-20,6,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,9949620
+Kondapur,3,2,2,15,29,774,2,6964,Hyderabad,apartment,medium,unfurnished,20+,7,0,1,0,1,0,1,1,1,1,1,0,0,1,1,1,0,0,5295727
+Subedari,4,4,1,10,11,1661,0,544,Warangal,apartment,low,full,5-10,2,0,0,1,0,0,0,0,1,0,1,1,1,1,0,1,1,1,17379566
+Mankamma Thota,1,2,0,17,18,1919,2,5752,Karimnagar,villa,low,semi,20+,4,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0,1,1,15415977
+Whitefield,3,4,1,9,22,663,0,5565,Bangalore,independent,medium,unfurnished,10-20,0,1,0,0,1,0,1,1,0,1,0,0,0,0,1,1,0,0,10979625
+Jayalakshmipuram,4,4,3,14,15,1188,1,7147,Mysore,independent,medium,unfurnished,5-10,1,0,1,0,1,0,1,0,0,1,1,0,1,0,1,0,1,0,16127495
+Bejai,3,2,0,14,17,680,0,402,Mangalore,villa,medium,full,0-5,3,0,0,1,0,1,0,1,1,0,0,1,1,1,0,0,0,0,9745522
+Anna Nagar,2,2,2,18,21,2339,0,3814,Chennai,villa,low,unfurnished,0-5,0,0,1,0,1,0,1,0,1,1,0,0,0,1,1,0,0,1,18249564
+Saravanampatti,3,2,3,11,12,2443,0,4992,Coimbatore,villa,high,unfurnished,20+,6,1,1,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,26433704
+Anna Nagar,1,1,0,2,10,1737,0,551,Madurai,apartment,high,unfurnished,5-10,4,0,1,1,1,0,1,0,1,0,1,0,1,0,0,0,0,0,15732397
+Andheri,1,1,2,18,24,1112,2,3625,Mumbai,independent,low,unfurnished,10-20,6,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,1,9573474
+Wakad,1,1,1,11,12,2281,0,2243,Pune,villa,low,semi,5-10,0,0,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,16740358
+Pratap Nagar,1,2,1,18,19,2118,0,2772,Nagpur,apartment,low,semi,10-20,2,0,1,1,0,1,1,1,1,1,1,0,1,1,0,0,0,0,19668363
+Rohini,2,3,1,1,7,1826,1,6074,Delhi,independent,low,semi,20+,6,0,0,1,0,1,1,1,1,0,1,1,0,1,1,1,0,1,12104264
+Bopal,4,3,1,3,15,1170,0,1158,Ahmedabad,independent,medium,unfurnished,20+,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,0,9037905
+Adajan,4,5,2,6,23,1979,1,3557,Surat,independent,medium,semi,20+,6,1,1,1,0,1,1,0,0,1,1,1,0,0,0,1,0,1,12867096
+Edappally,2,2,2,16,20,1584,0,5087,Kochi,apartment,high,unfurnished,10-20,4,1,1,1,1,0,0,0,1,0,0,1,1,1,0,0,1,1,13144599
+Pattom,4,4,1,12,27,2731,0,354,Trivandrum,apartment,medium,unfurnished,0-5,3,1,1,1,0,0,1,1,0,0,0,0,0,1,1,1,1,0,30500401
+MVP Colony,1,1,0,12,13,1400,1,6496,Visakhapatnam,villa,low,full,10-20,7,0,1,0,1,0,0,1,1,1,1,1,0,1,0,0,0,0,13506785
+Gannavaram,2,1,2,19,25,1284,0,6539,Vijayawada,independent,low,unfurnished,10-20,5,0,0,0,1,1,1,1,1,1,1,0,0,1,0,0,1,0,8703493
+Pattabhipuram,1,1,1,14,15,1267,1,1397,Guntur,apartment,medium,full,10-20,7,1,0,1,0,1,1,1,0,0,1,1,1,0,1,1,1,1,13190688
+Katheru,4,5,0,6,13,2990,0,5978,Rajahmundry,apartment,high,semi,20+,6,1,0,0,0,1,0,0,1,1,0,0,1,1,1,0,0,0,13180608
+Nawabpet,1,1,2,6,7,658,0,2419,Nellore,villa,medium,full,10-20,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,9239931
+Tiruchanoor,1,1,2,5,20,2472,2,3969,Tirupati,villa,low,semi,0-5,0,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,1,0,19973945
+Jagannaickpur,1,1,1,12,26,1401,1,1607,Kakinada,villa,high,full,20+,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,0,1,1,17216462
+Balaji Nagar,2,1,2,7,8,803,2,6975,Kurnool,apartment,high,semi,10-20,4,1,1,1,1,1,1,0,1,0,0,1,0,0,1,1,1,0,12418593
+Aravinda Nagar,2,3,2,8,9,889,1,4507,Anantapur,independent,medium,unfurnished,0-5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,1,0,0,0,13417830
+Kondapur,4,3,2,13,14,1473,0,2970,Hyderabad,independent,medium,semi,20+,0,1,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,15632427
+Nakkalagutta,4,3,0,16,27,1068,0,3549,Warangal,independent,high,semi,10-20,2,1,1,1,1,0,1,0,0,1,0,1,0,1,1,1,1,1,8660654
+Jyothinagar,3,3,2,15,16,2305,2,2752,Karimnagar,independent,high,unfurnished,10-20,4,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,1,14685600
+BTM Layout,4,5,1,8,9,1980,1,7796,Bangalore,apartment,low,full,20+,5,1,1,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,24002412
+Hebbal,4,3,1,17,18,2589,1,2113,Mysore,independent,high,full,0-5,5,1,0,0,1,1,0,0,0,0,1,0,0,1,1,1,1,1,29629773
+Kankanady,3,4,3,1,19,2047,2,7396,Mangalore,apartment,high,semi,10-20,3,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,19105280
+OMR,2,1,0,17,18,2177,1,4727,Chennai,apartment,high,unfurnished,20+,1,1,0,0,1,0,1,0,1,0,0,1,1,1,1,1,0,1,13411560
+Singanallur,4,3,0,5,13,2583,1,3936,Coimbatore,apartment,medium,unfurnished,5-10,4,0,0,0,1,1,0,1,0,1,1,1,0,0,1,0,0,1,41792627
+Tallakulam,3,3,3,18,19,615,2,2358,Madurai,apartment,medium,unfurnished,5-10,0,1,1,0,1,0,1,1,1,0,1,0,1,1,1,1,1,1,4736036
+Powai,2,1,1,6,7,2259,2,4492,Mumbai,villa,low,semi,20+,4,1,0,1,1,0,1,1,0,1,1,0,0,1,1,1,0,1,16337916
+Kothrud,2,2,0,17,18,1387,1,1287,Pune,apartment,high,unfurnished,10-20,3,1,0,0,0,0,0,1,1,0,0,0,1,1,1,0,1,0,12507212
+Pratap Nagar,1,2,3,8,9,2791,2,7776,Nagpur,independent,medium,unfurnished,5-10,3,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,17987027
+Karol Bagh,1,1,3,0,17,2760,0,6789,Delhi,villa,medium,semi,10-20,0,1,1,1,0,0,1,0,1,1,1,1,1,1,1,0,1,0,32738461
+Satellite,3,4,3,6,8,1463,0,4820,Ahmedabad,villa,low,full,10-20,0,0,1,1,0,0,1,0,1,1,0,1,0,0,1,1,0,1,13488400
+Piplod,1,2,2,17,18,1057,0,4930,Surat,villa,low,unfurnished,10-20,3,0,0,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,10881097
+Vyttila,1,2,3,14,28,1422,0,298,Kochi,apartment,high,semi,20+,6,1,1,0,0,1,1,0,0,1,1,1,0,1,0,0,0,1,12695658
+Pattom,2,3,0,0,21,1852,2,4293,Trivandrum,apartment,low,full,10-20,7,1,1,0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,10527672
+Dwaraka Nagar,1,1,3,0,7,1731,0,6258,Visakhapatnam,apartment,medium,unfurnished,10-20,2,1,0,0,0,1,0,1,0,0,0,1,0,0,1,1,1,0,15689525
+Kanuru,4,4,1,8,25,2061,0,818,Vijayawada,apartment,high,unfurnished,0-5,2,0,1,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0,21151808
+Arundelpet,1,1,3,15,18,1909,0,550,Guntur,villa,medium,full,20+,0,1,1,0,1,1,0,1,0,1,1,0,1,0,0,0,1,1,19777021
+Danavaipeta,1,1,2,3,26,1196,2,527,Rajahmundry,villa,medium,unfurnished,10-20,4,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,13502476
+Balaji Nagar,2,1,2,7,18,2683,0,1973,Nellore,independent,high,semi,10-20,7,0,1,1,0,1,1,1,1,0,0,0,1,1,0,0,1,0,32800341
+Korlagunta,3,4,1,15,16,912,2,3824,Tirupati,villa,high,unfurnished,20+,0,1,1,0,1,0,1,0,1,0,0,1,0,1,1,0,0,0,10214838
+ADB Road,1,1,2,14,15,1676,1,6649,Kakinada,independent,medium,full,5-10,6,1,0,0,0,1,1,0,1,1,1,1,1,1,1,0,0,1,21713787
+Balaji Nagar,3,3,1,17,18,2379,2,4415,Kurnool,villa,medium,semi,10-20,5,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,14697302
+Housing Board Colony,1,2,0,17,18,1711,1,4179,Anantapur,villa,medium,semi,10-20,2,1,0,0,1,1,1,0,1,0,0,0,1,0,1,1,1,1,22884304
+Banjara Hills,3,4,2,11,12,1180,2,5197,Hyderabad,independent,high,unfurnished,0-5,1,0,0,0,1,1,0,1,1,1,1,1,0,0,0,1,1,1,11036217
+Hanamkonda,1,2,2,4,21,871,0,7111,Warangal,apartment,low,full,10-20,1,1,1,1,0,1,1,1,0,1,1,0,0,0,0,1,0,1,7625856
+Jyothinagar,4,4,1,18,24,1224,1,2903,Karimnagar,villa,medium,full,10-20,2,1,1,1,0,1,1,1,0,0,1,1,1,0,0,0,1,0,13932959
+Electronic City,2,3,1,13,18,2952,1,2165,Bangalore,independent,low,unfurnished,0-5,1,1,1,0,0,0,1,0,0,1,0,0,1,1,0,1,0,1,29854077
+Hebbal,1,1,1,3,10,1889,0,1030,Mysore,apartment,high,full,10-20,1,1,1,0,1,1,0,1,0,0,0,0,0,0,1,1,1,0,19164281
+Derebail,4,5,1,8,16,2494,0,6003,Mangalore,independent,high,full,10-20,7,0,1,1,0,1,0,0,0,1,0,0,0,1,0,1,1,0,18767483
+Velachery,1,1,2,15,16,1894,1,3690,Chennai,apartment,high,semi,5-10,0,0,1,0,0,1,1,1,0,1,0,1,1,0,0,1,1,0,13282214
+RS Puram,1,2,3,0,8,2180,0,2941,Coimbatore,apartment,medium,semi,0-5,7,0,0,1,0,0,0,1,1,1,0,0,1,1,0,1,1,1,15661485
+Thirunagar,3,4,2,2,17,1487,1,4516,Madurai,villa,high,full,0-5,0,0,1,1,1,1,0,0,0,1,0,0,0,0,1,0,0,1,16653460
+Powai,1,1,0,19,25,596,1,968,Mumbai,apartment,high,full,20+,1,0,0,0,0,0,1,1,1,0,0,1,1,0,1,1,0,1,8948244
+Hinjewadi,4,5,0,19,20,1278,2,21,Pune,apartment,medium,unfurnished,20+,2,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,0,0,6954361
+Wardha Road,4,3,1,12,29,2653,2,1678,Nagpur,independent,low,semi,20+,4,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,22966883
+Saket,1,2,0,18,19,1867,2,421,Delhi,villa,low,full,0-5,6,1,1,1,1,0,1,0,0,1,0,1,1,1,1,1,0,1,14412203
+Navrangpura,2,1,0,17,20,2007,2,2423,Ahmedabad,villa,medium,unfurnished,0-5,0,1,1,0,1,1,1,0,0,0,0,0,1,1,1,1,0,0,11451627
+Piplod,4,4,1,11,12,1223,1,2277,Surat,villa,low,semi,0-5,1,1,1,0,1,1,1,1,1,0,0,1,1,0,1,0,1,1,11227487
+Fort Kochi,3,2,1,15,22,588,2,2835,Kochi,villa,high,unfurnished,5-10,1,0,1,1,0,0,0,1,1,1,1,0,1,0,1,1,0,1,9059765
+Vazhuthacaud,3,4,1,19,20,3168,1,3856,Trivandrum,independent,medium,unfurnished,20+,2,0,1,0,0,1,0,0,1,1,0,1,1,0,0,1,0,1,13438416
+Dwaraka Nagar,2,1,3,18,19,1245,2,3391,Visakhapatnam,independent,medium,semi,20+,7,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,0,1,15246762
+Kanuru,3,4,1,16,29,897,0,966,Vijayawada,independent,low,full,10-20,3,1,1,0,0,0,0,1,0,0,1,1,0,1,1,0,0,0,7282512
+Nallapadu,3,4,0,10,11,2004,2,28,Guntur,apartment,high,unfurnished,0-5,0,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,0,1,25663382
+Dowleswaram,3,3,2,10,11,1083,1,1349,Rajahmundry,apartment,low,unfurnished,20+,5,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,8128257
+Magunta Layout,1,1,2,16,23,2335,0,7065,Nellore,apartment,medium,unfurnished,0-5,1,0,1,0,1,1,1,1,0,0,1,0,0,0,1,0,0,1,23589364
+Bairagipatteda,4,3,0,13,16,2669,0,1755,Tirupati,independent,low,full,0-5,1,0,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,21937617
+Sarpavaram,3,4,1,11,28,2014,2,400,Kakinada,apartment,low,unfurnished,10-20,3,1,0,0,0,1,1,1,0,1,1,1,1,1,0,0,0,0,12154824
+Deva Nagar,1,1,1,0,6,2479,0,3671,Kurnool,apartment,high,semi,20+,2,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1,0,1,20891245
+Bellary Road,3,4,3,19,20,1076,0,4409,Anantapur,apartment,high,full,0-5,0,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1,1,7701975
+Gachibowli,3,3,1,19,20,2135,1,1066,Hyderabad,independent,medium,semi,5-10,4,0,0,1,1,0,0,1,0,1,0,0,0,1,1,0,1,1,17502037
+Nakkalagutta,2,2,0,13,14,1809,2,310,Warangal,apartment,medium,semi,5-10,7,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,15901473
+Saraswathi Nagar,4,4,2,9,14,821,1,3933,Karimnagar,villa,high,unfurnished,20+,4,1,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,8767432
+Electronic City,3,2,3,8,9,1832,1,2763,Bangalore,independent,high,unfurnished,5-10,2,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,12609801
+Kuvempunagar,4,3,0,0,2,2935,1,1386,Mysore,villa,low,unfurnished,0-5,4,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,20479679
+Surathkal,3,4,2,4,9,1003,0,3286,Mangalore,independent,low,full,0-5,5,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,1,0,8425108
+Adyar,4,3,2,7,26,494,0,5147,Chennai,villa,medium,full,20+,5,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,0,9471863
+Saravanampatti,2,2,3,0,2,2289,1,3765,Coimbatore,apartment,low,unfurnished,0-5,7,0,0,1,0,0,1,0,0,0,0,1,0,1,0,1,1,1,26361708
+Thirunagar,3,4,0,14,15,2475,0,4812,Madurai,apartment,medium,semi,10-20,0,0,1,1,0,1,0,0,1,1,1,1,0,0,0,1,0,1,27365751
+Bandra,3,3,1,5,18,1278,1,1567,Mumbai,apartment,low,semi,0-5,6,0,1,1,1,1,0,1,0,0,1,0,0,0,0,1,1,0,8258991
+Hinjewadi,2,2,0,13,19,1813,2,3139,Pune,villa,medium,full,20+,6,0,0,0,0,0,1,0,0,0,1,1,0,1,0,1,0,1,21962415
+Dharampeth,3,3,1,8,9,916,0,4824,Nagpur,villa,low,unfurnished,10-20,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,10842436
+Karol Bagh,1,1,2,3,4,2143,2,4938,Delhi,apartment,low,full,5-10,2,0,0,0,0,1,1,0,1,1,0,1,0,1,1,1,1,1,17808030
+Navrangpura,1,2,0,18,19,1543,2,2,Ahmedabad,independent,medium,unfurnished,20+,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,1,19362846
+Vesu,4,4,2,11,16,2530,0,435,Surat,independent,low,unfurnished,0-5,3,1,0,0,1,1,1,1,1,0,0,1,1,0,1,0,0,0,37737683
+Kakkanad,4,3,1,9,22,1674,0,3808,Kochi,independent,low,unfurnished,20+,5,1,0,1,0,0,1,1,1,0,1,0,1,1,0,0,1,1,21679084
+Kowdiar,2,3,0,18,22,2249,2,3403,Trivandrum,independent,medium,full,5-10,5,0,0,1,0,0,0,1,1,1,1,1,1,1,0,1,1,0,20646725
+Gajuwaka,4,4,3,18,19,1349,0,5912,Visakhapatnam,villa,low,full,0-5,6,0,0,1,1,1,1,0,1,0,0,0,1,0,1,1,1,1,10193268
+Gannavaram,1,1,2,9,17,2872,0,730,Vijayawada,independent,high,unfurnished,0-5,6,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,21562458
+Brodipet,3,4,2,15,16,3060,2,5938,Guntur,apartment,medium,unfurnished,5-10,6,0,0,0,1,0,0,0,0,1,1,1,0,1,1,0,1,0,28246443
+Morampudi,2,1,0,11,12,685,1,2653,Rajahmundry,independent,low,unfurnished,0-5,2,1,0,1,1,1,0,0,0,1,1,0,1,0,0,0,0,1,8716731
+Magunta Layout,3,4,2,8,22,1024,0,1409,Nellore,villa,medium,unfurnished,20+,6,1,0,1,1,1,0,1,0,0,0,0,1,1,1,0,1,0,9608406
+Korlagunta,3,3,2,9,29,1248,2,4831,Tirupati,apartment,medium,unfurnished,10-20,6,1,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,1,15073350
+Sarpavaram,4,3,0,11,12,1028,1,3036,Kakinada,independent,medium,full,0-5,5,1,1,0,1,1,0,1,1,1,0,0,0,1,0,1,1,1,13745635
+Nandyal Road,4,4,0,2,18,793,0,5939,Kurnool,independent,low,full,5-10,4,1,0,0,0,0,1,1,1,1,0,1,1,1,0,1,1,0,8894089
+Housing Board Colony,3,3,1,7,8,2662,2,7455,Anantapur,villa,high,unfurnished,0-5,0,0,0,0,0,1,0,0,0,0,1,0,1,1,1,0,0,0,35916083
+Madhapur,2,1,0,0,20,1209,2,3028,Hyderabad,villa,high,semi,10-20,2,1,0,1,1,0,0,1,1,1,1,1,1,0,0,0,0,1,14318667
+Hanamkonda,2,2,3,12,13,2163,2,148,Warangal,independent,medium,unfurnished,20+,5,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0,14776579
+Mankamma Thota,1,1,0,5,26,3187,2,2648,Karimnagar,villa,low,unfurnished,20+,6,0,0,1,0,0,0,0,1,1,1,0,1,0,1,0,1,1,25395044
+BTM Layout,2,1,2,6,19,1621,1,4838,Bangalore,villa,low,full,20+,4,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,11233468
+Gokulam,4,3,1,8,10,1162,1,7671,Mysore,independent,low,unfurnished,10-20,3,1,0,0,0,1,1,0,0,1,0,1,1,0,0,1,1,1,10118075
+Kankanady,1,1,1,6,15,1792,0,7928,Mangalore,independent,medium,semi,5-10,2,1,0,1,0,1,1,0,1,1,0,0,0,0,0,1,0,1,19671957
+Anna Nagar,2,3,1,4,15,610,1,639,Chennai,apartment,medium,semi,20+,6,1,1,1,1,0,1,0,1,0,0,0,0,0,1,0,1,0,4301820
+Singanallur,3,2,1,16,17,2423,2,4151,Coimbatore,apartment,medium,unfurnished,0-5,0,0,1,1,1,0,0,0,1,0,0,1,1,0,1,0,1,1,30108637
+Tallakulam,4,4,2,10,25,1847,0,7345,Madurai,villa,medium,full,0-5,7,0,0,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1,22060615
+Powai,2,2,0,11,14,2756,0,4332,Mumbai,apartment,low,semi,0-5,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,0,0,0,28492443
+Baner,2,2,0,10,16,2341,0,6957,Pune,independent,low,semi,0-5,3,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,0,1,18031705
+Dharampeth,1,1,0,10,29,1711,2,1025,Nagpur,independent,medium,semi,0-5,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,1,1,0,13053090
+Dwarka,2,2,2,0,14,1293,0,765,Delhi,independent,low,semi,5-10,6,1,1,0,0,1,0,0,0,1,1,0,0,0,1,0,0,1,12386139
+Navrangpura,2,2,0,10,11,993,2,4921,Ahmedabad,independent,low,unfurnished,10-20,1,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,6648934
+Katargam,4,5,0,3,26,1260,2,1716,Surat,independent,low,full,5-10,6,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,15255228
+Vyttila,1,1,0,3,17,932,2,2464,Kochi,independent,high,unfurnished,0-5,6,1,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,14405000
+Pattom,1,1,2,13,17,2186,0,7034,Trivandrum,apartment,medium,unfurnished,20+,6,0,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,1,14427910
+MVP Colony,1,2,0,2,27,2227,1,3504,Visakhapatnam,independent,low,unfurnished,0-5,1,0,1,0,1,0,0,1,0,1,0,1,0,0,0,1,1,1,18944573
+Kanuru,1,2,0,4,17,2345,2,4019,Vijayawada,villa,low,unfurnished,0-5,4,1,1,1,1,0,1,0,1,1,1,0,0,1,1,1,0,0,36555352
+Lakshmipuram,2,3,1,19,20,1600,1,2888,Guntur,independent,medium,unfurnished,5-10,2,1,1,1,1,0,0,1,0,1,1,0,0,1,0,1,0,0,12221464
+Morampudi,4,3,2,19,20,1720,0,5912,Rajahmundry,apartment,medium,full,5-10,3,1,0,1,0,1,0,1,0,1,1,1,1,0,0,0,1,1,10659676
+Balaji Nagar,1,1,0,0,27,1136,1,1663,Nellore,villa,high,unfurnished,20+,6,0,0,0,0,1,0,1,1,1,0,1,1,1,1,0,1,1,7959853
+Korlagunta,2,2,3,10,16,1002,0,6639,Tirupati,apartment,medium,unfurnished,0-5,0,0,0,1,0,0,1,1,1,0,0,0,0,1,1,0,0,0,6692330
+Indrapalem,2,1,2,7,8,1025,1,5444,Kakinada,independent,medium,semi,0-5,6,0,0,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,10949160
+Nandyal Road,4,4,1,15,20,2626,0,3812,Kurnool,apartment,low,unfurnished,10-20,2,0,0,1,1,1,1,0,0,1,1,0,0,0,1,0,0,1,17786093
+Housing Board Colony,1,1,2,6,18,2373,2,1589,Anantapur,apartment,low,unfurnished,5-10,6,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,0,18420489
+Kukatpally,3,2,3,0,17,2355,0,6092,Hyderabad,independent,medium,full,10-20,7,0,0,0,0,1,0,1,0,0,1,0,1,1,1,0,0,0,20637891
+Hanamkonda,3,3,3,10,18,1369,1,3593,Warangal,apartment,low,unfurnished,0-5,6,1,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,1,12161162
+Saraswathi Nagar,1,1,3,18,19,1799,2,6112,Karimnagar,independent,high,unfurnished,5-10,7,1,0,1,0,0,0,0,1,0,0,1,1,1,0,1,0,0,12542946
+Indiranagar,2,3,2,8,21,1222,2,1339,Bangalore,villa,high,unfurnished,10-20,2,1,1,1,0,0,0,0,1,1,0,0,1,1,1,1,0,1,15129283
+Gokulam,3,4,0,18,19,1522,1,5955,Mysore,apartment,medium,semi,20+,6,1,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,8223244
+Kankanady,2,1,1,19,20,2594,1,5056,Mangalore,apartment,low,unfurnished,10-20,3,1,0,1,0,1,1,0,0,1,1,1,1,1,0,1,1,0,31125973
+OMR,4,3,0,6,17,1206,1,7734,Chennai,apartment,low,full,10-20,5,1,0,1,0,0,1,0,1,0,0,1,0,0,0,1,0,0,13370206
+Peelamedu,2,1,3,14,15,951,2,1234,Coimbatore,apartment,low,unfurnished,0-5,2,0,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,1,8151825
+Thirunagar,3,2,0,9,13,1437,0,1892,Madurai,independent,high,semi,0-5,6,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,14753205
+Powai,1,1,2,6,10,2736,2,1885,Mumbai,independent,low,unfurnished,20+,0,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,1,1,31625925
+Hinjewadi,1,1,2,12,13,1817,2,716,Pune,villa,medium,full,0-5,3,0,1,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,19567755
+Dharampeth,2,3,3,9,29,2724,0,6789,Nagpur,villa,medium,full,0-5,6,1,1,1,0,0,0,1,0,0,1,0,1,0,1,1,1,1,17250750
+Karol Bagh,2,2,1,10,26,724,2,2590,Delhi,independent,high,full,5-10,6,0,1,1,1,0,0,0,0,0,1,0,1,0,1,0,0,1,10527545
+Satellite,3,2,3,2,10,2114,2,2102,Ahmedabad,apartment,high,unfurnished,10-20,4,1,1,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,14102883
+Katargam,2,3,0,10,29,842,0,5958,Surat,independent,high,unfurnished,20+,2,0,1,0,0,0,1,0,1,1,1,0,0,0,1,1,0,1,9367580
+Fort Kochi,3,4,0,5,15,877,2,2287,Kochi,villa,low,unfurnished,0-5,0,0,1,1,0,1,1,1,1,0,0,0,1,1,0,0,1,0,8461917
+Pattom,3,3,2,15,16,1063,2,477,Trivandrum,villa,high,unfurnished,20+,3,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,8693410
+Seethammadhara,3,4,1,10,11,1790,0,1864,Visakhapatnam,apartment,medium,unfurnished,10-20,5,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,15108758
+Benz Circle,3,2,1,11,12,2799,0,6337,Vijayawada,independent,high,full,0-5,1,1,0,1,1,1,0,0,0,1,1,0,0,1,1,1,1,0,23290704
+Brodipet,1,1,3,16,17,1029,1,4223,Guntur,villa,medium,full,5-10,1,1,0,1,1,0,0,1,1,1,0,0,1,0,1,1,0,1,7656012
+Dowleswaram,4,5,1,10,12,2435,1,7928,Rajahmundry,independent,low,semi,10-20,1,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,1,0,21655623
+Vedayapalem,3,4,2,0,8,738,1,760,Nellore,apartment,low,full,20+,6,0,1,0,0,1,1,1,0,0,1,1,0,0,1,1,1,1,8569638
+Tiruchanoor,1,1,3,8,9,2885,0,2575,Tirupati,villa,high,semi,10-20,1,0,1,1,0,0,0,0,1,1,1,1,0,1,0,1,0,0,27683374
+ADB Road,4,3,1,3,9,2815,2,4192,Kakinada,independent,medium,semi,20+,3,1,1,0,1,1,1,0,1,1,0,1,0,0,1,1,0,1,28618202
+Adoni Road,3,3,1,11,14,1173,2,4931,Kurnool,villa,high,unfurnished,5-10,3,1,1,0,1,1,1,1,1,0,1,0,1,1,1,0,1,0,9686141
+Ramnagar,4,4,2,10,11,888,0,6078,Anantapur,apartment,low,full,5-10,0,1,1,1,0,1,0,1,1,1,0,0,1,0,0,0,1,0,5241960
+Gachibowli,3,3,1,16,17,1656,2,6010,Hyderabad,independent,high,full,0-5,2,0,1,0,1,1,0,1,1,1,0,1,0,1,1,1,1,0,13997019
+Kazipet,3,2,2,1,25,1153,0,5712,Warangal,villa,high,full,10-20,5,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,1,11183046
+Kothirampur,3,2,3,14,23,939,2,5202,Karimnagar,villa,low,full,0-5,4,0,1,1,1,0,1,1,0,1,0,1,1,1,0,1,1,1,11657034
+Whitefield,1,2,3,5,27,2797,1,1188,Bangalore,apartment,medium,semi,0-5,7,0,0,0,1,0,1,1,1,0,1,1,0,0,1,1,0,1,13987629
+Gokulam,4,5,1,14,15,2622,0,569,Mysore,villa,high,unfurnished,10-20,6,0,1,0,0,1,0,0,0,1,0,1,1,0,1,0,0,0,29335260
+Derebail,2,1,2,4,5,2205,2,2640,Mangalore,villa,medium,unfurnished,5-10,5,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,26216103
+OMR,4,3,3,6,25,2824,0,6711,Chennai,independent,high,full,5-10,6,1,1,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1,15256935
+Saravanampatti,3,4,0,8,13,701,0,7127,Coimbatore,independent,high,full,5-10,1,0,0,0,1,0,1,1,0,1,0,0,1,1,1,1,1,1,5706852
+Anna Nagar,4,4,2,7,22,1803,0,5932,Madurai,villa,low,semi,20+,5,0,0,1,0,1,1,1,0,0,1,0,0,0,0,1,0,1,20331633
+Dadar,2,2,2,2,23,2526,1,1515,Mumbai,independent,low,semi,20+,7,0,1,0,1,0,0,0,1,1,1,0,1,1,0,0,1,1,31639999
+Kothrud,2,1,2,3,8,2208,0,6001,Pune,apartment,medium,full,20+,3,0,0,1,0,1,0,0,0,1,0,1,1,1,0,1,1,0,19050613
+Sitabuldi,4,3,1,16,17,1175,2,2282,Nagpur,apartment,low,semi,10-20,0,0,1,1,0,1,1,1,1,0,0,1,1,1,1,0,1,0,10666672
+Saket,2,3,0,19,25,1062,2,1265,Delhi,villa,high,full,20+,2,0,1,0,1,0,0,1,0,0,1,0,1,0,1,1,1,1,10822277
+Satellite,2,3,0,5,24,732,2,5896,Ahmedabad,villa,high,unfurnished,20+,7,0,0,0,1,1,0,0,0,1,1,0,0,1,1,0,0,0,9005586
+Piplod,4,4,2,0,4,2465,2,6690,Surat,independent,medium,full,20+,7,1,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,1,19810883
+Aluva,3,2,0,15,16,1265,1,6154,Kochi,apartment,medium,unfurnished,10-20,3,1,0,0,1,0,0,1,0,0,0,0,1,0,1,0,1,1,14076089
+Pattom,2,2,0,15,18,1363,0,1406,Trivandrum,independent,low,unfurnished,20+,7,0,0,1,0,1,0,1,1,0,0,0,0,1,0,1,0,1,13026390
+Seethammadhara,2,1,2,14,16,2726,2,992,Visakhapatnam,apartment,high,unfurnished,5-10,1,1,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,29341580
+Poranki,3,2,0,13,26,1959,0,7143,Vijayawada,apartment,low,semi,10-20,0,1,1,1,1,0,0,0,0,0,0,1,0,0,0,1,1,1,26095537
+Arundelpet,3,4,1,16,21,2778,0,1360,Guntur,independent,medium,full,20+,6,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,1,33472785
+Katheru,2,3,1,9,16,2842,2,5635,Rajahmundry,independent,low,unfurnished,10-20,6,0,0,0,0,0,0,0,1,0,1,0,1,1,0,1,1,1,23578374
+Stonehousepet,1,1,1,10,11,1256,1,975,Nellore,independent,medium,full,20+,4,1,1,0,0,0,0,1,0,0,0,1,1,1,1,0,1,0,15539950
+Korlagunta,3,2,0,19,20,551,2,7210,Tirupati,apartment,medium,unfurnished,0-5,2,0,0,1,1,0,1,1,1,0,1,1,0,1,0,1,0,0,6033968
+Indrapalem,1,1,3,17,19,2654,2,4656,Kakinada,independent,high,full,5-10,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,27264319
+Deva Nagar,1,1,1,0,3,1362,0,7582,Kurnool,independent,medium,semi,20+,3,0,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,1,11576916
+Housing Board Colony,4,4,3,14,15,829,0,4155,Anantapur,independent,high,semi,20+,3,1,1,0,0,1,1,0,1,0,1,0,1,1,0,0,1,1,9860167
+Gachibowli,3,4,2,9,27,1221,2,89,Hyderabad,apartment,low,unfurnished,0-5,0,0,1,1,0,1,0,0,1,1,1,0,0,1,0,1,1,1,8779528
+Hanamkonda,4,5,1,15,16,789,2,3538,Warangal,independent,high,unfurnished,20+,2,1,1,1,0,1,0,0,0,0,1,1,0,1,1,1,0,1,9338210
+Kothirampur,3,4,2,15,16,800,0,6811,Karimnagar,apartment,high,unfurnished,0-5,2,0,1,0,0,1,1,1,0,1,1,1,0,0,0,1,0,1,8381523
+Electronic City,4,4,2,9,22,829,2,2502,Bangalore,independent,low,unfurnished,5-10,5,1,1,0,0,1,1,0,0,0,1,0,1,1,0,1,0,1,7253344
+Hebbal,2,2,3,2,10,2488,2,5664,Mysore,apartment,low,unfurnished,5-10,6,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,0,0,26684710
+Derebail,4,3,2,13,28,2714,2,4615,Mangalore,independent,high,full,5-10,5,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,1,1,32227571
+OMR,1,1,3,9,10,2506,2,2456,Chennai,independent,high,semi,0-5,5,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,26362507
+Saravanampatti,2,3,1,15,26,899,1,4327,Coimbatore,villa,medium,unfurnished,0-5,4,0,0,1,0,0,1,0,0,0,0,1,1,0,1,0,1,1,6126798
+Tallakulam,4,4,3,14,18,638,0,7388,Madurai,villa,high,semi,5-10,5,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,8116104
+Powai,1,1,2,3,7,768,2,1446,Mumbai,villa,medium,full,5-10,5,1,1,0,1,0,0,1,1,0,0,1,0,1,1,0,1,1,7684070
+Hadapsar,3,2,0,7,21,1184,0,7585,Pune,villa,low,unfurnished,5-10,7,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,0,0,21180108
+Pratap Nagar,4,5,0,18,28,2076,1,5062,Nagpur,villa,medium,semi,20+,5,0,1,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,18434176
+Lajpat Nagar,3,4,2,9,15,964,0,4429,Delhi,apartment,medium,unfurnished,0-5,0,1,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,8802123
+Bopal,4,5,3,8,9,887,0,5718,Ahmedabad,independent,low,semi,0-5,5,0,1,1,1,0,1,0,1,1,0,1,1,0,1,1,1,1,9985444
+Vesu,4,4,1,9,10,1816,0,2776,Surat,apartment,high,unfurnished,10-20,2,0,0,1,0,1,0,0,1,0,1,1,0,0,1,1,0,1,21038717
+Fort Kochi,2,2,2,5,18,1516,0,519,Kochi,apartment,medium,full,20+,3,0,0,1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,13237569
+Kowdiar,1,2,3,1,7,3145,0,1603,Trivandrum,villa,medium,unfurnished,20+,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,33397950
+Dwaraka Nagar,3,4,0,3,29,2437,1,3932,Visakhapatnam,apartment,low,semi,0-5,6,1,1,0,0,0,0,1,1,1,0,0,1,1,1,0,1,0,33119328
+Kanuru,1,1,2,0,29,1120,0,1155,Vijayawada,independent,low,unfurnished,0-5,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,1,8131365
+Brodipet,4,3,2,4,23,995,1,3216,Guntur,independent,low,unfurnished,0-5,5,0,1,0,1,0,1,1,0,0,1,0,0,0,1,0,1,1,6296555
+Morampudi,1,1,3,5,7,1030,2,1201,Rajahmundry,villa,medium,semi,10-20,0,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,1,0,13376118
+Nawabpet,2,1,2,3,26,1618,1,815,Nellore,independent,medium,semi,5-10,7,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1,14119499
+Renigunta,4,5,1,1,22,2756,2,3066,Tirupati,independent,medium,unfurnished,10-20,4,0,0,1,0,1,1,0,1,1,1,0,0,0,0,0,0,0,20905788
+ADB Road,3,2,2,12,13,2639,1,3076,Kakinada,apartment,medium,unfurnished,5-10,1,1,1,0,0,0,1,1,0,0,1,0,1,1,1,1,1,1,27935750
+Adoni Road,2,2,3,16,17,2085,0,1656,Kurnool,villa,low,full,10-20,2,1,0,0,1,1,1,1,0,0,1,0,1,0,1,0,1,1,14790656
+Ramnagar,4,3,1,12,13,2136,2,4953,Anantapur,independent,low,unfurnished,20+,4,1,0,1,1,1,1,1,0,0,1,0,1,1,0,0,1,1,17121992
+Madhapur,2,1,1,17,21,3057,2,2654,Hyderabad,apartment,low,semi,5-10,6,0,1,1,1,1,1,0,1,0,1,0,0,1,0,0,0,0,17034140
+Nakkalagutta,2,2,1,18,19,2345,2,92,Warangal,apartment,high,full,20+,0,0,0,1,0,1,0,1,1,1,0,0,0,1,0,0,1,0,11345616
+Saraswathi Nagar,4,3,3,2,3,2427,0,1141,Karimnagar,apartment,medium,unfurnished,5-10,7,0,0,0,0,0,0,0,1,0,1,1,0,1,1,1,0,1,19653601
+Indiranagar,4,4,3,15,16,720,1,2398,Bangalore,villa,medium,full,0-5,4,1,1,0,1,1,0,0,1,1,0,1,0,0,0,1,0,0,7551782
+Gokulam,4,4,3,2,19,1664,1,4716,Mysore,independent,low,unfurnished,20+,3,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,1,1,13116940
+Kadri,2,3,3,5,20,1005,2,276,Mangalore,apartment,medium,full,10-20,5,1,0,1,1,0,1,0,1,0,0,1,0,0,1,1,1,0,11281551
+Adyar,4,3,2,18,26,566,2,3610,Chennai,villa,high,unfurnished,10-20,2,0,1,0,1,1,0,1,0,0,1,0,0,1,1,1,1,1,7973051
+Gandhipuram,4,5,1,4,24,2476,0,1646,Coimbatore,villa,low,semi,0-5,7,1,0,1,1,0,1,0,1,1,1,1,1,0,1,1,0,0,27274674
+Thirunagar,2,1,0,15,16,1659,0,7676,Madurai,villa,high,unfurnished,20+,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,0,0,0,18067642
+Andheri,4,5,0,9,20,2559,2,951,Mumbai,independent,low,full,20+,1,0,1,1,1,0,1,0,0,1,0,1,1,0,0,1,1,1,30828407
+Wakad,3,4,3,0,11,689,0,5860,Pune,apartment,low,semi,5-10,5,1,0,1,1,0,0,0,0,1,0,1,1,0,0,1,1,0,4678706
+Manish Nagar,2,3,3,10,26,1435,2,3328,Nagpur,apartment,medium,unfurnished,20+,2,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,1,0,7574349
+Lajpat Nagar,2,1,3,9,28,1530,1,1902,Delhi,apartment,high,semi,20+,2,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,7912776
+Maninagar,2,2,2,4,23,1626,1,2406,Ahmedabad,villa,high,semi,0-5,3,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,16518968
+Katargam,2,1,1,19,20,1887,2,1564,Surat,villa,medium,semi,5-10,4,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,1,1,18661463
+Edappally,2,1,1,6,11,1690,2,7733,Kochi,apartment,medium,unfurnished,20+,7,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,0,1,20913606
+Kowdiar,2,1,1,19,25,2352,1,5269,Trivandrum,apartment,medium,unfurnished,10-20,4,0,0,0,0,1,1,1,0,1,0,1,1,1,1,0,0,1,20877026
+Gajuwaka,1,2,3,4,8,857,0,3574,Visakhapatnam,independent,low,full,10-20,0,0,1,0,1,0,0,1,1,1,0,0,1,0,1,0,0,0,10238105
+Auto Nagar,4,3,3,3,20,1382,0,5420,Vijayawada,independent,medium,unfurnished,0-5,6,1,1,0,0,1,0,1,0,0,1,1,1,1,1,0,0,1,16135655
+Nallapadu,2,1,1,2,5,2077,2,7244,Guntur,independent,low,unfurnished,0-5,2,1,1,0,1,1,0,1,1,1,1,0,1,0,0,1,0,1,24744940
+Katheru,4,3,3,11,28,1845,0,5688,Rajahmundry,independent,medium,semi,20+,4,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,16835564
+Stonehousepet,4,4,1,4,23,2518,1,7785,Nellore,independent,high,unfurnished,10-20,2,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,1,0,18793751
+Renigunta,4,3,1,11,26,2452,1,1379,Tirupati,apartment,high,full,5-10,0,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,0,1,22189383
+Indrapalem,4,4,2,8,11,1724,1,3897,Kakinada,independent,medium,semi,20+,7,0,1,1,1,1,1,1,0,1,0,0,1,1,1,0,1,1,21886325
+Adoni Road,1,1,3,6,24,955,1,4070,Kurnool,apartment,high,semi,20+,2,1,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,0,5946003
+Kalyandurg Road,2,2,0,6,28,1412,2,1138,Anantapur,apartment,low,full,20+,2,0,1,1,1,0,0,1,0,1,0,1,0,1,0,1,0,0,9329234
+Banjara Hills,3,2,2,5,13,920,1,1954,Hyderabad,apartment,medium,semi,20+,6,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,8346870
+Kazipet,4,4,2,9,21,2181,1,1474,Warangal,villa,low,unfurnished,5-10,3,0,0,0,1,1,0,1,1,0,1,0,0,1,1,0,0,0,17401797
+Saraswathi Nagar,3,3,1,3,24,1522,1,7962,Karimnagar,villa,high,full,0-5,0,1,0,1,1,1,0,0,1,1,1,1,1,0,0,0,1,1,15577461
+Yelahanka,2,3,0,14,18,1035,1,4098,Bangalore,independent,high,unfurnished,20+,6,0,0,0,1,1,1,0,0,0,1,1,1,1,1,0,1,1,8837637
+Vijayanagar,2,2,1,8,17,939,1,5004,Mysore,apartment,medium,unfurnished,10-20,3,0,1,0,0,1,1,0,0,1,1,1,0,1,1,0,1,1,9213771
+Kadri,1,1,1,15,28,1345,2,2050,Mangalore,villa,high,semi,20+,6,0,0,0,0,0,1,0,1,1,1,1,1,0,0,0,1,0,18008376
+OMR,3,4,0,8,9,856,1,899,Chennai,independent,medium,full,20+,5,1,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,8558679
+Gandhipuram,3,4,3,5,21,2820,2,2631,Coimbatore,apartment,high,semi,0-5,4,0,1,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,17741213
+KK Nagar,4,3,0,17,20,1256,0,5146,Madurai,apartment,low,unfurnished,0-5,3,0,1,1,1,0,0,1,1,1,1,0,1,0,0,0,0,1,10823490
+Powai,1,1,3,3,18,2185,0,3273,Mumbai,independent,high,semi,0-5,3,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,1,0,14521753
+Kothrud,2,3,3,9,21,2121,2,4498,Pune,independent,medium,semi,20+,0,1,0,1,1,1,0,0,1,0,0,1,1,0,1,1,0,0,18918347
+Dharampeth,1,1,3,15,19,1929,1,4019,Nagpur,apartment,high,unfurnished,0-5,0,0,1,0,0,0,1,1,0,0,1,1,0,1,0,1,0,0,10559302
+Karol Bagh,2,2,3,12,23,2183,0,1528,Delhi,apartment,medium,semi,5-10,6,0,0,1,0,1,0,0,0,1,0,1,1,1,0,0,1,1,28605316
+Maninagar,4,3,2,10,11,1170,1,464,Ahmedabad,villa,medium,full,5-10,4,1,1,0,1,0,1,0,1,0,0,1,0,1,0,1,1,1,10772608
+Piplod,4,4,3,19,20,953,0,3976,Surat,apartment,low,unfurnished,20+,0,0,1,0,1,0,1,0,1,1,0,1,0,1,1,1,1,1,6475792
+Fort Kochi,3,2,3,5,8,1462,0,2745,Kochi,villa,medium,unfurnished,20+,2,0,1,1,1,0,0,0,1,0,0,0,1,0,0,1,1,1,12578275
+Technopark,4,5,3,11,12,1676,1,5270,Trivandrum,independent,medium,semi,0-5,4,1,0,1,0,1,0,1,0,1,1,1,1,0,1,1,0,1,13445707
+MVP Colony,2,2,1,14,26,2860,1,4947,Visakhapatnam,independent,medium,semi,0-5,6,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,22516104
+Poranki,2,1,1,4,18,2001,2,58,Vijayawada,independent,high,unfurnished,0-5,6,1,1,0,1,0,1,0,0,0,0,1,1,1,0,1,1,0,18227290
+Brodipet,2,3,3,14,15,660,1,1126,Guntur,independent,medium,unfurnished,5-10,6,0,1,1,0,0,1,1,0,1,0,0,0,1,0,0,1,1,6771047
+Dowleswaram,3,4,2,13,14,1535,2,7723,Rajahmundry,apartment,high,semi,20+,0,1,1,0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,21742025
+Magunta Layout,4,5,1,15,16,2139,2,4094,Nellore,apartment,low,unfurnished,10-20,7,1,0,1,0,1,1,0,0,0,0,1,1,0,1,1,0,0,22911281
+Renigunta,3,3,1,7,11,1698,0,3490,Tirupati,independent,low,unfurnished,20+,2,0,0,0,1,1,1,1,1,0,1,1,1,1,0,0,0,0,16799078
+Jagannaickpur,1,1,3,14,15,688,1,7635,Kakinada,villa,high,full,10-20,2,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,13556264
+Deva Nagar,4,3,3,14,24,1577,1,7861,Kurnool,villa,low,semi,20+,2,1,0,1,1,0,1,1,1,1,0,0,1,1,0,0,1,0,19644405
+Bellary Road,4,3,1,19,23,2802,0,4502,Anantapur,villa,medium,semi,10-20,3,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,1,15998400
+Kondapur,4,4,2,7,28,1237,0,2511,Hyderabad,villa,high,full,10-20,4,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0,1,0,12442612
+Kazipet,4,3,1,19,20,1384,2,985,Warangal,independent,low,unfurnished,0-5,3,1,1,1,1,0,1,0,1,1,0,1,0,0,0,1,1,1,16727281
+Kothirampur,4,3,3,15,16,624,0,7778,Karimnagar,apartment,high,semi,20+,2,1,1,0,1,0,0,1,0,0,1,1,1,1,0,1,1,0,8141369
+Whitefield,2,3,2,14,18,2526,2,6247,Bangalore,villa,high,full,5-10,3,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,1,0,20458268
+Vijayanagar,4,4,3,19,20,559,0,5620,Mysore,independent,high,full,10-20,1,0,0,0,1,1,0,1,1,0,1,0,1,0,1,0,0,1,8785877
+Derebail,4,5,0,5,15,2014,1,6365,Mangalore,apartment,medium,unfurnished,0-5,3,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,22859143
+Anna Nagar,2,1,0,11,20,1597,0,4679,Chennai,villa,low,full,0-5,1,1,0,0,0,0,1,1,0,0,1,0,1,0,1,0,0,0,12966082
+Gandhipuram,1,1,3,1,18,614,0,5419,Coimbatore,villa,low,semi,10-20,7,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,1,1,5719858
+Anna Nagar,1,1,1,11,28,1135,2,1988,Madurai,apartment,low,full,20+,1,0,1,0,1,0,0,1,1,1,1,1,0,0,0,1,1,0,8053272
+Andheri,1,1,1,19,20,1987,2,1438,Mumbai,independent,low,full,20+,5,1,0,0,0,1,0,1,1,1,1,0,0,1,0,1,0,0,20230710
+Wakad,1,1,0,17,19,1142,2,2572,Pune,villa,low,unfurnished,0-5,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0,1,0,0,6636834
+Manish Nagar,4,3,1,6,26,2695,0,3534,Nagpur,apartment,medium,semi,20+,1,0,1,1,1,0,0,1,0,0,1,1,1,1,1,0,1,1,23582512
+Rohini,1,1,3,16,17,2061,1,5465,Delhi,villa,high,semi,20+,3,0,0,1,0,1,1,0,1,0,0,0,1,1,1,1,1,1,16792852
+SG Highway,4,5,2,2,8,1260,1,7205,Ahmedabad,apartment,medium,semi,20+,3,0,1,0,0,1,0,0,0,1,0,0,0,0,1,1,0,1,7618668
+Adajan,4,4,0,2,10,1391,0,4778,Surat,independent,high,semi,0-5,4,0,1,1,1,0,0,0,0,0,1,0,1,1,1,1,1,0,19020778
+Edappally,4,3,1,11,25,2664,2,7408,Kochi,independent,high,semi,10-20,3,1,0,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,22977732
+Technopark,2,3,2,5,6,2382,1,3892,Trivandrum,villa,medium,unfurnished,20+,2,0,0,1,1,0,1,1,0,0,1,0,1,0,0,1,1,1,20433053
+Madhurawada,3,3,2,3,7,1889,1,1253,Visakhapatnam,villa,medium,full,10-20,2,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,18238902
+Auto Nagar,2,1,1,8,13,1671,0,932,Vijayawada,apartment,high,semi,10-20,6,1,0,1,0,1,0,0,1,1,1,1,0,1,1,0,0,1,18727653
+Arundelpet,3,4,3,19,25,2243,2,5638,Guntur,independent,low,semi,0-5,2,1,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,0,22584801
+Morampudi,2,2,0,7,23,2645,0,4931,Rajahmundry,villa,low,unfurnished,10-20,6,1,0,1,0,0,1,0,0,1,0,1,0,0,0,1,0,0,30089400
+Balaji Nagar,1,1,3,8,12,1704,0,793,Nellore,independent,medium,full,5-10,3,0,0,1,1,1,0,0,1,1,0,0,1,0,1,0,1,1,9384112
+Bairagipatteda,4,4,3,16,17,1072,0,886,Tirupati,villa,high,unfurnished,20+,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,14336827
+Ramanayyapeta,3,4,2,13,14,809,2,4959,Kakinada,independent,high,semi,10-20,5,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,1,0,8653772
+Nandyal Road,4,3,3,13,14,2630,1,1259,Kurnool,independent,low,full,20+,0,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,1,1,25867290
+Bellary Road,2,1,0,5,13,1817,1,3827,Anantapur,villa,medium,unfurnished,5-10,1,0,1,0,0,1,0,1,1,0,0,0,1,1,0,1,1,0,19993836
+Gachibowli,3,4,2,8,9,1339,0,4823,Hyderabad,villa,low,full,20+,5,0,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,15742683
+Hanamkonda,4,5,0,15,16,2728,0,104,Warangal,independent,high,unfurnished,20+,6,0,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,0,24205505
+Jyothinagar,3,4,1,14,25,2205,0,3182,Karimnagar,independent,medium,semi,0-5,1,1,1,1,1,0,0,1,1,1,0,0,0,0,1,1,1,1,18940493
+Yelahanka,3,4,3,8,27,1071,0,3667,Bangalore,independent,high,full,10-20,3,1,0,1,0,1,0,0,0,0,0,1,1,0,0,1,1,1,9662424
+Vijayanagar,1,1,1,9,10,1293,1,1327,Mysore,apartment,low,full,20+,5,0,1,1,1,1,0,0,0,0,1,1,1,0,0,0,1,1,7852225
+Derebail,2,3,2,8,9,1640,0,5529,Mangalore,villa,medium,semi,0-5,3,1,0,0,1,1,1,1,0,1,0,1,1,1,0,1,1,0,12569257
+Anna Nagar,1,2,0,3,7,2632,0,3963,Chennai,independent,medium,unfurnished,0-5,2,0,1,1,0,1,0,0,0,0,1,0,1,0,1,1,1,1,23815284
+Peelamedu,3,3,3,6,16,1451,0,4863,Coimbatore,villa,medium,semi,20+,4,1,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,14547286
+Tallakulam,1,1,2,6,17,686,0,1861,Madurai,villa,high,unfurnished,20+,5,0,0,0,1,0,1,1,1,0,0,0,1,1,0,1,1,1,6100366
+Dadar,1,2,0,10,11,2424,1,505,Mumbai,independent,low,semi,5-10,4,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,1,1,20042452
+Baner,2,1,1,15,16,943,2,5366,Pune,independent,high,semi,10-20,1,1,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,7275900
+Sitabuldi,2,2,3,17,19,3232,1,2696,Nagpur,villa,low,unfurnished,10-20,4,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,16468976
+Lajpat Nagar,1,2,3,7,8,1884,1,7408,Delhi,apartment,medium,semi,20+,7,0,0,1,1,1,0,1,0,1,0,0,1,0,0,1,0,1,18447534
+Maninagar,4,5,2,1,24,1196,0,6071,Ahmedabad,villa,high,unfurnished,5-10,2,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,14453301
+Vesu,3,2,3,2,6,1411,0,6642,Surat,apartment,high,semi,20+,3,1,0,1,0,0,1,1,0,1,0,1,1,0,0,1,1,1,12641266
+Fort Kochi,4,3,0,16,17,670,2,5190,Kochi,independent,high,unfurnished,5-10,6,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,6255630
+Kazhakkoottam,4,3,2,17,19,1386,1,6665,Trivandrum,villa,medium,full,20+,1,1,1,1,0,1,1,0,1,0,1,0,0,1,0,1,0,0,12433645
+Gajuwaka,3,4,3,7,27,1744,0,2566,Visakhapatnam,apartment,medium,semi,20+,7,0,1,0,1,0,0,0,1,0,0,1,0,0,1,0,0,1,13235541
+Kanuru,3,3,3,19,28,1478,2,5760,Vijayawada,villa,medium,semi,5-10,3,1,1,0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,18134137
+Arundelpet,2,2,2,16,22,948,0,4055,Guntur,villa,medium,semi,10-20,3,1,1,1,1,1,1,1,0,0,1,1,0,1,1,0,1,1,13085571
+Tilak Road,3,3,0,4,6,3039,2,2055,Rajahmundry,independent,low,unfurnished,10-20,7,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,16395252
+Nawabpet,2,3,2,2,3,886,2,1683,Nellore,apartment,medium,semi,0-5,6,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,1,7001383
+Alipiri,4,5,0,1,4,1353,0,6240,Tirupati,independent,high,full,0-5,6,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,22454000
+Ramanayyapeta,3,2,0,11,12,2747,2,3231,Kakinada,apartment,medium,unfurnished,0-5,7,0,0,1,1,0,1,1,1,1,0,0,1,0,1,1,0,0,22282857
+Ashok Nagar,4,4,0,14,15,2739,1,5272,Kurnool,apartment,high,semi,5-10,2,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,0,0,22758425
+Kalyandurg Road,3,4,3,2,13,2069,0,4076,Anantapur,villa,low,full,5-10,2,1,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,1,12220112
+Madhapur,3,3,3,19,24,2090,0,3102,Hyderabad,independent,high,unfurnished,10-20,2,0,1,1,1,0,1,1,0,1,0,1,0,0,1,0,1,0,21449397
+Hanamkonda,4,3,0,3,21,2410,2,3604,Warangal,apartment,high,semi,0-5,5,0,0,1,1,1,1,0,1,1,1,0,0,1,1,1,1,0,16883379
+Jyothinagar,2,2,2,9,23,907,2,5083,Karimnagar,villa,medium,unfurnished,10-20,7,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,1,0,12232839
+Indiranagar,1,2,2,17,18,2687,2,6926,Bangalore,villa,medium,semi,5-10,6,0,0,0,1,0,1,1,0,0,1,0,0,1,1,1,1,1,22744589
+Hebbal,3,4,1,15,29,1673,1,914,Mysore,apartment,high,semi,5-10,7,1,1,0,0,1,1,1,1,0,0,1,1,1,1,0,1,1,11525316
+Kadri,2,3,3,10,11,1345,2,4881,Mangalore,apartment,low,semi,0-5,5,1,1,0,0,1,0,1,0,0,0,1,1,1,0,1,1,1,12820025
+T Nagar,1,2,0,16,17,1115,1,7390,Chennai,apartment,low,semi,5-10,1,0,1,1,1,0,1,1,0,1,0,1,0,0,0,1,1,0,7015167
+Peelamedu,3,2,2,12,13,792,0,4062,Coimbatore,villa,high,semi,10-20,5,0,0,1,1,0,1,0,0,0,1,0,0,0,0,1,1,1,11423310
+Tallakulam,3,4,0,16,24,678,2,6301,Madurai,apartment,low,full,0-5,7,0,1,0,1,0,0,1,0,0,1,0,1,0,1,0,0,1,6573899
+Dadar,2,3,2,12,26,1854,2,2415,Mumbai,independent,high,unfurnished,0-5,6,0,0,1,0,0,1,1,1,1,0,1,1,1,1,0,1,1,15571027
+Baner,3,3,1,14,20,1954,1,2612,Pune,villa,low,full,5-10,6,0,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,21249342
+Wardha Road,4,4,3,9,17,1452,2,1965,Nagpur,independent,high,unfurnished,20+,7,1,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,1,11440418
+Saket,1,1,0,1,2,1142,2,2818,Delhi,villa,medium,semi,5-10,2,0,1,1,0,1,0,0,0,1,1,1,1,1,0,1,0,0,11130199
+Maninagar,2,2,3,11,12,1751,0,2330,Ahmedabad,villa,low,unfurnished,0-5,5,0,0,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,13150974
+Katargam,2,2,2,9,18,1566,2,6933,Surat,independent,high,full,5-10,0,1,1,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,16487082
+Fort Kochi,3,2,3,19,20,509,1,7098,Kochi,villa,medium,semi,10-20,1,0,0,1,0,1,0,1,1,0,0,0,1,0,0,1,1,0,6048815
+Vazhuthacaud,2,2,2,19,23,3080,2,4950,Trivandrum,apartment,low,unfurnished,10-20,7,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,1,1,36191114
+Seethammadhara,1,1,0,12,24,2416,0,362,Visakhapatnam,villa,low,full,10-20,4,1,0,1,0,1,1,1,0,0,1,0,0,1,0,1,0,0,25320828
+Gannavaram,1,1,0,0,22,1229,2,7137,Vijayawada,villa,low,full,5-10,2,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,14000448
+Brodipet,4,5,2,8,9,1204,1,3651,Guntur,villa,medium,unfurnished,10-20,0,1,0,1,1,0,1,0,1,1,0,0,0,0,0,0,1,1,17535158
+Dowleswaram,3,2,0,14,28,2460,0,7120,Rajahmundry,villa,low,unfurnished,10-20,3,1,0,1,0,0,1,0,1,0,1,1,0,1,1,0,1,0,23908741
+Balaji Nagar,1,1,0,15,16,644,1,4988,Nellore,apartment,medium,semi,5-10,7,0,0,0,0,1,1,0,1,0,1,1,1,1,1,1,0,1,5591250
+Bairagipatteda,3,4,1,1,6,2406,0,7923,Tirupati,independent,high,unfurnished,10-20,4,0,1,1,0,0,1,1,0,1,1,0,1,1,1,1,0,1,24413787
+Jagannaickpur,4,3,0,11,12,1648,0,1057,Kakinada,villa,medium,semi,10-20,3,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1,0,15624787
+Balaji Nagar,3,4,2,8,13,815,2,7560,Kurnool,villa,high,unfurnished,20+,7,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,10080452
+Ramnagar,3,4,0,13,26,1761,0,5367,Anantapur,independent,high,semi,10-20,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,14980801
+Madhapur,3,2,3,7,29,1180,1,3911,Hyderabad,apartment,high,semi,5-10,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,9152153
+Subedari,2,1,2,5,28,1501,0,5821,Warangal,independent,medium,full,20+,5,1,0,1,1,0,0,1,0,0,0,1,1,0,1,0,1,0,15094833
+Saraswathi Nagar,4,3,3,15,16,1954,1,3535,Karimnagar,independent,medium,unfurnished,5-10,4,0,1,0,1,1,0,1,0,0,1,1,1,1,1,0,0,1,14944705
+BTM Layout,3,4,1,3,25,920,2,1336,Bangalore,independent,medium,unfurnished,10-20,7,1,0,1,0,1,0,0,0,1,0,0,0,0,1,1,0,0,7764615
+Jayalakshmipuram,2,1,3,5,19,2276,0,6962,Mysore,apartment,medium,unfurnished,0-5,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,0,21130704
+Derebail,2,1,0,5,26,2393,0,5222,Mangalore,apartment,low,unfurnished,20+,7,1,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,16212792
+Anna Nagar,2,3,2,14,15,1888,1,6967,Chennai,apartment,medium,semi,20+,2,0,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,1,18787005
+Singanallur,2,2,0,9,10,2499,1,7654,Coimbatore,independent,low,unfurnished,0-5,1,0,0,1,0,1,1,0,0,1,0,1,0,0,1,0,0,0,25858070
+Tallakulam,1,1,0,14,18,1959,2,4511,Madurai,apartment,low,unfurnished,0-5,6,0,0,1,1,1,0,0,1,1,0,1,0,0,1,0,0,0,17101367
+Thane,3,2,3,2,17,1738,2,3982,Mumbai,independent,low,full,5-10,5,1,1,0,1,0,1,1,0,1,1,0,1,1,1,0,1,0,19583921
+Hinjewadi,1,1,3,11,12,1094,1,4971,Pune,apartment,low,unfurnished,20+,5,0,0,0,0,0,1,1,0,0,1,1,1,0,1,0,0,1,8743019
+Dharampeth,2,1,3,5,29,2791,0,4087,Nagpur,independent,medium,full,10-20,6,1,0,1,1,1,1,0,1,0,1,0,0,0,1,1,1,0,36197831
+Dwarka,2,3,3,15,23,2327,0,164,Delhi,independent,medium,full,5-10,6,0,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1,15229155
+Maninagar,4,4,3,16,17,1335,0,6831,Ahmedabad,independent,high,full,5-10,5,0,0,1,0,1,1,0,1,0,1,1,0,1,0,1,1,1,14542792
+Vesu,1,1,0,1,13,845,2,5379,Surat,independent,low,semi,0-5,5,1,1,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,8500230
+Vyttila,1,1,3,6,14,2531,2,160,Kochi,apartment,medium,semi,5-10,2,0,1,0,0,1,0,0,0,0,0,1,0,0,1,1,0,1,24571939
+Kazhakkoottam,1,1,2,18,19,1309,1,2990,Trivandrum,villa,medium,unfurnished,0-5,2,1,0,1,1,1,1,1,0,0,0,1,0,1,0,1,1,0,12479313
+Dwaraka Nagar,1,1,3,12,13,1515,1,439,Visakhapatnam,independent,medium,full,0-5,0,1,1,1,0,0,1,0,1,0,1,1,1,0,0,1,1,1,14042084
+Benz Circle,3,2,0,19,20,2686,2,3276,Vijayawada,apartment,medium,semi,20+,4,0,1,1,0,0,1,0,1,1,0,1,1,0,1,0,1,1,19290501
+Arundelpet,1,2,2,0,4,2762,0,1623,Guntur,apartment,low,semi,0-5,0,1,1,0,0,0,1,0,0,0,1,1,1,0,0,1,0,0,19220299
+Katheru,3,4,3,7,22,1553,2,6597,Rajahmundry,apartment,low,full,20+,3,0,0,0,0,0,1,1,0,1,1,0,1,1,1,1,0,1,16039644
+Stonehousepet,3,4,0,0,15,2683,0,3560,Nellore,villa,low,full,10-20,4,0,0,1,1,0,1,1,1,0,0,0,0,1,0,0,0,1,19530416
+Tiruchanoor,4,5,1,15,21,843,2,4229,Tirupati,villa,medium,full,10-20,5,0,1,0,0,1,1,0,1,0,0,0,1,1,0,1,1,0,8915000
+ADB Road,3,3,2,1,21,2308,2,5034,Kakinada,villa,high,unfurnished,20+,2,0,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,0,18142633
+Nandyal Road,2,2,1,4,5,2647,0,5234,Kurnool,apartment,medium,full,20+,2,1,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,22276226
+Kalyandurg Road,2,2,3,8,13,2007,1,7376,Anantapur,apartment,high,semi,5-10,7,1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,15574454
+Madhapur,3,3,0,18,19,1569,1,5904,Hyderabad,villa,high,unfurnished,5-10,3,1,0,1,1,1,0,0,1,1,1,1,0,0,0,1,0,1,27402774
+Subedari,3,3,2,17,18,572,2,2953,Warangal,villa,high,semi,0-5,5,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,8615762
+Kothirampur,2,1,2,5,11,892,1,6444,Karimnagar,villa,high,unfurnished,0-5,1,1,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,9724171
+Whitefield,1,2,2,14,15,2155,0,7963,Bangalore,independent,high,semi,5-10,1,1,1,1,0,0,0,1,1,1,0,1,0,1,1,1,0,1,14694986
+Vijayanagar,4,5,1,15,16,2201,0,6059,Mysore,villa,high,full,10-20,0,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,22657803
+Kankanady,1,2,0,6,25,1028,0,2581,Mangalore,apartment,medium,unfurnished,10-20,4,1,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,9600796
+Adyar,3,2,2,6,26,1508,2,7735,Chennai,villa,low,semi,5-10,1,0,1,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,10932500
+RS Puram,1,1,0,8,12,1543,2,6243,Coimbatore,villa,low,unfurnished,10-20,3,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,0,0,20796302
+KK Nagar,3,2,2,7,25,976,0,4710,Madurai,apartment,medium,unfurnished,20+,5,1,1,1,1,0,0,1,0,1,0,0,0,1,0,0,1,1,6671289
+Andheri,1,1,1,14,15,1935,1,1621,Mumbai,villa,low,unfurnished,10-20,3,0,0,1,1,1,0,0,1,0,0,1,0,1,0,1,0,0,11322150
+Hinjewadi,2,3,3,3,10,1923,1,7925,Pune,apartment,high,semi,5-10,4,0,1,1,1,0,1,1,0,0,0,1,0,0,1,1,0,1,12715813
+Wardha Road,3,4,1,11,12,1994,0,5983,Nagpur,apartment,low,semi,20+,5,1,0,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,14544810
+Saket,4,5,0,1,22,1873,1,6162,Delhi,villa,medium,unfurnished,0-5,6,0,1,0,1,1,1,0,0,0,1,0,0,1,0,1,0,0,12903888
+Satellite,4,3,2,18,19,2894,2,6257,Ahmedabad,apartment,high,unfurnished,0-5,3,0,1,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,23399352
+Vesu,2,3,0,19,28,1083,0,1735,Surat,apartment,low,unfurnished,0-5,6,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,12699993
+Kakkanad,1,2,2,1,10,1124,2,7429,Kochi,apartment,low,unfurnished,20+,3,1,1,1,0,1,0,0,0,0,1,1,0,0,1,0,1,0,11024508
+Kazhakkoottam,3,3,1,15,29,2655,2,4672,Trivandrum,villa,high,full,10-20,1,0,0,0,0,0,1,1,0,0,1,1,1,0,1,1,0,0,25174710
+Madhurawada,2,1,0,17,29,1651,0,2156,Visakhapatnam,apartment,low,full,5-10,0,1,0,1,0,0,1,1,0,1,1,0,1,0,1,0,1,0,15327053
+Kanuru,3,4,3,7,8,1867,1,4836,Vijayawada,villa,high,unfurnished,0-5,6,1,0,1,1,0,0,1,0,0,1,1,1,1,1,0,1,1,19480587
+Nallapadu,2,3,3,3,4,1528,1,2285,Guntur,apartment,high,full,0-5,2,1,0,1,0,1,0,1,1,1,0,0,0,1,1,1,0,0,11819241
+Tilak Road,3,3,3,0,9,1819,1,3775,Rajahmundry,independent,high,semi,10-20,5,1,1,1,1,1,1,0,1,1,0,1,0,1,0,0,0,1,17660937
+Stonehousepet,4,4,1,1,22,2139,1,3480,Nellore,apartment,low,semi,20+,6,1,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,0,22167385
+Alipiri,2,3,1,4,25,2494,2,7142,Tirupati,apartment,medium,unfurnished,10-20,6,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,1,22651845
+Jagannaickpur,2,3,0,3,5,1132,1,6362,Kakinada,apartment,low,unfurnished,20+,6,0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,12585753
+Deva Nagar,1,2,3,7,28,1678,2,1918,Kurnool,independent,medium,semi,5-10,2,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,16289839
+Ramnagar,2,1,0,14,15,2595,0,1466,Anantapur,independent,high,unfurnished,0-5,2,0,0,0,1,0,1,0,0,0,1,0,0,1,1,1,1,0,24075888
+Gachibowli,4,4,3,2,24,703,0,3655,Hyderabad,villa,high,unfurnished,10-20,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,0,8783086
+Kazipet,4,5,0,16,17,2489,1,5555,Warangal,villa,medium,unfurnished,20+,1,0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,1,1,21411331
+Kothirampur,1,1,0,4,9,2026,2,5191,Karimnagar,independent,low,full,20+,4,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,0,15342834
+Electronic City,3,2,3,17,18,2176,1,5279,Bangalore,independent,low,unfurnished,20+,6,1,0,1,0,0,0,0,1,0,1,1,0,0,1,0,1,0,16078630
+Kuvempunagar,1,1,1,16,21,1450,2,3365,Mysore,apartment,medium,semi,20+,2,1,1,1,1,0,0,1,1,0,0,1,0,0,0,0,1,0,12195779
+Kankanady,2,3,1,13,15,1840,2,4053,Mangalore,villa,low,unfurnished,5-10,3,0,0,1,0,1,1,1,1,0,0,0,1,0,1,1,0,1,16105760
+Velachery,2,3,1,2,8,1941,1,4671,Chennai,independent,medium,full,5-10,6,0,0,1,1,0,0,0,0,0,1,0,1,1,1,0,0,0,16358340
+Peelamedu,4,3,0,2,21,1017,1,4752,Coimbatore,villa,high,full,10-20,7,0,1,0,0,1,1,0,1,0,1,0,0,0,0,0,1,0,7778036
+Thirunagar,1,1,0,16,17,2012,1,7110,Madurai,apartment,high,full,0-5,6,0,1,0,0,0,0,1,0,0,1,1,1,0,1,1,1,0,29500200
+Powai,1,1,3,19,24,1258,0,5254,Mumbai,independent,medium,full,10-20,0,0,0,0,1,1,1,0,0,1,1,1,1,0,1,0,0,0,9376525
+Baner,2,3,0,19,23,2701,0,256,Pune,independent,high,semi,10-20,2,1,1,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,30539066
+Wardha Road,4,5,1,0,8,2836,1,2660,Nagpur,villa,high,full,20+,4,1,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,1,24283836
+Rohini,1,1,2,9,22,2802,0,109,Delhi,apartment,high,semi,5-10,5,1,1,1,1,0,1,0,1,0,0,1,0,0,1,1,1,0,26498463
+Maninagar,2,3,2,9,17,695,0,707,Ahmedabad,apartment,low,unfurnished,10-20,4,0,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1,5403520
+Piplod,2,3,0,17,22,2878,0,7476,Surat,independent,high,unfurnished,0-5,2,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,19825110
+Aluva,4,3,2,1,18,656,1,2413,Kochi,independent,low,semi,0-5,1,0,1,0,0,1,1,1,0,0,0,0,1,1,0,1,1,1,6275778
+Kazhakkoottam,2,2,0,2,15,2680,0,1828,Trivandrum,villa,high,semi,20+,0,1,0,0,0,1,1,0,1,1,1,1,1,0,1,1,0,1,27196318
+Seethammadhara,2,3,2,18,19,1087,2,1244,Visakhapatnam,apartment,medium,unfurnished,5-10,5,0,1,1,1,0,1,1,0,0,1,1,0,0,1,1,0,0,12408673
+Benz Circle,3,3,3,4,22,2155,0,485,Vijayawada,independent,low,unfurnished,5-10,3,0,1,0,0,0,1,1,0,0,1,0,0,1,1,1,1,0,17136318
+Brodipet,3,4,1,14,24,1668,2,3379,Guntur,apartment,high,unfurnished,20+,7,1,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,19088600
+Danavaipeta,2,1,0,5,22,2382,0,3331,Rajahmundry,apartment,medium,full,5-10,2,1,0,1,0,1,1,0,0,1,0,1,1,0,0,0,1,1,15937542
+Vedayapalem,2,2,2,0,20,2710,2,7831,Nellore,apartment,medium,unfurnished,10-20,7,1,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,13034193
+Tiruchanoor,4,3,2,3,13,2112,0,2680,Tirupati,independent,medium,full,20+,7,0,1,0,1,1,0,0,1,1,1,0,1,0,1,1,1,1,23893044
+ADB Road,4,4,2,16,17,552,0,2402,Kakinada,villa,high,unfurnished,20+,6,0,1,0,1,1,1,1,0,1,0,0,0,0,1,1,1,1,9329428
+Deva Nagar,2,1,2,7,27,2098,1,1049,Kurnool,independent,high,full,20+,4,0,1,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,14724616
+Housing Board Colony,1,1,0,16,24,690,1,1251,Anantapur,villa,medium,full,5-10,7,1,0,1,1,0,1,1,1,0,1,1,0,0,1,0,1,0,8654431
+Banjara Hills,2,1,2,13,14,1343,2,7099,Hyderabad,apartment,low,semi,0-5,4,1,1,1,0,0,0,1,1,1,1,1,0,0,0,1,0,1,13961644
+Kazipet,2,3,2,6,13,1624,0,4621,Warangal,independent,medium,unfurnished,20+,1,0,1,0,1,1,1,1,0,0,0,0,0,1,0,1,0,0,9007545
+Mankamma Thota,2,3,3,17,18,3016,2,6283,Karimnagar,apartment,medium,semi,20+,5,1,1,0,0,0,1,1,1,0,0,0,1,0,0,1,0,0,19586028
+Yelahanka,4,4,2,14,20,2548,1,888,Bangalore,apartment,high,full,20+,3,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,0,1,21406899
+Vijayanagar,3,3,0,12,15,502,2,4033,Mysore,apartment,medium,semi,10-20,2,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,1,1,2729326
+Derebail,1,1,3,12,29,925,1,3669,Mangalore,independent,medium,semi,10-20,5,0,0,0,1,1,0,1,0,1,0,0,1,1,0,1,0,0,8014736
+OMR,3,2,0,19,20,2732,2,5337,Chennai,independent,medium,semi,10-20,6,1,0,1,1,0,0,0,0,1,1,1,1,1,1,0,1,0,19332408
+RS Puram,2,3,0,15,28,891,1,137,Coimbatore,villa,low,full,0-5,3,1,0,1,1,1,0,1,1,0,1,1,1,1,0,0,1,1,12082909
+Goripalayam,2,3,0,8,29,1031,1,3965,Madurai,villa,low,full,10-20,5,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,1,1,14884705
+Andheri,2,2,3,19,20,1912,2,2354,Mumbai,villa,low,full,5-10,2,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,0,16200318
+Baner,1,1,0,5,27,1853,0,4441,Pune,apartment,medium,unfurnished,5-10,7,1,0,1,0,0,0,1,1,1,0,1,0,1,0,1,1,1,23932053
+Dharampeth,1,2,2,15,16,1991,0,1176,Nagpur,villa,medium,unfurnished,0-5,7,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,1,20121026
+Dwarka,1,1,1,18,19,1658,0,2092,Delhi,apartment,medium,unfurnished,10-20,0,1,0,1,1,1,0,1,0,0,0,0,1,1,1,1,0,0,14651293
+Bopal,4,4,0,0,13,2119,0,5431,Ahmedabad,villa,medium,unfurnished,5-10,2,0,1,1,0,0,1,1,1,1,0,0,0,1,1,0,1,1,12655978
+Vesu,2,1,2,19,20,1342,0,765,Surat,apartment,high,semi,20+,2,1,1,0,1,0,0,1,1,1,1,1,1,0,1,0,1,1,15335466
+Edappally,1,1,3,1,9,2193,1,4622,Kochi,apartment,high,semi,5-10,4,0,0,0,1,1,1,1,1,1,1,0,1,0,0,0,1,1,16406895
+Kazhakkoottam,4,3,1,1,23,1743,0,7307,Trivandrum,apartment,medium,unfurnished,5-10,7,0,0,1,1,0,0,0,1,1,1,0,0,1,1,0,1,0,13916994
+Gajuwaka,2,3,0,13,14,1258,0,6452,Visakhapatnam,apartment,medium,unfurnished,0-5,2,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,13580640
+Benz Circle,2,2,2,13,25,719,0,3022,Vijayawada,apartment,low,semi,5-10,0,0,0,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,4654138
+Brodipet,3,3,1,11,12,1701,2,2538,Guntur,independent,medium,full,10-20,7,1,1,0,1,1,0,0,0,1,0,0,1,0,0,1,0,1,20888158
+Dowleswaram,2,2,2,12,28,1946,1,791,Rajahmundry,apartment,low,unfurnished,20+,3,1,1,1,0,1,1,0,1,0,1,1,1,0,1,0,1,1,16939334
+Stonehousepet,2,3,1,18,19,609,0,2993,Nellore,apartment,high,unfurnished,20+,0,0,1,1,1,1,0,0,1,0,1,1,0,0,1,0,1,1,4458853
+Korlagunta,1,1,1,6,12,2581,2,90,Tirupati,apartment,high,semi,0-5,6,0,1,1,0,0,1,1,1,1,0,1,0,1,1,1,1,0,28422221
+Jagannaickpur,2,3,3,18,19,2497,0,739,Kakinada,independent,medium,unfurnished,10-20,5,0,0,1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,15336958
+Ashok Nagar,2,3,3,4,16,2083,2,1069,Kurnool,villa,low,unfurnished,20+,1,0,0,1,0,0,0,0,1,1,0,0,1,1,1,1,1,0,14564110
+Bellary Road,2,3,2,6,17,569,1,2122,Anantapur,independent,high,full,10-20,2,1,0,1,0,1,0,1,0,1,1,1,1,1,1,0,0,1,5206869
+Madhapur,1,1,3,10,27,2342,2,2365,Hyderabad,apartment,low,semi,5-10,2,0,1,0,0,1,0,0,1,0,1,1,0,1,0,0,0,0,13752657
+Nakkalagutta,3,3,1,2,9,2710,0,5874,Warangal,apartment,low,unfurnished,20+,7,0,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1,21291789
+Housing Board Colony,4,5,3,8,9,2547,2,4527,Karimnagar,apartment,high,semi,10-20,1,0,0,0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,19319258
+Yelahanka,2,1,1,15,16,463,0,5295,Bangalore,apartment,low,semi,20+,6,0,0,0,0,0,1,0,1,1,1,1,1,0,1,1,1,0,5081823
+Kuvempunagar,1,1,1,6,7,1982,1,2960,Mysore,villa,medium,semi,5-10,3,0,1,0,0,1,1,0,0,1,1,0,0,1,0,0,1,0,17804402
+Surathkal,4,5,3,14,25,1279,0,7485,Mangalore,villa,high,full,5-10,5,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,7381566
+Adyar,3,3,3,13,15,1073,0,2568,Chennai,independent,medium,full,10-20,3,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,0,11084896
+RS Puram,2,2,1,13,19,2052,0,1005,Coimbatore,apartment,medium,full,10-20,6,1,1,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1,10198316
+Goripalayam,4,5,1,1,16,881,1,5376,Madurai,villa,high,semi,5-10,3,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,1,1,11881914
+Bandra,2,1,3,6,13,772,1,745,Mumbai,apartment,high,full,5-10,4,0,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,8761599
+Hinjewadi,1,1,2,0,21,1405,1,4318,Pune,apartment,medium,full,20+,6,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,11663103
+Wardha Road,1,1,2,13,29,2230,2,3749,Nagpur,independent,medium,full,5-10,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,15854876
+Karol Bagh,4,5,3,1,28,980,2,7285,Delhi,villa,high,unfurnished,10-20,3,0,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,1,12890778
+Navrangpura,3,4,2,4,26,1679,2,1208,Ahmedabad,apartment,high,full,5-10,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,0,16746625
+Varachha,3,4,3,12,29,1585,1,7994,Surat,independent,low,unfurnished,5-10,5,0,0,0,0,1,0,0,1,0,1,1,1,0,1,0,1,1,14637417
+Fort Kochi,1,1,1,15,16,1372,0,5577,Kochi,villa,medium,semi,0-5,0,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,15138748
+Kowdiar,2,1,3,7,8,3126,2,6567,Trivandrum,independent,low,semi,10-20,5,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,18317345
+Dwaraka Nagar,1,1,1,15,16,1909,2,837,Visakhapatnam,independent,low,full,5-10,5,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,0,1,16117815
+Benz Circle,2,1,1,13,14,1840,1,1990,Vijayawada,apartment,high,full,10-20,2,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,30718396
+Brodipet,1,1,3,19,20,1593,1,1731,Guntur,villa,high,unfurnished,0-5,1,1,0,0,1,1,0,1,1,0,0,1,1,1,0,0,0,0,19013103
+Dowleswaram,2,3,3,15,16,1386,1,3926,Rajahmundry,independent,high,full,10-20,7,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,13873997
+Balaji Nagar,4,4,1,2,27,2310,1,6240,Nellore,independent,high,unfurnished,0-5,3,0,1,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,23368621
+Korlagunta,2,2,0,4,29,1550,1,2620,Tirupati,independent,medium,unfurnished,5-10,2,1,0,1,0,0,0,0,1,1,1,0,1,0,1,0,1,0,9043218
+Jagannaickpur,1,1,1,8,9,2246,0,7717,Kakinada,apartment,high,unfurnished,5-10,6,1,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,30037711
+Adoni Road,3,3,1,17,28,2736,2,2983,Kurnool,independent,low,full,20+,0,1,1,1,0,1,0,1,0,0,1,1,0,0,1,1,0,0,24357026
+Aravinda Nagar,4,4,3,0,24,979,2,6365,Anantapur,villa,medium,unfurnished,0-5,3,0,0,1,0,0,1,1,1,0,1,0,1,1,1,1,0,0,7291080
+Kukatpally,4,4,1,12,16,2196,1,3714,Hyderabad,villa,high,unfurnished,5-10,2,1,0,0,1,0,1,0,1,0,1,1,1,1,0,1,0,0,21977760
+Kazipet,3,2,1,1,2,695,2,3620,Warangal,independent,high,semi,0-5,0,0,0,0,1,1,0,1,0,1,1,0,1,1,1,0,1,1,9581941
+Kothirampur,2,2,1,4,27,1794,1,5629,Karimnagar,independent,low,full,5-10,7,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,18497157
+Electronic City,3,2,1,18,19,3041,1,4530,Bangalore,independent,low,semi,0-5,7,1,0,1,0,1,1,0,0,1,0,0,1,1,0,1,0,0,33141417
+Vijayanagar,3,2,2,19,20,844,1,7544,Mysore,villa,high,full,20+,2,1,0,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,6650431
+Kadri,4,4,0,13,14,1650,2,4624,Mangalore,independent,high,semi,5-10,3,1,1,0,1,0,0,0,0,1,0,1,0,1,1,0,1,0,21184980
+Velachery,2,2,2,18,20,1998,0,6839,Chennai,apartment,high,unfurnished,10-20,2,1,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,0,14887545
+Saravanampatti,2,2,2,8,19,2436,1,186,Coimbatore,villa,low,full,10-20,3,0,1,1,1,1,0,0,1,0,1,1,0,0,1,0,1,0,18138560
+Thirunagar,3,4,1,11,19,1931,1,3323,Madurai,villa,low,unfurnished,10-20,7,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,14027253
+Powai,4,4,0,11,12,1551,2,1421,Mumbai,villa,low,unfurnished,20+,3,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,11632147
+Hinjewadi,3,3,2,6,23,1704,1,1759,Pune,villa,low,unfurnished,10-20,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,1,1,0,19706935
+Dharampeth,2,3,0,11,12,1178,1,6621,Nagpur,independent,high,semi,20+,2,1,1,1,1,1,0,0,1,1,0,1,0,1,0,0,1,1,9646451
+Saket,4,4,2,17,21,2331,2,4728,Delhi,independent,high,semi,5-10,6,1,0,1,1,1,1,0,1,1,1,0,1,0,0,1,0,1,28935228
+Satellite,4,4,1,3,15,1500,2,6161,Ahmedabad,independent,medium,full,10-20,7,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,1,14365577
+Varachha,3,2,2,2,28,1180,1,5028,Surat,apartment,high,semi,5-10,1,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,7273712
+Fort Kochi,1,2,2,8,17,1452,2,3285,Kochi,independent,high,full,20+,0,0,0,1,1,1,0,1,1,0,1,0,1,0,0,1,0,1,11620211
+Pattom,3,3,3,6,28,1881,2,3838,Trivandrum,apartment,high,unfurnished,20+,4,0,1,0,0,1,0,1,0,1,0,0,0,1,0,0,1,1,15277233
+MVP Colony,1,1,2,5,12,1547,1,6837,Visakhapatnam,independent,high,semi,5-10,0,1,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,1,10867291
+Gannavaram,2,1,2,15,26,1375,2,3346,Vijayawada,apartment,low,semi,10-20,6,0,0,1,0,1,1,0,0,1,1,1,0,0,1,1,1,0,12537023
+Brodipet,3,2,2,4,11,2104,1,4024,Guntur,independent,medium,semi,20+,1,0,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,0,22999641
+Dowleswaram,3,2,0,0,25,1314,0,5933,Rajahmundry,villa,high,full,0-5,4,0,0,1,0,1,1,1,1,1,1,0,1,1,0,0,0,0,16705700
+Stonehousepet,4,3,1,6,7,1797,0,3722,Nellore,apartment,high,semi,0-5,5,1,1,1,1,1,1,0,0,0,1,0,1,1,0,1,1,0,10822489
+Bairagipatteda,1,1,1,19,29,942,1,2826,Tirupati,apartment,high,unfurnished,20+,5,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,9147617
+Sarpavaram,2,3,1,1,16,2822,1,5562,Kakinada,independent,low,semi,0-5,0,0,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,33025512
+Adoni Road,2,1,3,1,18,1157,2,4584,Kurnool,apartment,medium,unfurnished,5-10,7,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,8581735
+Bellary Road,2,2,1,10,11,1203,1,483,Anantapur,independent,medium,semi,0-5,4,1,1,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,11040809
+Kondapur,1,1,3,2,3,2376,0,2014,Hyderabad,independent,high,full,5-10,5,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,28833857
+Nakkalagutta,1,1,0,2,28,1561,0,4171,Warangal,apartment,medium,unfurnished,20+,5,0,0,0,1,0,0,0,1,1,1,0,0,1,0,0,1,1,17029581
+Saraswathi Nagar,3,4,1,13,14,1511,0,2839,Karimnagar,villa,high,semi,10-20,7,1,1,1,1,0,0,0,1,0,1,1,0,0,1,1,0,0,18887182
+BTM Layout,4,3,0,13,16,774,2,7659,Bangalore,villa,low,unfurnished,10-20,3,1,0,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,8822106
+Hebbal,1,2,1,17,18,1815,2,7873,Mysore,apartment,high,full,5-10,2,1,1,0,0,1,1,1,1,0,0,0,1,1,1,0,1,1,20664386
+Kankanady,2,3,3,2,15,1212,1,7356,Mangalore,independent,high,semi,5-10,7,1,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,0,16831362
+OMR,3,3,1,10,29,814,0,2249,Chennai,villa,low,unfurnished,20+,2,1,1,0,0,0,0,1,1,1,1,1,0,0,1,0,1,1,9522047
+Peelamedu,2,2,0,1,21,1221,1,6840,Coimbatore,independent,medium,unfurnished,20+,7,0,1,1,1,1,1,0,0,0,1,0,1,1,1,1,0,1,10659171
+Anna Nagar,2,3,2,14,15,2623,0,5277,Madurai,apartment,high,full,20+,5,1,1,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,15249492
+Andheri,3,2,1,15,16,1299,2,2660,Mumbai,villa,high,full,20+,5,0,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,12059463
+Baner,1,1,0,9,17,1640,0,1912,Pune,apartment,high,full,5-10,2,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,11215455
+Dharampeth,1,1,1,6,7,1228,1,1039,Nagpur,villa,medium,full,10-20,6,1,1,1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,12740415
+Rohini,1,1,0,3,20,1820,1,6293,Delhi,apartment,low,unfurnished,0-5,1,1,0,0,0,0,1,0,1,1,1,0,0,1,0,0,1,1,14265325
+Satellite,3,2,3,19,20,2894,1,7392,Ahmedabad,apartment,low,unfurnished,10-20,2,0,0,1,0,0,0,1,1,0,0,1,1,0,1,0,0,0,21790658
+Varachha,1,2,0,2,8,718,0,1884,Surat,villa,high,semi,0-5,6,1,0,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,6934117
+Aluva,3,3,1,11,24,1873,0,1176,Kochi,apartment,high,semi,10-20,1,1,0,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,14570145
+Technopark,4,4,1,17,18,1520,1,1419,Trivandrum,apartment,high,full,20+,7,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1,0,22728621
+Dwaraka Nagar,1,1,3,19,29,1029,1,238,Visakhapatnam,apartment,high,full,5-10,3,0,0,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,8595122
+Auto Nagar,3,3,1,3,21,940,2,1334,Vijayawada,independent,medium,unfurnished,0-5,4,1,0,1,0,0,1,1,1,0,1,0,0,0,1,0,1,1,8688112
+Arundelpet,3,3,1,11,14,1167,2,7506,Guntur,apartment,low,unfurnished,5-10,6,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1,8218956
+Katheru,4,3,0,5,25,1354,2,5205,Rajahmundry,villa,high,semi,10-20,3,0,0,1,0,1,0,0,1,0,1,0,0,0,0,1,1,0,15126950
+Vedayapalem,2,1,2,5,6,2009,1,4661,Nellore,independent,medium,unfurnished,20+,4,1,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,24838184
+Renigunta,2,3,3,0,24,2681,2,4848,Tirupati,apartment,low,semi,10-20,7,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,19977132
+Jagannaickpur,3,4,3,9,10,2592,1,263,Kakinada,independent,low,unfurnished,10-20,2,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,23327395
+Balaji Nagar,3,4,3,18,19,2268,1,2115,Kurnool,independent,medium,unfurnished,5-10,0,1,0,0,1,0,0,1,1,1,1,1,0,0,1,0,0,0,14190618
+Kalyandurg Road,3,2,3,11,16,2824,1,7949,Anantapur,villa,medium,unfurnished,0-5,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,24209130
+Gachibowli,3,4,1,14,27,2191,0,575,Hyderabad,villa,high,full,10-20,4,0,0,1,0,0,1,0,0,1,1,1,0,1,0,1,0,1,16449872
+Kazipet,1,2,3,13,14,1213,1,604,Warangal,villa,medium,unfurnished,0-5,5,0,0,1,1,0,1,1,1,1,1,0,0,1,1,1,0,0,13573278
+Saraswathi Nagar,4,5,0,7,14,1699,2,6249,Karimnagar,apartment,medium,unfurnished,10-20,7,0,1,1,0,1,1,0,1,0,0,1,0,1,0,1,1,0,12385204
+Indiranagar,2,2,2,4,6,2300,1,2032,Bangalore,independent,low,full,5-10,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,0,1,0,17822064
+Gokulam,1,2,3,18,19,2523,2,3960,Mysore,independent,high,full,5-10,6,1,1,0,1,0,0,0,1,1,1,0,0,1,0,0,1,1,30096359
+Kankanady,2,3,2,17,18,2323,2,2430,Mangalore,villa,medium,full,5-10,6,0,0,0,0,1,1,1,0,1,0,1,1,1,1,1,1,0,25735536
+Anna Nagar,3,2,0,8,23,3108,2,1624,Chennai,apartment,high,full,0-5,4,1,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,22661982
+Gandhipuram,4,4,1,15,29,1854,2,290,Coimbatore,apartment,high,semi,10-20,1,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,1,0,10496890
+Thirunagar,4,3,1,15,17,707,2,5029,Madurai,independent,low,unfurnished,0-5,4,1,1,1,0,0,0,1,0,1,0,1,0,0,1,1,1,0,6143018
+Bandra,3,2,3,13,22,839,1,4370,Mumbai,villa,high,semi,10-20,2,1,1,0,1,1,0,1,1,0,1,0,0,1,0,1,1,0,10762500
+Wakad,3,2,1,13,29,1840,0,829,Pune,apartment,low,unfurnished,0-5,5,1,1,0,0,1,0,0,1,1,0,1,1,0,0,0,0,0,12564130
+Sitabuldi,4,3,0,0,5,2289,0,5027,Nagpur,villa,medium,semi,20+,4,0,1,0,0,1,0,1,0,1,0,1,0,0,0,1,1,0,25066598
+Saket,2,1,3,18,19,2538,2,101,Delhi,apartment,medium,full,10-20,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,0,17540522
+Bopal,3,4,3,9,14,603,2,102,Ahmedabad,villa,high,full,5-10,6,0,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,1,6003295
+Katargam,4,3,2,0,8,2326,0,4129,Surat,apartment,medium,full,0-5,7,0,0,1,1,1,1,0,0,0,1,0,0,1,0,0,1,0,20747322
+Edappally,3,2,0,15,16,2367,2,7984,Kochi,apartment,low,unfurnished,0-5,7,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0,1,0,15827388
+Kowdiar,2,3,2,0,26,2529,1,7050,Trivandrum,independent,medium,full,10-20,0,1,0,0,1,1,1,1,0,0,0,0,1,1,0,1,1,1,33494156
+Gajuwaka,1,1,1,12,13,2198,1,58,Visakhapatnam,villa,medium,unfurnished,0-5,2,1,0,0,0,0,0,1,0,1,1,0,1,0,1,1,0,1,16417647
+Gannavaram,2,2,3,5,20,2583,2,1704,Vijayawada,villa,high,unfurnished,10-20,1,1,1,0,1,1,1,1,0,1,1,0,1,0,0,1,0,1,18463416
+Pattabhipuram,2,1,3,19,28,3056,2,4907,Guntur,apartment,high,unfurnished,20+,1,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,1,23620429
+Dowleswaram,4,5,0,8,12,1363,0,7416,Rajahmundry,apartment,medium,semi,20+,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,1,12231107
+Balaji Nagar,3,4,0,12,21,1576,2,3920,Nellore,villa,high,full,5-10,5,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,0,13028307
+Tiruchanoor,4,4,0,14,15,2272,2,3080,Tirupati,independent,low,semi,5-10,2,0,1,0,1,1,0,0,0,1,1,1,0,0,1,1,0,1,15776455
+ADB Road,2,2,3,3,5,2059,1,6775,Kakinada,villa,medium,unfurnished,5-10,5,1,1,0,0,0,0,0,0,1,1,0,1,1,1,1,1,0,29129120
+Ashok Nagar,3,4,0,9,10,1903,2,6876,Kurnool,apartment,high,full,20+,4,0,1,1,1,0,0,1,0,1,1,1,1,1,0,0,0,0,20398387
+Kalyandurg Road,4,5,2,7,8,2359,0,3233,Anantapur,apartment,high,unfurnished,20+,5,1,0,1,1,0,1,0,0,1,0,0,1,0,1,0,0,1,20824670
+Kondapur,2,3,3,1,3,614,2,5612,Hyderabad,villa,high,full,20+,0,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,1,1,6848790
+Nakkalagutta,3,2,0,6,28,2658,0,497,Warangal,apartment,low,semi,5-10,0,1,0,0,0,0,1,1,0,0,1,1,1,1,1,0,0,0,18583113
+Kothirampur,2,1,2,5,24,1081,0,3125,Karimnagar,independent,low,unfurnished,5-10,6,1,1,1,1,1,0,1,0,0,0,1,1,1,1,0,1,1,11185935
+Electronic City,1,2,2,6,25,1890,2,564,Bangalore,independent,low,unfurnished,0-5,7,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,9765609
+Hebbal,4,4,0,15,20,3139,1,2127,Mysore,apartment,medium,full,10-20,1,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,1,1,18939035
+Bejai,4,5,2,10,11,1890,2,2223,Mangalore,apartment,high,semi,0-5,0,0,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,18811741
+OMR,4,3,1,15,22,1913,0,4357,Chennai,villa,high,full,10-20,7,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,17190823
+Peelamedu,3,3,1,18,25,2127,1,5566,Coimbatore,independent,high,unfurnished,10-20,6,1,1,1,1,1,1,1,1,0,0,1,0,1,0,0,1,0,16634128
+Tallakulam,1,2,1,13,14,2053,2,1639,Madurai,apartment,high,semi,10-20,7,0,0,1,1,0,0,1,0,0,1,0,0,1,0,1,1,0,22577034
+Andheri,4,5,1,16,17,1064,1,3781,Mumbai,villa,high,semi,0-5,4,1,1,1,0,1,0,1,0,0,0,1,1,0,0,0,1,1,12619011
+Wakad,2,1,1,15,16,655,2,7450,Pune,independent,high,semi,10-20,0,0,1,1,0,0,1,1,0,0,1,0,0,1,0,1,0,1,5673415
+Wardha Road,1,1,0,9,10,2549,1,490,Nagpur,independent,medium,full,20+,3,0,1,0,1,0,1,1,0,1,0,0,1,1,1,0,0,1,28520096
+Dwarka,3,3,0,1,24,1221,1,2646,Delhi,independent,medium,unfurnished,10-20,5,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,10096358
+Navrangpura,3,4,3,13,21,2916,0,4470,Ahmedabad,independent,high,semi,10-20,1,0,0,1,1,0,1,0,1,1,0,0,1,0,1,1,0,1,16839494
+Vesu,2,3,0,9,19,2791,1,4135,Surat,villa,medium,full,0-5,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,33039795
+Kakkanad,1,1,2,16,17,1147,2,5747,Kochi,apartment,low,semi,10-20,6,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,11557293
+Vazhuthacaud,4,3,2,9,26,1225,1,5587,Trivandrum,apartment,low,unfurnished,20+,1,0,0,1,0,1,1,0,1,0,1,1,0,0,1,1,0,1,6199168
+Gajuwaka,4,3,1,4,13,1360,1,7084,Visakhapatnam,apartment,low,semi,10-20,6,0,0,0,1,0,1,1,1,1,0,0,0,0,0,1,0,0,14841493
+Benz Circle,1,1,2,15,16,2485,0,4578,Vijayawada,villa,medium,semi,5-10,1,1,1,1,1,0,1,0,0,0,0,1,0,0,0,1,0,0,15993420
+Brodipet,2,2,3,17,28,768,1,2796,Guntur,villa,medium,semi,0-5,4,1,0,1,0,0,1,1,0,1,0,1,1,1,1,1,1,1,10149427
+Katheru,2,1,3,5,6,2917,1,5151,Rajahmundry,villa,low,unfurnished,10-20,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,1,0,0,22245301
+Nawabpet,2,2,3,9,10,1593,2,5248,Nellore,apartment,low,full,10-20,3,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,18415520
+Renigunta,3,3,0,13,14,2027,0,1128,Tirupati,villa,low,unfurnished,10-20,5,0,1,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,23404662
+Ramanayyapeta,4,4,1,14,16,1857,0,4385,Kakinada,independent,medium,semi,5-10,3,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,21952677
+Ashok Nagar,2,2,0,15,18,1360,0,3072,Kurnool,apartment,low,unfurnished,10-20,1,1,1,1,0,1,0,1,1,1,1,1,0,0,0,1,0,1,11758115
+Housing Board Colony,3,3,2,14,19,2643,1,6794,Anantapur,independent,high,semi,0-5,2,0,1,1,0,1,1,0,1,0,0,0,1,0,0,0,0,1,29405030
+Madhapur,1,1,3,9,15,859,1,2570,Hyderabad,independent,high,unfurnished,0-5,2,0,1,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,6964637
+Nakkalagutta,3,4,3,9,23,818,0,7379,Warangal,apartment,low,unfurnished,10-20,0,1,1,1,0,0,0,1,0,1,1,1,0,1,1,1,0,1,14737867
+Saraswathi Nagar,2,2,2,9,23,2459,0,5788,Karimnagar,villa,high,full,10-20,1,0,0,1,1,0,1,0,0,1,0,0,1,0,1,0,1,1,16562763
+Electronic City,4,4,0,10,22,2159,1,658,Bangalore,villa,low,semi,20+,3,0,0,0,0,0,1,0,0,1,1,0,1,1,1,0,1,1,19990357
+Jayalakshmipuram,3,3,0,7,29,1788,0,3429,Mysore,apartment,low,semi,10-20,6,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,13911480
+Kankanady,2,3,0,9,11,1428,1,6116,Mangalore,villa,high,unfurnished,0-5,0,1,0,0,1,0,0,0,1,0,1,0,1,1,1,0,0,1,14143052
+Anna Nagar,2,3,2,19,20,1324,0,4219,Chennai,villa,high,semi,10-20,6,1,1,1,1,1,0,0,0,0,1,1,0,0,0,1,1,1,13611441
+Peelamedu,2,3,1,2,3,3073,1,7750,Coimbatore,apartment,medium,full,20+,5,0,1,1,0,1,1,1,1,1,0,0,1,1,0,0,0,0,42267400
+Tallakulam,4,4,1,19,20,2600,0,44,Madurai,independent,medium,unfurnished,5-10,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,12377055
+Powai,1,2,1,2,21,1163,0,7641,Mumbai,villa,medium,unfurnished,10-20,4,0,1,1,1,1,1,0,0,0,1,1,0,1,1,0,1,0,8110773
+Kothrud,2,2,3,4,22,2090,1,4426,Pune,independent,low,semi,20+,1,1,0,0,1,1,1,0,1,0,1,1,0,0,1,0,0,1,23776110
+Dharampeth,2,2,0,19,20,2311,0,6178,Nagpur,villa,medium,full,10-20,1,0,0,0,0,1,1,1,0,0,1,1,1,0,1,0,1,0,25124311
+Saket,4,4,0,3,4,1233,1,220,Delhi,villa,high,full,20+,5,1,0,1,0,1,0,0,1,0,1,1,0,0,0,1,1,1,12062804
+Bopal,1,1,2,0,15,2339,2,1597,Ahmedabad,apartment,high,semi,0-5,3,1,0,1,0,0,1,0,1,1,0,0,0,1,1,1,1,1,24962697
+Katargam,3,3,1,5,7,937,1,6667,Surat,independent,medium,semi,10-20,1,0,0,0,1,1,1,0,1,0,0,1,1,0,1,0,1,0,11618363
+Vyttila,3,2,2,8,9,1624,2,3281,Kochi,apartment,medium,unfurnished,10-20,7,1,1,1,1,1,0,1,0,0,1,0,1,0,1,0,1,0,10750932
+Kazhakkoottam,4,4,0,3,23,1215,1,5293,Trivandrum,villa,low,full,10-20,6,0,1,0,1,1,1,0,1,0,1,0,0,1,1,1,0,0,12628539
+Dwaraka Nagar,3,2,2,5,25,1941,1,2197,Visakhapatnam,apartment,medium,full,0-5,2,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,1,16496003
+Kanuru,2,3,2,4,20,1286,1,201,Vijayawada,apartment,low,unfurnished,10-20,3,1,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,8224137
+Arundelpet,4,4,3,2,19,1499,2,359,Guntur,villa,medium,full,10-20,7,0,1,1,0,0,1,0,1,1,0,1,0,1,1,1,1,1,16126134
+Katheru,3,4,0,18,27,998,1,2265,Rajahmundry,villa,high,unfurnished,20+,1,1,1,0,1,1,1,0,1,1,0,0,0,1,0,1,0,1,9470972
+Vedayapalem,1,1,0,2,21,1276,1,2809,Nellore,villa,high,full,5-10,3,0,1,0,0,1,1,0,1,0,1,0,1,1,0,1,0,1,12613370
+Tiruchanoor,4,5,2,5,15,2374,1,7360,Tirupati,apartment,high,unfurnished,0-5,2,1,0,1,1,0,0,1,1,1,1,1,0,1,0,1,0,1,11928828
+Sarpavaram,4,5,1,9,17,664,1,3371,Kakinada,independent,medium,full,10-20,6,1,1,0,0,1,0,1,1,1,1,1,1,1,0,1,0,0,5424728
+Adoni Road,2,3,0,9,10,1314,2,2098,Kurnool,apartment,high,semi,20+,5,1,0,0,0,1,1,1,0,0,1,0,1,1,1,0,1,1,7246704
+Kalyandurg Road,2,1,1,9,10,1276,0,6881,Anantapur,apartment,high,unfurnished,5-10,2,1,1,1,0,0,1,0,1,0,0,1,0,1,1,0,0,0,12990237
+Banjara Hills,1,2,3,3,21,1275,2,5539,Hyderabad,independent,low,full,0-5,0,0,1,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,7972300
+Subedari,2,1,0,11,12,2345,1,3195,Warangal,villa,high,unfurnished,10-20,4,0,0,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,21983389
+Mankamma Thota,2,3,1,2,29,2155,1,1632,Karimnagar,villa,high,semi,10-20,2,0,1,0,1,0,1,1,0,0,0,0,1,1,1,1,1,0,25557599
+Indiranagar,1,2,0,14,15,1611,0,1601,Bangalore,villa,high,semi,0-5,3,0,0,1,0,0,0,0,1,1,1,0,1,1,0,1,1,1,11675493
+Vijayanagar,2,2,2,14,22,2006,2,5136,Mysore,villa,low,full,20+,2,1,1,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,24671113
+Derebail,1,1,2,10,11,909,2,429,Mangalore,villa,medium,semi,20+,7,0,1,0,1,1,0,1,1,0,1,1,0,0,1,0,1,1,12037597
+T Nagar,3,2,1,11,12,903,1,3996,Chennai,villa,high,unfurnished,5-10,2,0,1,1,0,0,1,1,0,1,1,1,0,0,1,0,1,0,13078401
+Saravanampatti,2,2,1,1,12,517,0,683,Coimbatore,independent,low,unfurnished,20+,4,0,0,1,0,0,1,1,1,0,0,0,0,1,0,1,0,0,4977945
+Goripalayam,4,3,0,12,13,870,2,2554,Madurai,independent,high,unfurnished,10-20,7,0,1,1,0,0,0,0,0,1,1,1,1,1,0,0,1,0,8748453
+Andheri,2,1,1,9,10,1003,2,7137,Mumbai,independent,high,unfurnished,5-10,3,1,0,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,11300466
+Kothrud,4,4,1,5,29,1543,2,3152,Pune,apartment,medium,semi,20+,5,0,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,1,23412982
+Dharampeth,4,3,2,18,19,2361,2,6771,Nagpur,villa,low,unfurnished,20+,0,0,0,0,0,1,1,1,1,0,1,0,1,1,0,1,1,1,21792458
+Dwarka,4,3,3,7,28,2463,2,643,Delhi,independent,high,semi,10-20,6,1,1,0,0,0,0,1,0,0,1,0,1,0,1,0,1,1,20357610
+SG Highway,3,3,1,12,16,2480,1,208,Ahmedabad,independent,low,unfurnished,5-10,7,1,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,18951147
+Adajan,2,2,1,16,24,2006,2,5686,Surat,apartment,high,full,10-20,6,1,1,0,0,0,1,0,0,1,1,1,0,1,0,1,0,0,11279644
+Vyttila,3,4,2,19,29,641,2,4719,Kochi,villa,high,semi,5-10,1,0,1,1,0,0,1,1,1,0,1,0,1,1,0,1,0,1,10343268
+Technopark,2,1,3,12,29,1829,2,3502,Trivandrum,villa,low,unfurnished,5-10,4,0,0,0,0,0,1,0,0,1,1,1,1,0,1,0,1,1,22961019
+Dwaraka Nagar,2,2,3,6,7,1598,1,7458,Visakhapatnam,independent,high,semi,20+,0,1,1,1,1,0,1,0,0,1,1,0,1,1,0,0,0,1,10648141
+Kanuru,2,1,1,10,11,1493,2,1700,Vijayawada,villa,medium,semi,10-20,3,1,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1,14347994
+Brodipet,4,5,2,16,17,708,2,7141,Guntur,independent,low,semi,20+,6,0,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,6597170
+Danavaipeta,2,2,3,12,27,2394,0,6732,Rajahmundry,villa,high,full,5-10,7,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,0,1,17416977
+Magunta Layout,3,2,2,19,20,2423,0,4251,Nellore,villa,high,semi,10-20,7,0,0,1,1,1,0,1,0,0,1,1,1,0,1,0,1,0,22237966
+Renigunta,3,2,1,2,25,2576,2,6703,Tirupati,independent,medium,full,20+,2,1,1,0,0,1,1,1,1,1,0,1,1,0,0,1,0,0,20577832
+Ramanayyapeta,3,3,0,10,13,1043,1,2357,Kakinada,independent,medium,full,0-5,1,0,1,0,0,1,0,0,0,1,1,1,0,0,0,0,1,1,11497336
+Ashok Nagar,4,4,0,7,14,2492,0,3553,Kurnool,apartment,low,semi,20+,6,1,0,1,1,0,1,0,1,1,1,0,0,0,1,0,0,0,20851023
+Aravinda Nagar,2,1,1,19,20,1233,0,3810,Anantapur,apartment,low,full,20+,4,1,0,1,1,0,1,0,1,0,1,1,1,0,1,0,1,1,10480243
+Banjara Hills,3,2,3,18,28,1822,1,6609,Hyderabad,independent,medium,unfurnished,0-5,2,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,12870944
+Nakkalagutta,2,2,3,9,19,1895,1,2303,Warangal,independent,low,semi,5-10,6,1,0,0,0,0,1,1,0,0,1,1,0,1,1,1,1,0,14162841
+Housing Board Colony,3,4,3,19,20,663,1,2461,Karimnagar,apartment,high,unfurnished,0-5,3,1,1,0,1,0,0,0,1,0,1,0,1,1,1,1,1,1,8087148
+BTM Layout,1,1,1,5,22,2883,2,4754,Bangalore,independent,high,unfurnished,5-10,2,0,1,0,1,0,0,1,0,1,1,0,1,1,1,0,1,1,34062696
+Hebbal,4,5,2,4,7,2141,1,2400,Mysore,independent,medium,semi,0-5,7,0,1,0,0,0,0,1,0,1,1,1,0,1,1,1,0,1,17717624
+Derebail,3,2,1,17,18,621,0,7408,Mangalore,independent,low,semi,10-20,4,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,1,1,8013479
+Velachery,1,1,0,0,4,1933,0,140,Chennai,independent,high,full,10-20,6,0,1,1,0,1,1,1,0,1,0,1,1,0,1,0,1,1,16559234
+Saravanampatti,2,3,2,14,15,735,0,4202,Coimbatore,independent,low,full,20+,2,0,0,1,0,1,0,1,1,1,0,1,0,1,0,1,1,0,10900093
+Goripalayam,2,2,2,6,7,1895,0,6049,Madurai,independent,medium,semi,5-10,5,1,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0,17789249
+Powai,2,3,1,14,15,1386,0,1557,Mumbai,independent,high,full,0-5,1,1,0,0,1,1,0,1,0,0,0,0,1,0,0,1,1,0,18787377
+Kothrud,4,4,3,13,27,1725,2,2983,Pune,villa,medium,semi,5-10,1,1,1,1,1,0,1,0,0,1,0,1,1,0,1,0,0,1,18015955
+Dharampeth,4,5,1,11,28,1208,1,2154,Nagpur,villa,medium,full,5-10,0,1,1,0,0,1,1,1,0,1,1,0,1,0,0,1,1,0,10689084
+Dwarka,3,2,1,10,11,2622,1,999,Delhi,villa,low,unfurnished,20+,2,1,1,1,1,1,0,1,0,1,1,1,0,1,1,0,0,0,26565276
+Maninagar,2,1,0,2,6,1124,0,1585,Ahmedabad,villa,low,unfurnished,10-20,0,1,0,1,1,0,1,1,0,1,1,0,0,0,1,1,1,0,10508177
+Varachha,1,1,1,9,21,516,0,7977,Surat,independent,high,unfurnished,5-10,4,0,1,1,0,1,0,1,1,0,0,1,1,0,1,1,1,1,8649552
+Edappally,2,2,3,5,25,669,2,5492,Kochi,independent,medium,full,20+,0,0,1,0,0,1,1,0,1,1,0,0,1,1,0,1,0,0,7240174
+Technopark,4,4,3,17,27,2427,2,1623,Trivandrum,independent,low,unfurnished,5-10,2,0,1,1,1,1,1,1,0,0,1,0,0,0,0,1,1,0,11239072
+MVP Colony,2,2,1,17,18,717,0,557,Visakhapatnam,villa,medium,semi,0-5,4,1,0,1,0,0,0,1,0,0,1,1,0,0,1,1,1,1,6586757
+Gannavaram,2,3,3,16,24,2919,0,4950,Vijayawada,villa,high,semi,10-20,0,1,0,0,0,1,0,0,1,1,0,1,1,0,0,0,1,0,26089278
+Brodipet,4,5,0,15,16,1588,2,3239,Guntur,independent,low,semi,10-20,2,1,0,1,0,1,1,1,1,1,0,0,0,0,1,1,0,1,15882541
+Morampudi,1,1,2,2,3,2770,1,3617,Rajahmundry,apartment,low,full,5-10,3,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,0,0,23538671
+Nawabpet,2,3,2,2,13,2700,1,7097,Nellore,villa,low,full,10-20,5,1,1,0,1,1,1,1,0,1,1,1,1,0,1,0,0,1,17523594
+Tiruchanoor,1,2,0,2,17,1251,1,3179,Tirupati,villa,medium,semi,10-20,6,1,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,9631419
+ADB Road,4,3,3,14,15,3149,2,7208,Kakinada,apartment,medium,full,20+,4,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,1,19490934
+Ashok Nagar,2,1,3,10,26,1385,1,2226,Kurnool,apartment,low,semi,0-5,5,1,0,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,13779606
+Aravinda Nagar,1,2,2,9,12,906,1,3273,Anantapur,apartment,medium,full,20+,1,0,1,0,1,0,0,1,0,0,1,1,0,1,0,0,0,1,7618380
+Madhapur,1,1,3,12,26,1679,2,6688,Hyderabad,villa,low,semi,20+,5,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0,0,25068590
+Nakkalagutta,3,4,0,7,8,2282,0,969,Warangal,independent,high,unfurnished,5-10,5,1,0,1,1,1,1,1,0,1,1,1,0,0,1,0,0,1,22018318
+Jyothinagar,3,3,0,15,29,1458,0,4260,Karimnagar,independent,medium,full,20+,1,1,1,1,1,1,0,1,0,0,0,1,1,0,0,1,1,1,17824980
+Yelahanka,4,5,3,6,27,1382,0,1663,Bangalore,villa,low,unfurnished,20+,1,0,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,1,20338270
+Vijayanagar,1,1,0,10,13,1435,0,3753,Mysore,independent,low,unfurnished,20+,7,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0,1,16039414
+Derebail,3,4,0,7,28,1023,0,5833,Mangalore,villa,medium,full,5-10,2,0,0,1,0,1,1,1,0,1,1,1,0,0,0,0,1,0,15832391
+Anna Nagar,1,1,1,17,18,2953,2,5208,Chennai,villa,medium,semi,20+,3,1,0,0,0,0,0,1,1,1,1,1,0,1,1,1,0,0,19832694
+Singanallur,3,2,3,5,24,692,2,1580,Coimbatore,apartment,high,unfurnished,10-20,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,7185107
+Thirunagar,2,3,1,16,17,1275,0,2509,Madurai,independent,high,unfurnished,0-5,2,0,0,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,18485941
+Bandra,2,3,2,13,27,1612,0,5512,Mumbai,villa,high,unfurnished,0-5,6,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,14960559
+Hinjewadi,2,3,2,19,20,2483,1,5709,Pune,villa,low,semi,20+,5,0,0,0,1,0,0,0,1,0,1,1,0,0,1,1,1,0,25461621
+Sitabuldi,2,1,3,15,16,2988,0,2025,Nagpur,villa,low,semi,0-5,2,0,0,1,0,0,0,1,1,1,0,1,0,0,0,0,1,1,32234645
+Rohini,3,3,3,16,17,2254,0,4911,Delhi,independent,high,unfurnished,5-10,5,1,0,1,1,0,0,1,0,0,1,0,1,1,0,1,1,1,20320063
+Navrangpura,4,5,3,3,9,1724,0,755,Ahmedabad,villa,high,semi,0-5,3,1,1,1,1,1,1,0,1,1,1,1,0,0,1,1,0,0,10695600
+Piplod,3,4,3,1,29,1064,2,489,Surat,apartment,high,unfurnished,5-10,0,1,1,1,1,0,0,1,1,0,0,1,0,0,0,1,1,1,9682669
+Fort Kochi,3,2,3,10,26,2129,1,4511,Kochi,independent,medium,unfurnished,20+,7,0,1,1,0,0,1,0,0,1,0,1,0,1,1,1,0,1,14966359
+Vazhuthacaud,2,3,1,1,21,1921,1,7064,Trivandrum,villa,low,unfurnished,5-10,4,0,1,0,0,0,1,0,0,1,1,1,1,0,1,1,0,1,15574455
+MVP Colony,4,5,0,2,17,841,2,1682,Visakhapatnam,independent,low,full,5-10,6,0,0,0,0,1,1,1,1,0,1,1,0,1,1,0,0,1,7178845
+Auto Nagar,4,4,0,2,17,1407,0,2570,Vijayawada,independent,high,full,5-10,0,0,0,0,0,0,1,1,1,0,0,1,1,1,1,1,0,0,20313215
+Brodipet,3,2,1,2,23,2162,2,7942,Guntur,apartment,low,semi,10-20,0,0,1,1,0,1,0,1,0,0,0,0,1,0,0,0,0,1,31863243
+Tilak Road,3,2,3,17,24,532,2,5670,Rajahmundry,independent,high,semi,0-5,2,1,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,0,6521716
+Magunta Layout,1,2,3,1,12,730,0,2686,Nellore,apartment,high,unfurnished,20+,1,0,0,1,0,1,0,1,1,1,0,1,1,0,0,0,1,1,5771622
+Bairagipatteda,1,1,2,16,20,998,0,4026,Tirupati,villa,high,full,5-10,4,0,0,0,0,1,0,0,1,1,1,0,0,1,1,1,1,1,11259388
+Indrapalem,1,2,3,19,22,1267,2,899,Kakinada,apartment,medium,semi,20+,0,1,1,1,1,0,1,0,1,1,1,0,1,1,0,1,1,1,11418480
+Adoni Road,1,1,1,15,23,1481,0,3493,Kurnool,apartment,low,full,5-10,4,0,1,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,14102650
+Bellary Road,2,3,3,19,20,1732,2,1063,Anantapur,apartment,high,unfurnished,5-10,2,0,0,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,14741584
+Banjara Hills,1,1,3,15,24,2726,2,2760,Hyderabad,apartment,low,unfurnished,20+,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,1,1,16683037
+Hanamkonda,2,1,0,1,19,636,1,3345,Warangal,independent,medium,full,5-10,2,1,0,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,8194714
+Saraswathi Nagar,1,1,1,9,10,3057,2,2542,Karimnagar,independent,low,full,0-5,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,29439392
+Electronic City,4,4,1,18,19,2470,0,3094,Bangalore,villa,high,unfurnished,20+,0,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,1,1,20087942
+Kuvempunagar,4,3,3,12,13,2886,0,7024,Mysore,villa,medium,semi,20+,5,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,0,0,38962464
+Kadri,4,3,0,2,12,2043,2,7076,Mangalore,apartment,low,full,20+,2,1,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,9601245
+OMR,1,2,0,8,29,1302,0,6132,Chennai,independent,medium,semi,5-10,5,1,0,0,0,0,0,1,1,0,1,0,1,0,0,0,1,1,10987032
+RS Puram,1,1,3,12,18,1635,0,1654,Coimbatore,apartment,medium,semi,20+,6,0,1,0,1,0,1,1,0,1,0,1,1,0,1,0,0,0,11543420
+Tallakulam,1,1,2,17,19,2164,2,6842,Madurai,independent,low,full,10-20,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,1,0,18763227
+Dadar,3,3,2,9,10,1452,2,1020,Mumbai,apartment,medium,semi,10-20,2,0,1,0,0,0,0,0,1,1,0,1,1,1,0,1,0,1,15605700
+Wakad,1,2,2,12,22,2589,1,4112,Pune,apartment,low,full,20+,4,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,25709221
+Pratap Nagar,3,2,1,9,10,633,1,6211,Nagpur,villa,high,semi,0-5,2,0,1,1,1,1,1,1,0,1,1,0,0,1,0,1,0,1,7999756
+Dwarka,1,1,3,14,15,1633,1,3747,Delhi,apartment,low,unfurnished,20+,3,0,0,1,1,0,0,0,0,0,1,0,0,1,0,1,1,0,16583750
+SG Highway,4,5,0,10,11,693,0,7548,Ahmedabad,independent,medium,full,0-5,2,1,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,4567696
+Piplod,1,1,2,19,20,1153,0,2956,Surat,villa,high,unfurnished,10-20,1,1,0,0,1,0,1,1,1,0,1,1,0,0,0,1,1,0,13833668
+Fort Kochi,3,4,0,6,12,2587,1,5301,Kochi,villa,medium,unfurnished,5-10,5,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,1,22778590
+Vazhuthacaud,3,3,1,13,14,662,2,4574,Trivandrum,independent,high,full,0-5,7,0,1,0,1,0,1,1,1,0,1,0,1,1,1,0,0,0,9621295
+MVP Colony,4,4,0,16,26,2206,2,5247,Visakhapatnam,apartment,low,semi,20+,3,0,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,0,27266148
+Gannavaram,4,4,2,7,8,2183,1,5419,Vijayawada,independent,high,full,10-20,4,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,13923000
+Arundelpet,2,2,1,19,20,874,0,1479,Guntur,apartment,high,unfurnished,5-10,0,1,0,0,1,0,0,1,1,0,0,1,0,1,1,1,0,0,7196943
+Morampudi,3,4,1,19,20,1833,2,6506,Rajahmundry,apartment,high,semi,5-10,4,1,0,0,0,1,1,1,1,0,0,1,1,0,1,0,1,1,12966858
+Magunta Layout,4,4,3,1,28,1447,2,70,Nellore,apartment,low,full,20+,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,1,11340619
+Tiruchanoor,3,3,1,12,22,2229,0,6056,Tirupati,apartment,high,semi,20+,2,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,29385726
+Ramanayyapeta,3,2,3,11,19,1313,1,2449,Kakinada,villa,low,semi,20+,3,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,13030570
+Adoni Road,3,2,0,18,19,1012,0,3934,Kurnool,apartment,high,full,20+,4,1,0,1,0,0,0,1,1,0,1,1,0,0,0,1,0,1,9374402
+Ramnagar,3,3,3,8,9,2320,2,268,Anantapur,villa,low,full,5-10,0,0,1,0,1,1,0,1,1,1,1,0,1,1,0,1,0,1,16256508
+Banjara Hills,3,2,2,14,15,1932,0,5820,Hyderabad,independent,low,full,0-5,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,1,16798735
+Hanamkonda,2,3,2,4,18,1360,1,6452,Warangal,independent,high,semi,5-10,7,1,0,1,0,1,1,0,0,0,0,1,0,0,0,1,1,0,12391818
+Saraswathi Nagar,3,3,2,5,15,2457,1,7538,Karimnagar,villa,low,semi,10-20,5,1,1,1,0,1,1,0,1,1,1,1,1,1,0,1,0,1,20401854
+Electronic City,1,2,3,12,29,3088,2,782,Bangalore,villa,high,unfurnished,0-5,6,0,1,0,1,0,1,1,1,1,1,0,0,0,1,0,1,1,35298551
+Vijayanagar,1,1,1,11,12,652,0,2042,Mysore,independent,low,full,5-10,2,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,9032823
+Derebail,3,2,2,18,19,1153,0,5141,Mangalore,apartment,high,unfurnished,20+,3,0,1,0,1,0,0,1,1,1,1,1,0,0,1,0,0,0,11710270
+Adyar,1,2,1,2,3,1195,1,7098,Chennai,apartment,low,full,20+,4,0,0,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,9409080
+Singanallur,1,1,2,4,9,2221,0,7014,Coimbatore,independent,medium,semi,20+,0,1,1,1,1,0,1,1,1,0,0,0,1,1,1,0,1,1,22821192
+KK Nagar,1,1,2,2,5,2994,2,1712,Madurai,apartment,medium,full,5-10,3,1,0,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,23206400
+Andheri,2,1,0,5,21,855,0,2362,Mumbai,independent,medium,semi,20+,4,1,1,0,1,0,0,0,1,0,1,0,0,1,0,1,0,0,11409196
+Hinjewadi,1,2,2,9,14,1704,0,6475,Pune,villa,medium,full,20+,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,17660193
+Dharampeth,2,3,1,9,10,1914,1,981,Nagpur,apartment,medium,semi,20+,4,0,0,1,1,1,0,1,0,1,0,1,1,0,1,0,1,1,18921822
+Lajpat Nagar,4,3,3,19,20,772,2,5212,Delhi,apartment,medium,unfurnished,10-20,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0,1,4838288
+Maninagar,2,3,3,10,24,2318,2,3212,Ahmedabad,apartment,medium,unfurnished,10-20,4,1,0,0,1,1,0,1,1,0,0,0,1,0,1,0,1,0,14659710
+Piplod,3,4,3,1,7,531,0,3211,Surat,villa,low,semi,10-20,3,1,0,0,1,0,1,1,0,1,0,0,1,1,0,1,0,0,8020584
+Kakkanad,2,2,1,5,18,1723,2,5334,Kochi,villa,low,semi,10-20,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,12933110
+Pattom,4,5,3,1,3,1765,1,4438,Trivandrum,apartment,medium,full,0-5,4,0,0,1,0,0,0,0,1,0,1,1,0,0,1,1,1,0,18303018
+Dwaraka Nagar,2,1,2,18,27,2619,2,647,Visakhapatnam,independent,high,semi,20+,6,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,30667746
+Auto Nagar,1,1,2,16,17,2632,1,1553,Vijayawada,independent,medium,full,5-10,5,0,1,1,0,1,1,1,1,0,0,1,0,1,0,1,1,0,17086636
+Brodipet,2,3,0,1,20,1368,2,5079,Guntur,villa,medium,full,0-5,2,1,0,1,0,0,1,1,1,0,0,0,0,1,0,1,0,1,11493927
+Katheru,3,4,2,2,25,2401,1,5255,Rajahmundry,independent,medium,semi,5-10,3,1,0,1,1,0,1,0,0,1,1,0,0,0,0,1,0,0,22587154
+Vedayapalem,3,2,3,17,18,1300,1,175,Nellore,independent,medium,unfurnished,10-20,3,0,1,1,0,1,1,0,1,1,0,0,0,0,0,1,1,1,9348571
+Korlagunta,1,1,2,6,16,1211,0,3971,Tirupati,villa,low,semi,5-10,7,1,0,1,0,0,1,1,0,1,1,0,1,0,1,1,1,1,11708196
+Ramanayyapeta,1,1,2,3,26,2172,2,5347,Kakinada,independent,low,full,20+,3,0,1,0,1,0,0,1,1,0,0,0,0,1,1,1,0,1,20281420
+Balaji Nagar,2,1,0,13,14,1203,2,1540,Kurnool,villa,medium,unfurnished,20+,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,1,1,1,9926532
+Kalyandurg Road,2,3,0,1,28,1353,2,6886,Anantapur,villa,high,full,10-20,7,0,0,1,0,1,1,1,0,0,1,0,1,0,1,1,0,1,11986715
+Kondapur,2,2,0,4,20,1734,1,5293,Hyderabad,independent,low,unfurnished,10-20,2,0,1,0,1,1,0,0,1,1,1,1,1,0,0,1,1,1,28727147
+Balasamudram,2,1,3,19,20,1239,1,3617,Warangal,independent,high,full,0-5,2,1,0,0,0,1,0,1,1,0,1,0,0,1,1,1,1,0,14899331
+Saraswathi Nagar,2,1,0,17,18,2607,0,448,Karimnagar,villa,high,full,5-10,1,0,1,0,1,1,0,1,0,1,0,0,0,1,0,0,1,1,32875315
+Electronic City,2,1,3,0,7,2322,1,4278,Bangalore,villa,high,full,0-5,2,1,0,0,1,1,1,1,0,0,0,0,0,1,1,0,1,0,25934891
+Hebbal,1,1,3,8,22,2476,0,3389,Mysore,independent,low,full,20+,0,0,1,0,1,1,1,0,1,0,1,1,0,0,1,0,0,1,23152640
+Derebail,4,5,2,10,26,705,1,3361,Mangalore,apartment,medium,full,5-10,4,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,0,7472586
+Adyar,1,1,1,3,4,2264,2,6516,Chennai,villa,high,semi,10-20,3,1,0,0,1,0,0,0,1,0,0,1,1,1,1,0,0,1,38751442
+Gandhipuram,3,2,0,15,22,547,1,7372,Coimbatore,villa,low,semi,5-10,7,0,1,1,0,1,0,0,1,1,1,1,0,1,1,0,1,1,4981161
+Tallakulam,4,5,2,14,20,1359,1,4175,Madurai,apartment,medium,semi,10-20,6,1,0,1,1,1,1,0,1,0,0,0,0,0,0,1,0,1,14452305
+Powai,2,2,2,14,15,1524,0,4488,Mumbai,villa,low,full,0-5,4,0,1,1,0,1,0,1,0,1,1,1,0,1,0,1,0,0,12692282
+Wakad,2,3,2,13,16,2085,0,1310,Pune,apartment,medium,full,20+,2,1,1,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,14600535
+Manish Nagar,1,1,1,14,15,2546,2,6100,Nagpur,apartment,high,full,5-10,0,0,1,0,1,1,0,0,1,0,0,0,1,1,0,0,1,1,20061993
+Dwarka,1,1,3,13,21,1607,0,6490,Delhi,independent,low,semi,5-10,3,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,9189579
+Bopal,1,2,0,16,17,1571,1,4797,Ahmedabad,apartment,high,semi,0-5,0,1,1,0,1,0,1,0,0,0,1,1,1,1,0,0,0,0,15981553
+Adajan,4,5,1,9,10,817,2,1420,Surat,apartment,high,unfurnished,5-10,3,0,1,0,1,0,1,0,0,1,0,1,0,0,0,0,1,1,9558704
+Vyttila,4,5,0,11,13,2525,2,7131,Kochi,independent,low,full,10-20,7,1,1,1,0,0,0,0,0,1,1,1,1,1,0,0,1,1,27819433
+Pattom,4,4,0,9,21,2832,0,2514,Trivandrum,independent,low,unfurnished,10-20,1,1,1,0,1,1,0,1,0,0,1,1,0,1,0,0,1,1,39189248
+Seethammadhara,4,3,0,2,17,1432,2,2057,Visakhapatnam,villa,low,unfurnished,5-10,2,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1,1,12462027
+Auto Nagar,1,1,3,13,16,2714,0,912,Vijayawada,independent,medium,semi,10-20,7,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,26141005
+Brodipet,4,3,3,1,8,985,2,3270,Guntur,independent,high,full,5-10,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,0,15265136
+Morampudi,2,2,2,6,23,543,1,5496,Rajahmundry,apartment,low,unfurnished,10-20,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1,4063340
+Vedayapalem,2,3,2,14,25,1530,1,1459,Nellore,independent,medium,unfurnished,20+,4,0,1,1,1,0,1,0,1,0,1,1,0,1,1,0,1,1,24041080
+Korlagunta,3,3,1,2,7,1842,2,3321,Tirupati,villa,low,semi,5-10,4,1,0,0,1,0,1,1,1,0,0,1,1,0,1,0,0,1,22925511
+Indrapalem,3,2,0,3,29,1926,0,7381,Kakinada,independent,high,unfurnished,20+,7,1,0,0,0,0,0,0,1,0,0,1,1,1,1,1,0,0,31279455
+Balaji Nagar,3,3,2,8,9,1734,2,393,Kurnool,villa,high,full,10-20,2,1,1,0,1,0,0,1,1,1,0,1,0,1,0,1,0,0,19519630
+Kalyandurg Road,4,4,0,11,12,2840,2,554,Anantapur,independent,medium,full,0-5,1,0,1,1,0,1,0,0,1,0,1,1,0,0,1,1,1,0,25739756
+Gachibowli,4,3,1,19,20,1408,1,794,Hyderabad,villa,medium,unfurnished,20+,1,1,1,0,0,1,1,0,1,0,1,0,0,1,1,1,1,0,8262846
+Nakkalagutta,1,1,3,18,19,2349,2,7230,Warangal,apartment,high,unfurnished,5-10,4,1,0,1,0,0,0,0,1,0,1,1,1,1,0,0,0,0,21454127
+Kothirampur,4,5,2,2,24,1173,0,2945,Karimnagar,independent,medium,unfurnished,0-5,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,0,0,1,17946250
+Indiranagar,4,3,3,15,21,2199,2,5861,Bangalore,independent,high,full,10-20,3,0,0,0,0,0,1,1,1,0,0,1,1,1,1,0,1,0,11998181
+Jayalakshmipuram,3,3,3,7,8,2100,1,6639,Mysore,villa,high,unfurnished,20+,5,1,0,1,0,0,1,0,1,1,1,1,0,1,0,0,1,0,27264140
+Derebail,1,1,3,16,17,1987,1,7885,Mangalore,independent,medium,semi,20+,5,0,1,0,1,1,0,0,1,1,1,1,1,1,0,1,1,1,13743950
+OMR,4,3,3,15,16,651,1,2043,Chennai,independent,high,unfurnished,10-20,3,0,1,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,7524012
+RS Puram,3,3,1,6,28,1440,1,1464,Coimbatore,independent,medium,unfurnished,5-10,3,0,1,1,1,0,0,1,1,0,1,0,0,0,0,0,1,0,12712887
+KK Nagar,4,3,3,5,16,1240,2,2356,Madurai,villa,low,full,20+,7,1,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,19858725
+Andheri,1,1,0,16,29,1051,0,7454,Mumbai,villa,high,semi,0-5,7,0,0,0,0,1,0,0,1,1,1,1,0,1,0,1,0,1,8841172
+Kothrud,3,3,0,1,21,811,2,5834,Pune,villa,high,full,5-10,6,1,1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1,8067084
+Manish Nagar,3,2,2,9,10,2562,1,14,Nagpur,apartment,medium,semi,0-5,7,1,1,1,0,0,0,1,0,1,1,0,1,1,1,0,0,0,18021376
+Saket,3,2,1,15,28,2062,1,2704,Delhi,apartment,medium,unfurnished,5-10,6,0,0,1,0,0,1,1,0,1,0,0,0,1,1,0,0,0,19293221
+Navrangpura,2,2,1,4,5,1231,0,416,Ahmedabad,villa,medium,full,5-10,4,1,1,1,0,0,1,0,0,1,1,0,1,0,0,1,0,1,15007323
+Varachha,3,4,2,6,24,2996,2,6673,Surat,apartment,high,unfurnished,10-20,1,0,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,34716908
+Fort Kochi,3,3,1,19,20,3020,2,5517,Kochi,apartment,high,semi,20+,1,0,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,28613169
+Vazhuthacaud,4,5,1,17,21,507,0,5758,Trivandrum,villa,medium,full,0-5,5,1,0,0,1,0,1,0,1,0,1,0,0,0,0,1,0,1,8236326
+Gajuwaka,1,1,2,11,12,2330,0,5940,Visakhapatnam,villa,low,full,10-20,1,0,0,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,18784892
+Kanuru,3,2,2,18,19,1195,0,4991,Vijayawada,apartment,low,semi,10-20,6,1,0,0,1,0,1,1,0,1,0,0,1,0,0,0,0,0,9552307
+Nallapadu,2,1,1,13,14,2467,1,5530,Guntur,villa,high,full,20+,7,0,1,1,0,1,0,1,1,0,0,1,1,1,0,0,0,0,27123773
+Danavaipeta,3,2,0,11,25,3176,2,6028,Rajahmundry,villa,high,full,5-10,5,1,0,1,0,0,1,0,0,1,0,1,1,1,0,1,1,0,28151670
+Balaji Nagar,1,2,3,15,26,1471,0,3385,Nellore,villa,high,full,20+,1,1,0,0,1,1,1,0,1,1,0,1,1,0,0,1,0,0,14153173
+Tiruchanoor,1,1,0,2,27,1644,2,3045,Tirupati,villa,medium,unfurnished,0-5,6,1,0,1,0,0,0,0,1,0,0,1,1,0,0,1,1,0,24871156
+Sarpavaram,3,2,2,7,11,981,1,2752,Kakinada,apartment,low,full,5-10,5,0,1,0,0,1,1,1,1,0,1,1,0,0,0,1,0,1,8685840
+Deva Nagar,1,1,0,18,19,1833,1,7634,Kurnool,villa,low,unfurnished,5-10,1,1,1,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,24630597
+Housing Board Colony,1,1,2,2,9,1260,2,6676,Anantapur,villa,high,semi,5-10,7,1,0,1,1,0,0,1,0,0,1,0,1,1,1,1,0,1,9993820
+Gachibowli,2,3,1,7,8,917,2,6168,Hyderabad,villa,low,unfurnished,0-5,6,0,1,0,0,1,1,1,0,1,0,0,1,0,0,1,1,1,12975498
+Hanamkonda,4,4,1,2,15,2644,2,5688,Warangal,apartment,medium,semi,10-20,6,1,1,1,0,1,1,1,1,1,0,0,1,0,1,1,0,0,33696260
+Kothirampur,3,3,3,19,29,828,2,3110,Karimnagar,independent,medium,unfurnished,10-20,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,5764257
+BTM Layout,1,1,0,9,22,1212,0,1461,Bangalore,apartment,low,full,10-20,6,0,1,1,0,0,1,1,1,0,1,1,1,1,1,0,0,1,7952796
+Kuvempunagar,2,1,0,15,16,1729,2,3501,Mysore,apartment,high,semi,5-10,1,1,1,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,22694775
+Derebail,3,3,2,14,29,2626,1,969,Mangalore,independent,high,full,10-20,1,1,1,0,1,0,1,1,1,1,0,0,1,1,0,1,1,1,25168726
+T Nagar,1,1,0,12,13,1617,0,6107,Chennai,independent,high,semi,5-10,7,1,1,0,0,0,1,0,0,1,0,1,1,0,0,1,1,0,19435189
+Singanallur,4,5,2,10,27,1980,1,5222,Coimbatore,independent,medium,full,10-20,7,1,0,1,1,1,0,0,1,1,0,0,1,1,1,0,1,1,22687880
+Anna Nagar,2,2,2,8,12,880,0,2782,Madurai,independent,medium,full,5-10,2,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,1,0,11127758
+Andheri,4,3,0,6,8,1993,2,5669,Mumbai,apartment,low,semi,10-20,3,1,0,1,1,0,0,0,1,0,1,0,0,0,1,1,1,1,22700530
+Hinjewadi,2,2,2,13,25,1930,0,6550,Pune,independent,high,unfurnished,5-10,5,1,1,1,0,0,0,0,0,1,0,0,1,1,0,0,1,0,24520347
+Wardha Road,1,1,2,8,21,1930,0,4755,Nagpur,independent,high,semi,20+,7,0,0,0,1,0,0,1,0,1,1,0,0,1,0,0,1,0,20672588
+Saket,4,4,2,14,15,878,2,2192,Delhi,villa,medium,unfurnished,10-20,6,1,1,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,11924442
+Satellite,4,5,0,12,27,2624,0,3821,Ahmedabad,apartment,high,full,10-20,6,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,26116480
+Vesu,2,1,2,7,23,1818,2,2048,Surat,independent,high,semi,5-10,7,1,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,0,21660527
+Aluva,4,5,0,1,9,2469,2,6886,Kochi,villa,medium,semi,5-10,3,1,0,0,1,0,0,1,1,1,0,1,1,0,1,0,0,1,11408415
+Kowdiar,3,3,1,11,12,2558,1,4888,Trivandrum,independent,medium,full,20+,2,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,14544184
+Seethammadhara,4,3,0,9,26,1828,1,3081,Visakhapatnam,apartment,medium,unfurnished,20+,1,0,0,1,0,1,1,0,1,1,1,1,0,0,1,1,1,1,18955725
+Gannavaram,3,2,1,11,14,1938,0,7787,Vijayawada,independent,medium,full,0-5,4,1,1,1,1,0,0,0,0,0,1,1,1,0,0,1,1,1,14405824
+Brodipet,1,1,2,3,23,1465,1,1898,Guntur,apartment,low,semi,5-10,3,0,1,1,0,1,1,1,0,0,1,1,0,0,0,1,0,0,18667952
+Dowleswaram,1,1,1,15,16,2696,1,337,Rajahmundry,apartment,low,full,0-5,0,1,1,1,0,0,1,0,1,1,0,1,1,1,1,1,0,1,21491600
+Nawabpet,3,3,3,4,23,2334,2,7199,Nellore,villa,medium,unfurnished,20+,7,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,1,27269893
+Alipiri,2,1,3,0,2,2313,1,7281,Tirupati,villa,low,semi,20+,0,1,0,0,1,0,1,1,1,1,1,1,1,0,1,0,1,1,15039583
+Indrapalem,3,4,3,10,14,1349,2,7046,Kakinada,independent,low,semi,20+,1,1,0,0,0,1,1,1,1,1,1,0,1,0,0,0,1,1,10676601
+Adoni Road,3,2,2,0,17,1245,1,761,Kurnool,independent,high,semi,5-10,0,1,0,1,1,1,1,0,0,0,1,0,1,1,0,1,1,0,15873543
+Housing Board Colony,2,3,3,9,19,2628,2,252,Anantapur,apartment,high,unfurnished,20+,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,1,13543701
+Madhapur,3,3,0,14,22,1227,2,7689,Hyderabad,apartment,low,unfurnished,10-20,4,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,5843223
+Nakkalagutta,4,3,0,15,26,2192,2,1998,Warangal,apartment,high,semi,20+,5,1,0,0,1,1,1,1,0,1,1,0,1,0,0,0,1,0,13909628
+Jyothinagar,3,4,2,17,28,2125,0,3195,Karimnagar,villa,medium,unfurnished,0-5,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,24643628
+Electronic City,1,1,3,12,20,2142,2,1753,Bangalore,apartment,medium,full,5-10,6,0,0,0,0,1,1,0,1,1,1,1,0,0,0,1,1,0,24130042
+Jayalakshmipuram,2,1,2,17,18,572,2,7800,Mysore,villa,medium,unfurnished,10-20,5,0,0,0,0,0,1,1,0,1,1,1,1,0,1,0,1,1,6694198
+Kadri,4,3,1,0,17,2595,0,7750,Mangalore,villa,low,semi,10-20,2,0,1,0,0,1,0,1,0,1,1,1,1,0,1,1,1,1,22726689
+OMR,1,1,3,12,13,2468,0,1602,Chennai,independent,low,full,5-10,4,1,1,1,1,0,0,1,0,0,0,0,1,0,0,1,0,0,17430732
+Saravanampatti,2,1,3,7,22,2195,0,1382,Coimbatore,villa,medium,unfurnished,20+,5,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,0,0,15550717
+Tallakulam,4,5,3,19,20,686,0,7756,Madurai,villa,medium,semi,5-10,4,1,0,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,7219896
+Dadar,3,2,0,0,1,1163,1,6819,Mumbai,independent,low,full,20+,3,0,0,1,1,1,1,1,1,1,0,0,1,1,0,1,0,0,10737550
+Wakad,4,4,2,15,26,2293,1,2703,Pune,apartment,low,full,10-20,4,1,0,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,19431787
+Pratap Nagar,3,3,2,4,7,1182,0,7279,Nagpur,villa,medium,full,0-5,5,1,0,0,0,1,0,1,1,0,0,1,1,0,1,0,0,1,7150416
+Dwarka,2,1,1,10,11,2740,1,2589,Delhi,villa,medium,unfurnished,20+,1,1,1,1,0,0,1,1,1,1,0,1,0,1,0,0,0,1,44828929
+SG Highway,2,1,2,8,24,2532,0,2386,Ahmedabad,independent,high,unfurnished,5-10,6,0,0,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,20542180
+Vesu,2,1,3,11,12,2649,0,5507,Surat,apartment,high,full,0-5,1,0,1,0,1,1,0,0,1,0,1,1,1,1,1,1,1,1,35993077
+Kakkanad,1,1,2,16,19,734,2,4784,Kochi,villa,high,unfurnished,20+,1,0,0,0,1,1,0,0,1,0,1,1,0,1,1,1,1,0,7055667
+Pattom,4,3,3,18,19,1698,1,2141,Trivandrum,independent,low,unfurnished,5-10,6,1,1,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,16741423
+Seethammadhara,2,1,1,6,12,2336,1,7122,Visakhapatnam,independent,low,semi,10-20,0,1,1,1,0,0,1,0,1,1,0,1,1,1,1,1,0,1,21141621
+Poranki,4,5,0,14,20,2522,0,2264,Vijayawada,villa,medium,full,5-10,0,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,24658923
+Brodipet,2,2,1,5,24,1964,0,3210,Guntur,villa,low,semi,0-5,2,1,1,1,1,0,0,0,0,0,1,1,0,1,0,1,1,1,24488776
+Morampudi,1,1,1,13,14,1983,2,6517,Rajahmundry,independent,low,full,20+,4,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,13549273
+Stonehousepet,3,2,0,13,14,1149,1,1569,Nellore,apartment,medium,semi,5-10,0,1,1,1,1,0,1,0,0,1,0,1,0,1,0,0,1,0,14379240
+Bairagipatteda,3,3,0,4,11,1845,0,6260,Tirupati,independent,low,unfurnished,20+,2,1,1,0,1,1,1,1,0,1,1,0,0,0,1,1,1,1,17988030
+Jagannaickpur,2,2,0,2,23,3136,0,5914,Kakinada,apartment,high,full,0-5,7,0,0,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,31031585
+Balaji Nagar,3,2,1,10,11,1277,2,747,Kurnool,villa,low,full,10-20,6,0,1,1,0,0,0,1,1,0,0,0,1,0,1,1,1,0,17509650
+Housing Board Colony,3,2,2,15,16,1407,0,6284,Anantapur,villa,low,unfurnished,5-10,3,1,0,0,1,0,0,0,0,1,1,1,1,0,1,1,1,1,19217184
+Banjara Hills,1,1,0,5,27,2189,2,1770,Hyderabad,apartment,low,semi,10-20,2,0,1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0,19674028
+Kazipet,3,4,3,2,23,1314,1,5267,Warangal,independent,medium,semi,5-10,2,1,1,0,0,0,1,1,0,1,1,0,0,0,1,0,1,1,9964909
+Jyothinagar,1,1,0,3,20,1141,1,7871,Karimnagar,independent,medium,full,0-5,6,1,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,7664543
+Whitefield,3,4,1,3,7,621,2,401,Bangalore,independent,medium,semi,10-20,1,1,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,11224304
+Gokulam,1,2,3,11,17,2479,2,6561,Mysore,apartment,low,semi,0-5,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,15192554
+Kadri,1,1,1,15,16,1161,0,7299,Mangalore,apartment,high,semi,10-20,0,0,1,1,0,1,0,1,1,0,0,1,0,0,1,0,1,1,19541018
+T Nagar,1,2,2,13,15,1080,2,7366,Chennai,independent,medium,unfurnished,10-20,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,8524531
+Singanallur,4,3,3,17,18,629,0,5870,Coimbatore,villa,high,full,5-10,5,0,1,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,9935037
+Anna Nagar,2,3,3,6,12,1447,1,785,Madurai,villa,high,semi,0-5,5,0,0,1,0,0,0,0,1,0,0,0,1,1,0,1,1,1,12393364
+Andheri,4,4,2,7,9,2472,2,6088,Mumbai,apartment,medium,unfurnished,0-5,5,1,1,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,24284565
+Hadapsar,4,4,3,1,8,1490,0,276,Pune,apartment,low,unfurnished,5-10,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,1,12091248
+Manish Nagar,4,5,2,16,17,2471,0,954,Nagpur,apartment,high,semi,20+,5,0,0,1,1,0,0,0,1,1,1,1,1,0,1,1,0,0,13016670
+Dwarka,4,3,1,13,14,1012,1,3103,Delhi,villa,high,semi,5-10,2,0,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,1,10210417
+Maninagar,4,3,2,14,21,3058,0,5190,Ahmedabad,villa,low,unfurnished,5-10,4,0,0,1,0,0,1,1,0,0,1,1,0,0,1,0,1,1,16802559
+Adajan,1,1,3,13,23,1852,1,7430,Surat,villa,medium,unfurnished,0-5,0,1,1,0,1,0,1,0,0,1,1,0,0,1,0,1,0,1,12130605
+Edappally,3,3,1,19,20,3093,1,2425,Kochi,villa,low,unfurnished,0-5,2,1,0,1,0,0,1,0,0,1,0,0,0,1,1,1,1,1,27480777
+Kowdiar,3,3,2,12,13,961,0,21,Trivandrum,villa,low,semi,5-10,4,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,11262601
+Gajuwaka,1,2,3,0,19,2684,2,5599,Visakhapatnam,independent,high,unfurnished,0-5,5,1,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,1,23461578
+Auto Nagar,3,3,1,5,20,1694,1,4236,Vijayawada,independent,high,semi,10-20,3,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,17853179
+Pattabhipuram,1,1,0,4,5,1791,1,5706,Guntur,apartment,medium,full,5-10,0,1,0,1,0,1,0,1,0,0,1,1,0,1,0,0,0,0,20754624
+Dowleswaram,2,1,2,4,5,2541,0,6516,Rajahmundry,apartment,low,full,5-10,3,1,1,1,0,1,0,1,0,1,1,0,1,0,1,0,0,1,14132268
+Stonehousepet,4,3,3,15,17,1592,0,1973,Nellore,independent,medium,unfurnished,20+,3,1,0,1,0,0,1,1,1,1,1,0,0,1,1,1,0,0,15385559
+Korlagunta,1,1,1,4,11,2475,0,6928,Tirupati,villa,medium,semi,0-5,6,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,31278348
+ADB Road,3,4,3,7,21,1884,0,6325,Kakinada,villa,high,semi,20+,2,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,1,1,20967634
+Deva Nagar,3,4,3,14,15,1828,1,6178,Kurnool,independent,low,unfurnished,10-20,7,1,1,1,0,0,0,0,0,1,1,0,1,1,1,0,1,0,16350331
+Housing Board Colony,1,2,0,14,17,1204,0,7144,Anantapur,independent,medium,full,0-5,7,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,10434808
+Kukatpally,3,4,0,7,16,1792,1,5880,Hyderabad,villa,high,semi,10-20,3,1,0,0,1,1,1,0,1,1,0,1,1,1,0,1,1,1,15033892
+Hanamkonda,2,1,1,3,27,940,1,2122,Warangal,villa,low,unfurnished,5-10,3,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,7905455
+Kothirampur,3,4,2,3,15,988,1,4802,Karimnagar,independent,low,semi,5-10,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,8171824
+Whitefield,1,2,1,16,17,2050,0,6434,Bangalore,villa,medium,semi,10-20,6,0,0,1,0,0,1,0,1,0,0,1,1,0,0,0,1,1,19274887
+Jayalakshmipuram,4,3,3,13,14,2194,1,2450,Mysore,independent,high,full,5-10,7,0,0,1,0,1,1,0,0,1,1,1,1,1,1,0,0,0,19830532
+Bejai,3,4,2,15,28,584,2,6304,Mangalore,apartment,low,semi,20+,6,1,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,8367183
+T Nagar,4,3,0,5,20,2530,0,1294,Chennai,villa,low,full,5-10,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,17919614
+Singanallur,1,1,2,11,18,2481,1,3496,Coimbatore,villa,low,full,20+,6,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,23899708
+Tallakulam,4,3,3,13,19,2513,0,4757,Madurai,independent,high,unfurnished,10-20,3,1,1,1,0,1,1,1,0,0,1,1,0,0,1,0,1,0,28807449
+Andheri,2,2,2,6,20,2347,0,5429,Mumbai,independent,low,unfurnished,5-10,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,13845135
+Kothrud,4,4,1,0,20,680,1,3851,Pune,apartment,medium,unfurnished,10-20,4,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,8959927
+Dharampeth,3,2,2,3,25,1846,1,323,Nagpur,independent,medium,semi,10-20,5,0,0,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,15734110
+Dwarka,3,2,3,1,2,2399,2,916,Delhi,villa,high,full,0-5,6,1,1,1,1,0,0,1,0,0,1,1,0,1,1,1,1,1,26131287
+Bopal,4,4,0,9,13,2465,2,5458,Ahmedabad,apartment,low,unfurnished,5-10,2,1,1,1,0,1,0,0,0,1,1,1,1,0,1,0,0,1,21163864
+Vesu,4,4,0,4,29,533,2,4235,Surat,villa,low,full,20+,7,1,1,0,1,1,1,0,0,1,1,1,1,0,0,0,1,1,6419144
+Fort Kochi,1,1,2,5,24,3235,1,100,Kochi,apartment,low,full,5-10,7,0,1,1,1,0,0,0,0,1,0,1,0,0,1,0,0,1,26586949
+Pattom,3,4,3,10,27,657,0,6344,Trivandrum,independent,low,full,0-5,2,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,8590633
+Dwaraka Nagar,3,3,2,6,11,1959,1,1419,Visakhapatnam,independent,low,unfurnished,0-5,6,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,9892065
+Gannavaram,3,2,0,14,23,2380,0,3962,Vijayawada,villa,medium,semi,10-20,2,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,25077370
+Brodipet,2,1,2,12,18,567,2,5485,Guntur,apartment,medium,semi,5-10,5,1,0,1,1,0,0,0,1,0,1,1,1,1,0,1,1,1,6670412
+Katheru,4,3,0,13,26,2120,2,1345,Rajahmundry,independent,high,unfurnished,10-20,5,1,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,0,18151673
+Vedayapalem,2,2,0,10,11,768,2,6630,Nellore,independent,medium,unfurnished,10-20,4,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,8948162
+Bairagipatteda,2,2,1,11,15,1005,1,542,Tirupati,apartment,low,full,5-10,4,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,1,1,8364460
+Jagannaickpur,1,1,1,15,16,2345,2,4458,Kakinada,independent,low,full,0-5,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,1,1,1,28570139
+Deva Nagar,3,2,0,16,17,1771,0,446,Kurnool,apartment,medium,unfurnished,5-10,2,0,1,1,0,0,1,1,1,1,1,1,0,1,0,0,1,1,18703471
+Bellary Road,2,3,2,9,20,1186,0,3628,Anantapur,villa,low,full,10-20,7,1,0,1,1,0,0,0,0,0,1,0,1,1,0,0,1,1,15810502
+Madhapur,2,1,2,17,29,2111,2,5140,Hyderabad,villa,low,semi,20+,6,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,14090139
+Nakkalagutta,4,3,1,8,9,1447,2,6665,Warangal,apartment,high,unfurnished,5-10,3,1,1,1,0,1,0,0,0,0,0,1,0,1,0,0,1,1,10037401
+Jyothinagar,1,1,3,4,12,905,1,3874,Karimnagar,apartment,medium,semi,5-10,3,0,1,0,1,1,1,1,0,0,0,0,0,1,0,0,1,0,7762554
+Whitefield,4,5,3,13,14,2414,1,7234,Bangalore,independent,medium,semi,5-10,2,0,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,23396241
+Vijayanagar,1,1,1,3,4,782,2,4860,Mysore,apartment,low,unfurnished,20+,2,1,1,0,0,0,0,1,0,0,1,1,0,0,1,0,1,1,5077855
+Surathkal,2,1,0,14,21,2272,1,5852,Mangalore,apartment,medium,unfurnished,0-5,2,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,0,0,16274853
+OMR,4,5,3,15,16,1255,1,7720,Chennai,apartment,high,full,5-10,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,11135404
+Peelamedu,2,1,1,18,28,916,1,3199,Coimbatore,apartment,low,full,10-20,5,1,0,0,0,0,1,0,1,0,1,0,0,1,0,1,1,1,11297815
+Thirunagar,2,3,0,11,12,2562,1,4439,Madurai,independent,high,semi,10-20,5,0,0,0,0,1,1,0,0,0,1,0,1,0,1,1,0,1,19311775
+Bandra,2,1,1,12,20,1423,1,3946,Mumbai,independent,low,unfurnished,0-5,4,1,0,0,1,0,0,0,1,1,0,0,1,0,1,0,0,1,18503447
+Wakad,2,1,2,16,17,1002,0,3379,Pune,villa,low,unfurnished,10-20,4,1,1,0,1,1,0,0,0,1,0,0,1,1,1,1,0,1,10690483
+Pratap Nagar,1,2,1,13,20,879,1,1833,Nagpur,independent,medium,unfurnished,0-5,2,1,1,0,0,1,0,0,1,1,0,0,1,1,1,0,1,0,10893701
+Saket,3,4,2,0,16,1536,2,6964,Delhi,apartment,low,unfurnished,0-5,6,0,0,1,1,0,0,1,0,0,0,1,0,1,0,0,1,0,13588652
+Satellite,1,1,2,19,23,2095,2,1701,Ahmedabad,apartment,high,unfurnished,0-5,1,0,0,1,0,1,1,1,1,0,0,1,1,1,1,1,0,1,26848105
+Adajan,2,3,3,10,26,1942,1,7023,Surat,apartment,low,semi,10-20,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,0,1,17717309
+Fort Kochi,3,2,1,15,24,1300,2,1960,Kochi,apartment,medium,unfurnished,0-5,1,1,0,0,1,0,1,1,0,1,0,1,1,1,0,0,0,0,7359819
+Kazhakkoottam,4,5,0,10,23,1124,1,2217,Trivandrum,independent,low,full,20+,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,15334055
+Seethammadhara,2,3,1,2,16,2253,2,770,Visakhapatnam,apartment,high,semi,0-5,2,0,0,1,1,1,0,0,0,0,0,1,1,1,0,1,1,0,24250415
+Gannavaram,3,2,2,3,19,1955,2,1586,Vijayawada,apartment,low,semi,5-10,4,0,0,1,1,1,0,1,0,0,1,1,1,1,1,0,1,0,19866224
+Nallapadu,4,3,0,7,18,847,1,937,Guntur,apartment,high,unfurnished,0-5,0,1,0,1,1,0,0,0,0,1,1,0,0,1,1,0,1,1,9233603
+Dowleswaram,2,3,3,9,11,692,2,2742,Rajahmundry,apartment,low,full,10-20,2,1,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,7713563
+Balaji Nagar,2,1,2,16,19,1751,1,7381,Nellore,independent,high,unfurnished,0-5,4,1,0,0,1,1,0,1,1,0,0,1,1,1,1,1,1,0,16854474
+Bairagipatteda,2,3,1,13,14,2830,2,4414,Tirupati,apartment,low,unfurnished,10-20,3,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,18965119
+Ramanayyapeta,3,3,3,9,26,947,2,287,Kakinada,independent,medium,semi,20+,2,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,1,0,8001416
+Deva Nagar,1,1,3,13,27,825,1,7514,Kurnool,villa,low,full,20+,6,1,1,0,0,0,1,0,1,0,1,1,0,0,1,0,0,0,6994152
+Kalyandurg Road,4,3,3,11,21,2099,2,2161,Anantapur,apartment,medium,unfurnished,5-10,2,1,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,13583520
+Kukatpally,1,1,3,5,20,1688,2,5324,Hyderabad,independent,high,full,10-20,4,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,1,1,15511178
+Kazipet,1,2,0,13,24,1627,1,6474,Warangal,villa,low,semi,20+,6,1,1,0,0,0,0,1,1,0,1,1,0,1,1,1,0,1,16514665
+Kothirampur,1,1,3,4,17,1389,0,2256,Karimnagar,villa,medium,unfurnished,5-10,3,0,1,1,1,0,0,0,1,0,0,1,0,1,1,0,1,1,10480645
+Electronic City,4,4,3,2,8,1869,0,2507,Bangalore,apartment,high,full,5-10,2,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,1,17063267
+Kuvempunagar,3,4,0,4,25,894,2,3808,Mysore,villa,high,unfurnished,5-10,4,0,0,1,0,1,1,0,1,1,1,0,0,1,0,1,0,0,9521712
+Surathkal,1,1,3,2,28,1102,0,2979,Mangalore,villa,medium,semi,10-20,4,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,0,0,13123337
+Adyar,4,3,3,2,21,2483,0,6822,Chennai,independent,low,semi,5-10,4,1,0,1,0,0,0,1,1,0,1,0,1,1,0,1,1,0,25928126
+RS Puram,2,1,3,8,11,2368,1,4839,Coimbatore,independent,low,semi,20+,6,0,1,0,1,1,0,1,0,0,0,1,1,1,1,0,1,1,25615040
+Thirunagar,2,3,3,11,29,2527,1,4625,Madurai,apartment,medium,unfurnished,0-5,6,1,1,0,0,0,0,0,1,0,1,0,0,1,1,0,1,1,20732810
+Andheri,3,3,0,12,24,594,1,7056,Mumbai,independent,medium,unfurnished,10-20,4,0,0,1,1,1,0,0,0,0,1,1,0,0,0,1,1,0,6242094
+Hinjewadi,1,2,3,8,23,2527,0,7889,Pune,apartment,medium,unfurnished,5-10,7,0,1,1,0,1,0,0,1,1,1,1,1,0,0,1,1,1,19197538
+Sitabuldi,1,2,0,3,10,1859,2,148,Nagpur,villa,medium,semi,20+,6,1,1,1,1,1,1,1,1,0,0,0,1,0,1,0,0,1,9745501
+Rohini,4,5,0,7,28,656,2,7955,Delhi,apartment,low,unfurnished,10-20,6,0,0,1,1,0,0,1,1,1,0,0,1,0,0,0,0,1,8823144
+Maninagar,3,2,3,16,17,3133,1,644,Ahmedabad,independent,low,unfurnished,0-5,0,0,0,0,0,0,1,0,0,0,1,0,1,0,1,1,0,1,27678128
+Adajan,1,2,2,8,21,2357,2,7540,Surat,independent,low,semi,5-10,4,0,1,0,0,0,1,1,1,1,0,0,1,1,0,1,1,1,18196334
+Aluva,1,1,2,9,21,2272,2,6679,Kochi,independent,high,full,5-10,5,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,0,0,14834041
+Technopark,1,2,3,1,29,646,0,3456,Trivandrum,independent,medium,unfurnished,5-10,1,1,0,1,0,0,0,1,1,1,0,1,0,0,1,1,0,0,7938681
+Gajuwaka,2,1,1,7,8,1268,1,1463,Visakhapatnam,independent,medium,semi,5-10,4,0,0,0,1,0,0,1,0,1,0,0,1,1,1,1,0,0,13219410
+Kanuru,1,1,0,17,28,2544,2,1917,Vijayawada,villa,medium,unfurnished,20+,4,1,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1,29599101
+Brodipet,1,1,0,9,12,2545,0,2068,Guntur,independent,medium,full,20+,2,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,18053397
+Katheru,3,3,0,10,18,1615,0,174,Rajahmundry,apartment,low,unfurnished,10-20,7,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,11078078
+Magunta Layout,4,4,1,12,13,2401,1,2708,Nellore,apartment,low,semi,10-20,6,1,1,0,1,1,0,0,0,1,0,1,1,0,1,1,0,0,30661940
+Korlagunta,2,3,2,9,29,924,0,4257,Tirupati,apartment,medium,unfurnished,0-5,7,1,0,1,0,1,0,1,0,0,1,1,1,1,1,0,1,1,8689738
+Jagannaickpur,1,1,3,1,29,2808,0,6456,Kakinada,independent,low,full,0-5,2,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,21838877
+Ashok Nagar,2,1,0,16,17,2325,0,259,Kurnool,villa,low,unfurnished,10-20,2,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,13504695
+Kalyandurg Road,1,1,2,11,12,2067,0,2932,Anantapur,villa,low,semi,20+,5,1,1,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,16028373
+Gachibowli,3,2,3,9,29,1736,0,5518,Hyderabad,independent,high,full,5-10,3,1,1,0,1,0,0,0,1,1,0,0,1,1,1,1,0,0,16735219
+Subedari,4,5,3,8,9,2705,1,5633,Warangal,villa,low,unfurnished,20+,3,1,0,0,1,1,1,1,0,0,1,1,0,0,1,1,0,0,34613150
+Kothirampur,3,3,2,18,28,1204,2,7563,Karimnagar,apartment,low,semi,10-20,7,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,1,1,11639920
+Indiranagar,1,1,2,7,16,2937,2,2084,Bangalore,independent,high,full,0-5,5,0,0,1,0,1,0,1,0,1,0,0,1,0,0,1,1,0,40473777
+Gokulam,2,3,1,12,13,822,2,6455,Mysore,independent,low,semi,10-20,3,0,1,1,0,1,0,1,1,0,1,1,0,1,0,0,1,0,11450918
+Kadri,1,1,3,18,19,2845,2,6638,Mangalore,independent,medium,unfurnished,10-20,6,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,13657310
+Velachery,4,3,2,5,21,2623,2,7584,Chennai,independent,high,unfurnished,10-20,1,1,0,0,0,0,1,1,0,0,0,0,1,1,1,1,0,1,37303886
+Singanallur,3,2,2,18,26,2397,2,4590,Coimbatore,villa,low,semi,20+,4,1,0,0,1,0,0,1,1,1,0,1,1,1,1,0,1,1,23689704
+Thirunagar,4,3,0,4,5,949,1,113,Madurai,independent,high,unfurnished,20+,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,0,0,1,17526593
+Bandra,2,3,2,7,12,1364,0,4384,Mumbai,independent,medium,unfurnished,5-10,2,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,1,9424831
+Wakad,1,1,0,12,27,2174,1,2600,Pune,villa,medium,semi,10-20,2,0,0,0,1,1,0,1,0,0,1,0,1,0,1,1,1,1,15592347
+Pratap Nagar,1,2,0,9,10,1810,0,2926,Nagpur,independent,medium,full,10-20,3,0,1,1,1,1,0,0,0,1,0,1,0,1,0,0,1,0,16784391
+Dwarka,3,3,1,15,24,1916,1,51,Delhi,independent,high,full,0-5,1,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,1,20421330
+Maninagar,4,4,2,0,8,2225,0,163,Ahmedabad,independent,medium,unfurnished,5-10,2,1,0,1,1,0,0,0,1,0,0,1,1,0,0,1,1,1,17834807
+Piplod,2,1,2,18,24,1746,1,4761,Surat,villa,high,unfurnished,10-20,7,0,1,1,0,0,0,0,0,1,1,1,0,0,1,0,1,1,14633466
+Edappally,1,2,1,15,16,830,0,3107,Kochi,apartment,low,unfurnished,10-20,2,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,7775225
+Technopark,1,2,1,18,19,908,0,4336,Trivandrum,independent,medium,semi,10-20,2,0,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1,0,6813286
+Dwaraka Nagar,4,5,3,7,23,2493,1,2097,Visakhapatnam,independent,medium,unfurnished,10-20,2,0,1,1,1,1,1,1,1,0,1,0,0,0,1,1,0,1,18456851
+Benz Circle,1,2,0,17,18,3062,1,1615,Vijayawada,villa,medium,full,10-20,2,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,23736924
+Arundelpet,3,3,0,12,13,745,1,5693,Guntur,independent,medium,semi,10-20,2,1,1,0,1,0,1,1,0,0,1,0,1,1,0,0,0,1,5573515
+Dowleswaram,2,1,2,17,18,2463,0,393,Rajahmundry,independent,high,full,20+,1,1,0,1,0,1,1,1,1,1,0,1,1,1,0,1,1,0,23670373
+Magunta Layout,4,3,3,14,24,1380,0,459,Nellore,villa,high,semi,20+,2,1,1,0,0,0,0,1,1,1,0,1,0,1,0,1,1,0,14098727
+Renigunta,2,2,2,15,17,674,2,2370,Tirupati,independent,low,full,5-10,4,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,1,7827775
+Ramanayyapeta,3,4,3,7,28,1438,0,6909,Kakinada,villa,low,semi,5-10,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,1,1,1,15214731
+Balaji Nagar,1,1,2,17,18,2380,2,648,Kurnool,villa,low,semi,5-10,1,0,0,0,1,0,1,0,1,1,0,0,1,1,0,0,1,0,22800566
+Kalyandurg Road,3,3,1,14,15,576,2,815,Anantapur,independent,high,unfurnished,10-20,2,1,1,1,1,0,0,1,0,1,1,1,1,1,1,0,0,1,9673955
+Gachibowli,1,1,1,9,10,1869,2,5243,Hyderabad,independent,high,semi,5-10,6,1,0,0,1,0,0,1,0,0,1,1,0,0,1,1,0,0,22523325
+Subedari,2,2,3,5,17,2834,0,7495,Warangal,independent,medium,unfurnished,0-5,7,0,1,1,1,0,1,0,1,0,0,0,0,0,1,0,1,1,33613182
+Housing Board Colony,3,3,3,13,28,2524,2,6288,Karimnagar,villa,medium,unfurnished,20+,1,0,1,0,1,1,1,0,1,0,1,0,1,0,0,1,0,0,26250732
+Electronic City,3,4,2,18,19,1398,1,2660,Bangalore,independent,low,full,10-20,5,0,0,0,1,0,1,1,1,0,1,0,0,0,0,1,0,1,16471191
+Jayalakshmipuram,3,2,0,6,7,1743,0,5023,Mysore,independent,medium,full,20+,5,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,1,13961635
+Derebail,3,2,1,12,16,1139,2,2975,Mangalore,independent,low,unfurnished,0-5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,14735442
+T Nagar,2,3,2,4,5,2945,0,1166,Chennai,apartment,medium,unfurnished,20+,5,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,20607400
+Gandhipuram,1,1,1,14,20,1913,0,2023,Coimbatore,apartment,medium,full,10-20,2,1,1,1,0,1,0,1,0,1,1,0,0,1,1,0,1,0,21089777
+KK Nagar,3,2,2,2,23,2080,0,1422,Madurai,villa,medium,full,20+,3,1,0,0,0,1,1,0,1,1,0,1,1,0,1,0,0,0,20488377
+Dadar,1,2,3,8,9,891,2,3874,Mumbai,independent,medium,semi,0-5,1,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,6122738
+Kothrud,4,5,0,11,12,999,0,5513,Pune,villa,high,full,10-20,6,0,0,1,1,0,0,0,1,1,1,1,0,1,1,1,0,1,11446472
+Sitabuldi,2,1,1,5,23,2271,1,4177,Nagpur,apartment,medium,full,10-20,1,1,1,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,25412297
+Rohini,1,1,1,9,15,800,0,3800,Delhi,independent,high,unfurnished,10-20,4,1,1,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,7300745
+Maninagar,3,4,3,16,17,1192,1,5699,Ahmedabad,villa,low,unfurnished,0-5,1,0,1,0,1,1,0,1,0,1,1,0,1,0,0,0,1,0,9118726
+Varachha,3,2,2,7,8,2036,2,1058,Surat,villa,high,full,20+,2,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,25909765
+Fort Kochi,4,3,2,13,28,1052,2,3415,Kochi,independent,high,full,0-5,0,1,0,1,0,1,1,1,0,0,0,1,1,0,1,1,0,1,13411983
+Kazhakkoottam,3,4,2,2,19,1049,0,4682,Trivandrum,independent,high,unfurnished,20+,3,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,1,0,11268963
+MVP Colony,2,3,1,0,13,471,2,188,Visakhapatnam,villa,low,unfurnished,10-20,7,1,0,0,1,0,0,1,0,1,0,0,0,1,1,1,1,0,7496407
+Kanuru,1,2,2,18,19,2276,2,187,Vijayawada,villa,medium,full,0-5,7,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,1,21392840
+Lakshmipuram,2,1,1,16,17,1759,2,5518,Guntur,villa,low,full,5-10,1,0,0,1,0,0,0,1,1,0,0,0,1,0,1,0,1,0,19486907
+Morampudi,4,5,1,12,22,626,0,7014,Rajahmundry,villa,low,full,5-10,2,1,1,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,6530643
+Vedayapalem,3,3,2,12,22,2361,1,7797,Nellore,villa,low,full,10-20,5,1,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,0,21727917
+Renigunta,3,2,2,7,8,1586,2,1945,Tirupati,apartment,low,full,20+,0,1,1,1,1,0,1,1,1,1,0,0,1,1,0,1,1,0,13759289
+Sarpavaram,4,4,1,13,19,2580,0,2481,Kakinada,apartment,medium,full,0-5,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,1,0,27976995
+Balaji Nagar,4,5,3,3,4,2737,0,258,Kurnool,apartment,medium,unfurnished,10-20,3,1,1,0,1,1,1,1,0,1,1,0,1,1,0,1,0,1,31019743
+Bellary Road,1,2,0,3,10,1263,2,4459,Anantapur,apartment,high,semi,0-5,1,1,1,1,0,1,0,0,1,0,1,0,0,0,0,1,1,1,9320976
+Gachibowli,1,2,0,2,21,2224,1,2746,Hyderabad,apartment,high,unfurnished,10-20,7,0,0,1,0,0,1,1,0,0,0,0,0,0,1,1,1,1,18467338
+Balasamudram,3,2,1,19,20,616,2,6338,Warangal,independent,medium,unfurnished,20+,3,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,1,6018756
+Saraswathi Nagar,1,2,1,15,16,1589,0,3098,Karimnagar,apartment,low,semi,20+,2,0,1,0,1,1,1,0,0,1,1,0,0,0,1,1,1,0,18231588
+Electronic City,2,2,2,9,10,2187,0,7219,Bangalore,villa,high,unfurnished,10-20,7,1,1,0,0,1,1,0,0,0,1,0,1,0,1,0,0,1,17034171
+Vijayanagar,1,1,2,4,18,2291,1,7277,Mysore,independent,high,full,20+,6,0,0,1,1,0,1,0,1,0,1,0,0,1,1,1,1,0,14242732
+Surathkal,1,1,1,18,19,798,2,6603,Mangalore,independent,medium,unfurnished,0-5,1,1,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,0,8015649
+Velachery,2,3,0,16,20,1165,0,5727,Chennai,apartment,low,unfurnished,5-10,5,1,0,0,1,1,0,1,0,1,0,0,1,1,0,0,1,0,8661654
+Singanallur,3,4,0,16,17,1792,0,1671,Coimbatore,apartment,medium,unfurnished,5-10,7,1,0,1,0,0,1,0,0,1,0,1,1,0,1,1,0,0,10467562
+Tallakulam,2,3,1,15,16,2079,2,5054,Madurai,independent,low,semi,0-5,4,1,1,0,0,0,0,0,1,0,1,1,1,1,1,0,1,0,16963551
+Thane,2,3,2,19,27,2008,0,411,Mumbai,independent,medium,full,5-10,0,0,1,1,1,1,1,0,0,0,1,1,1,0,1,0,0,1,15498725
+Hadapsar,2,3,3,15,23,1684,1,3299,Pune,villa,low,unfurnished,10-20,7,0,1,1,1,1,1,1,1,1,0,1,0,0,1,0,1,0,17964667
+Sitabuldi,4,5,2,0,28,1065,1,6173,Nagpur,independent,low,full,0-5,7,0,0,1,1,1,0,0,1,0,0,1,1,1,0,0,0,1,9655545
+Rohini,4,3,0,7,20,2526,1,4856,Delhi,villa,low,unfurnished,0-5,7,0,0,1,1,0,1,1,1,1,0,1,1,0,1,0,1,0,22052819
+Navrangpura,3,2,0,5,29,523,1,5737,Ahmedabad,apartment,low,unfurnished,20+,1,1,1,1,1,0,1,0,0,1,1,1,1,0,1,1,0,0,5153049
+Adajan,2,2,0,11,18,1881,2,7939,Surat,apartment,medium,unfurnished,20+,6,1,1,1,0,1,1,1,1,1,1,0,0,1,1,0,0,1,9009562
+Fort Kochi,2,1,0,5,6,2247,1,3601,Kochi,apartment,high,full,5-10,2,0,1,1,1,1,0,1,1,1,0,0,0,0,0,1,1,1,28215439
+Technopark,2,2,3,12,13,2316,1,6298,Trivandrum,apartment,high,semi,0-5,5,0,1,0,0,0,0,1,1,0,0,1,0,0,0,1,0,1,16438117
+Seethammadhara,1,1,3,17,18,2815,2,902,Visakhapatnam,independent,medium,unfurnished,10-20,4,0,0,1,1,0,0,1,0,1,0,0,1,1,0,1,1,0,19689852
+Gannavaram,4,3,0,15,16,2185,2,3403,Vijayawada,independent,high,full,20+,2,0,1,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,11931159
+Pattabhipuram,3,4,1,16,17,1206,2,7478,Guntur,apartment,medium,semi,10-20,7,1,0,0,1,0,1,0,0,1,0,0,1,1,0,0,1,0,6787840
+Danavaipeta,3,3,1,10,23,1076,0,3306,Rajahmundry,independent,low,semi,5-10,4,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1,0,0,12626100
+Magunta Layout,1,1,0,3,4,1626,2,1049,Nellore,apartment,medium,semi,10-20,6,1,1,1,0,0,1,1,1,1,0,1,0,0,0,1,0,0,14167968
+Tiruchanoor,2,3,3,12,29,2636,1,6348,Tirupati,independent,medium,unfurnished,10-20,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,1,30856554
+Sarpavaram,2,2,3,16,17,3258,2,1149,Kakinada,apartment,medium,full,10-20,6,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,29159587
+Deva Nagar,2,1,0,2,3,593,2,3421,Kurnool,apartment,medium,unfurnished,10-20,5,1,0,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1,5847932
+Ramnagar,4,5,2,16,17,1676,2,120,Anantapur,apartment,low,unfurnished,5-10,2,1,1,0,0,0,0,0,1,1,1,1,0,1,1,1,0,0,16161469
+Madhapur,3,2,0,5,21,1801,1,6131,Hyderabad,villa,high,full,5-10,7,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,1,1,9098084
+Kazipet,2,3,0,11,26,1898,0,3292,Warangal,independent,low,full,10-20,3,1,0,0,1,0,0,1,1,0,0,1,1,1,0,0,0,1,23166882
+Jyothinagar,1,2,3,15,16,1005,2,4328,Karimnagar,independent,low,unfurnished,0-5,4,0,1,0,0,1,0,0,1,0,0,1,1,0,1,1,0,1,10083926
+Whitefield,2,1,2,17,18,1452,2,2665,Bangalore,apartment,high,semi,20+,0,0,1,1,0,1,1,0,0,1,1,0,1,0,0,1,0,0,12088944
+Hebbal,1,1,2,18,19,2063,2,7792,Mysore,apartment,high,unfurnished,0-5,4,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,14378265
+Bejai,1,1,0,13,26,1243,0,5896,Mangalore,apartment,high,full,5-10,5,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,14449629
+Adyar,4,4,3,6,17,972,2,1561,Chennai,apartment,medium,unfurnished,5-10,5,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,0,0,5093088
+Peelamedu,4,5,2,0,13,700,0,4383,Coimbatore,villa,low,full,0-5,4,0,1,1,1,1,0,0,1,1,1,1,1,0,1,1,0,0,5768559
+Tallakulam,3,2,2,16,21,824,0,5999,Madurai,apartment,medium,full,0-5,7,0,1,0,1,0,1,0,0,1,0,0,1,1,1,1,1,0,10110390
+Thane,3,4,0,14,26,2322,1,1407,Mumbai,apartment,medium,semi,20+,5,1,0,0,0,1,1,1,0,0,1,1,0,0,0,1,0,1,23482657
+Hinjewadi,1,1,0,4,20,1998,2,6725,Pune,independent,medium,full,20+,0,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,12769808
+Pratap Nagar,1,2,3,11,21,1110,0,5138,Nagpur,villa,medium,full,0-5,1,0,0,0,1,1,1,1,1,1,1,0,1,0,0,1,0,0,10653055
+Rohini,1,2,2,3,4,593,0,4115,Delhi,villa,medium,semi,0-5,1,1,0,0,0,0,1,1,0,1,1,0,1,1,0,1,1,0,8303178
+Navrangpura,1,2,2,10,14,922,0,2792,Ahmedabad,independent,medium,full,10-20,7,0,0,1,0,0,1,1,0,0,1,1,0,1,1,1,0,0,6554605
+Piplod,4,4,1,16,25,1483,1,7495,Surat,apartment,low,full,0-5,2,1,1,0,1,0,1,1,1,1,1,1,1,0,1,0,1,1,18197827
+Edappally,3,2,0,19,25,1022,1,4599,Kochi,villa,low,semi,10-20,6,1,0,1,1,1,1,1,1,1,0,0,1,0,1,0,0,1,13768211
+Technopark,4,3,1,6,19,2689,1,2219,Trivandrum,villa,high,semi,5-10,4,0,1,1,1,0,1,1,0,0,0,1,1,1,0,0,1,0,27170560
+Madhurawada,1,1,3,10,25,2429,2,3657,Visakhapatnam,independent,high,unfurnished,0-5,7,1,1,0,1,1,1,0,1,0,1,1,1,0,0,1,1,0,25705676
+Poranki,1,1,0,5,8,1747,0,2617,Vijayawada,villa,medium,unfurnished,20+,6,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,12473263
+Brodipet,4,4,0,5,22,2719,1,7471,Guntur,villa,high,unfurnished,20+,5,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0,1,0,21209580
+Dowleswaram,2,2,3,5,22,1883,1,2776,Rajahmundry,apartment,low,semi,0-5,6,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,18660436
+Magunta Layout,3,2,0,3,27,2879,1,1076,Nellore,apartment,high,full,0-5,4,1,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,0,26995983
+Alipiri,2,2,3,16,22,1093,0,6260,Tirupati,villa,medium,semi,20+,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,1,1,1,14967238
+Sarpavaram,4,5,3,4,11,2219,2,4321,Kakinada,villa,medium,unfurnished,10-20,2,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,1,0,18013668
+Ashok Nagar,1,1,2,17,18,2877,0,425,Kurnool,villa,medium,unfurnished,0-5,2,1,0,1,1,1,0,0,1,0,1,1,0,1,1,1,1,0,24223681
+Ramnagar,2,3,2,10,21,865,0,7774,Anantapur,villa,medium,full,10-20,0,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,11216723
+Madhapur,1,2,0,18,19,2385,0,6396,Hyderabad,villa,medium,full,20+,6,1,0,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,28053156
+Subedari,2,2,3,13,14,2508,0,7229,Warangal,apartment,low,full,10-20,2,1,1,0,0,0,1,1,0,1,0,1,0,0,1,1,0,0,21700297
+Kothirampur,3,2,1,7,23,1808,2,4755,Karimnagar,apartment,low,full,0-5,5,0,1,0,0,1,1,1,1,1,1,0,1,0,0,0,1,1,19057991
+Yelahanka,4,5,1,4,26,2055,0,3160,Bangalore,independent,medium,unfurnished,20+,2,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,15297009
+Jayalakshmipuram,1,1,1,3,28,2438,2,7757,Mysore,independent,medium,full,0-5,0,1,1,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,22056558
+Derebail,3,3,2,14,24,977,1,1700,Mangalore,villa,high,full,20+,5,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,9065628
+Velachery,2,3,3,5,17,1272,1,5412,Chennai,apartment,high,full,0-5,5,0,1,1,0,1,0,1,0,0,0,1,1,1,1,0,0,1,10028317
+Peelamedu,3,2,3,7,22,1838,0,4467,Coimbatore,apartment,high,unfurnished,20+,6,0,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,0,17507531
+Anna Nagar,1,1,0,0,1,1699,2,1061,Madurai,independent,low,unfurnished,20+,5,1,0,1,0,0,1,1,0,1,1,0,1,1,0,0,1,1,17014229
+Bandra,2,3,2,8,20,1270,1,6671,Mumbai,villa,low,semi,10-20,6,1,0,1,0,0,0,0,0,1,0,1,1,0,1,0,1,1,17565570
+Wakad,1,1,0,9,12,1895,0,6296,Pune,apartment,medium,semi,20+,4,1,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,16184095
+Dharampeth,2,2,2,16,17,1269,2,4060,Nagpur,apartment,high,full,5-10,4,1,0,1,1,0,1,1,1,0,1,1,1,0,0,1,1,0,10905622
+Saket,4,4,0,0,22,734,0,2013,Delhi,apartment,medium,full,20+,1,1,1,0,0,0,1,1,0,0,1,0,1,1,1,1,1,1,9428767
+Bopal,1,2,2,16,17,695,2,5490,Ahmedabad,apartment,high,unfurnished,0-5,7,1,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,6322638
+Piplod,3,2,2,8,18,703,0,4151,Surat,apartment,high,unfurnished,10-20,1,1,0,1,0,1,0,1,1,1,0,1,0,0,1,0,0,0,8161941
+Fort Kochi,1,2,2,6,7,2870,2,1902,Kochi,apartment,high,full,5-10,7,1,0,0,1,0,0,1,0,1,1,0,1,0,1,0,0,0,17488766
+Pattom,2,3,0,14,28,1968,0,1991,Trivandrum,independent,high,unfurnished,20+,7,0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,1,1,26177419
+Dwaraka Nagar,1,1,0,3,4,2238,2,7118,Visakhapatnam,apartment,high,semi,20+,4,1,1,1,0,0,0,1,0,0,1,1,1,1,0,1,1,1,25381793
+Benz Circle,4,3,0,6,27,1987,1,6620,Vijayawada,independent,medium,unfurnished,5-10,5,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,1,1,15324454
+Brodipet,3,2,3,0,17,1264,1,7007,Guntur,apartment,high,full,5-10,3,0,1,1,1,1,1,0,0,1,1,0,0,0,1,0,1,1,12598545
+Katheru,1,1,0,16,17,1330,2,6468,Rajahmundry,independent,low,semi,5-10,7,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0,1,12360629
+Magunta Layout,4,5,1,11,12,1104,1,348,Nellore,villa,high,unfurnished,10-20,7,0,0,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,12905970
+Bairagipatteda,3,2,1,10,21,2581,0,5650,Tirupati,apartment,high,unfurnished,20+,4,1,1,0,0,0,1,1,1,1,1,0,0,1,1,0,1,0,29636252
+Sarpavaram,4,3,3,11,12,1873,0,7086,Kakinada,apartment,low,full,10-20,3,0,1,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,17581804
+Ashok Nagar,1,2,1,13,14,1296,1,3323,Kurnool,independent,high,unfurnished,0-5,1,0,1,0,1,1,1,1,0,0,1,0,1,1,0,1,1,0,11769081
+Bellary Road,1,1,1,10,27,921,2,5873,Anantapur,independent,low,full,20+,3,1,1,0,0,0,0,0,1,0,1,0,0,1,1,0,1,1,13847396
+Kondapur,1,2,1,8,13,1854,2,3329,Hyderabad,apartment,medium,full,5-10,7,0,1,1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,20314200
+Nakkalagutta,3,3,2,5,15,2954,0,7931,Warangal,apartment,medium,semi,10-20,2,0,0,1,1,1,0,0,0,1,1,1,1,0,0,0,1,1,25943703
+Kothirampur,3,3,0,11,12,2369,0,2272,Karimnagar,apartment,high,full,20+,5,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,1,0,15298470
+Whitefield,1,2,2,11,12,1733,2,7502,Bangalore,independent,high,full,5-10,2,0,0,0,1,0,1,1,0,0,1,1,0,0,1,0,0,1,14480457
+Vijayanagar,1,1,1,14,15,2176,1,7531,Mysore,apartment,low,full,20+,7,0,0,1,0,1,0,1,0,1,0,0,1,1,1,0,1,1,14070634
+Kankanady,2,1,2,7,8,2624,0,5527,Mangalore,apartment,high,full,20+,2,1,0,0,1,1,1,1,1,1,0,1,0,0,1,0,0,1,20597729
+OMR,2,1,1,7,28,988,1,3717,Chennai,villa,medium,full,20+,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,12553414
+Peelamedu,3,4,0,2,29,1633,0,3482,Coimbatore,independent,high,full,5-10,7,0,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,19520986
+KK Nagar,4,5,2,2,13,1749,0,6698,Madurai,villa,high,semi,10-20,3,0,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,16331685
+Powai,2,2,1,6,12,1932,2,841,Mumbai,independent,low,unfurnished,0-5,4,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,25454655
+Wakad,3,3,2,6,22,775,0,4212,Pune,independent,low,full,5-10,1,1,0,1,0,0,0,0,1,1,0,1,1,1,1,1,1,1,6880902
+Sitabuldi,2,2,3,12,19,2239,1,1510,Nagpur,independent,high,semi,0-5,4,1,1,1,0,1,1,1,0,1,1,0,1,0,1,1,1,1,16341515
+Dwarka,3,2,0,18,19,680,0,6723,Delhi,independent,medium,unfurnished,0-5,6,1,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,4653393
+Maninagar,3,2,1,4,24,1575,1,694,Ahmedabad,independent,low,unfurnished,20+,5,1,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0,0,15611327
+Adajan,4,5,2,0,7,2846,2,7337,Surat,apartment,low,full,0-5,1,1,1,1,0,1,0,1,1,0,0,0,1,0,1,1,0,1,30590623
+Fort Kochi,2,2,3,16,17,2487,2,1315,Kochi,villa,medium,unfurnished,20+,1,1,1,0,0,1,1,0,1,1,1,0,0,0,1,1,1,0,23924715
+Kowdiar,4,4,1,12,13,1574,2,3228,Trivandrum,villa,low,semi,5-10,0,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,10091181
+Gajuwaka,3,3,2,0,3,912,1,5315,Visakhapatnam,villa,medium,unfurnished,10-20,5,0,0,0,0,1,1,1,0,1,1,1,1,0,1,0,0,1,13031203
+Benz Circle,4,3,1,10,23,2570,0,2211,Vijayawada,independent,low,full,0-5,6,1,1,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,17014350
+Nallapadu,1,2,3,18,19,971,0,710,Guntur,villa,high,semi,5-10,7,1,0,0,1,1,1,1,0,1,1,0,1,0,0,0,1,0,11789701
+Dowleswaram,2,2,2,0,3,2091,1,6694,Rajahmundry,apartment,high,semi,20+,7,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,21850847
+Balaji Nagar,2,3,2,18,19,2871,2,1071,Nellore,independent,high,full,0-5,3,1,0,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,29426077
+Tiruchanoor,3,4,0,6,13,2659,1,3849,Tirupati,apartment,medium,full,10-20,1,1,1,1,0,0,1,0,0,0,0,1,0,0,1,0,1,1,20401510
+Jagannaickpur,4,5,1,15,23,2645,0,4554,Kakinada,apartment,low,semi,0-5,0,0,0,0,1,1,0,1,0,1,1,1,0,0,1,1,1,1,30276971
+Balaji Nagar,3,2,3,14,22,1923,0,307,Kurnool,apartment,high,unfurnished,20+,1,1,0,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,19432879
+Aravinda Nagar,2,2,1,4,21,2638,2,7273,Anantapur,villa,medium,unfurnished,20+,4,1,1,0,0,1,0,1,1,0,0,0,1,0,0,1,0,0,17678937
+Kukatpally,3,2,1,6,14,2517,1,2701,Hyderabad,apartment,medium,full,20+,7,1,1,1,1,1,1,0,0,1,0,1,0,1,0,0,1,0,19274916
+Hanamkonda,4,5,0,4,5,629,1,6766,Warangal,apartment,medium,semi,10-20,2,0,1,1,1,0,0,1,0,1,1,1,0,1,1,0,0,1,5498432
+Jyothinagar,3,2,1,5,29,1916,2,6226,Karimnagar,villa,low,full,0-5,7,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,0,0,15188634
+Yelahanka,2,2,0,4,29,2765,0,538,Bangalore,apartment,high,semi,10-20,5,0,0,1,1,1,0,0,0,1,1,0,1,1,0,1,1,0,17445554
+Gokulam,1,2,2,4,20,1911,1,2363,Mysore,villa,high,unfurnished,10-20,4,1,1,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,15470167
+Surathkal,4,5,0,3,4,1963,0,2440,Mangalore,independent,high,semi,10-20,5,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,18209272
+T Nagar,2,1,1,17,18,925,2,2461,Chennai,independent,low,semi,20+,6,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0,15464220
+Peelamedu,1,1,2,16,19,2613,1,5015,Coimbatore,villa,medium,semi,5-10,2,1,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,27303733
+Thirunagar,1,1,3,12,26,2330,2,2442,Madurai,villa,low,full,0-5,3,1,0,0,1,1,0,0,0,1,1,0,1,1,0,0,0,1,16537010
+Thane,4,4,2,0,18,1912,2,5060,Mumbai,independent,medium,full,0-5,6,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,22255860
+Kothrud,2,2,0,5,27,1350,2,2222,Pune,villa,low,full,5-10,7,0,0,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,11272113
+Wardha Road,3,4,3,18,19,1295,1,7759,Nagpur,apartment,low,full,10-20,6,1,1,0,0,1,0,0,1,1,0,1,0,1,0,0,0,0,8672192
+Rohini,4,5,0,1,10,1346,1,3331,Delhi,villa,low,full,10-20,1,0,1,1,1,0,0,0,0,1,1,0,0,1,0,0,1,0,16797020
+Navrangpura,1,1,1,3,6,1460,0,7545,Ahmedabad,villa,low,full,20+,1,1,0,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,21402573
+Varachha,1,1,0,6,11,607,0,2213,Surat,apartment,medium,unfurnished,5-10,2,1,0,1,1,0,1,1,1,0,1,1,1,0,0,1,0,1,6822071
+Kakkanad,2,2,0,11,16,1277,2,215,Kochi,villa,low,full,0-5,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,11610432
+Pattom,1,1,1,16,17,1253,2,844,Trivandrum,apartment,medium,unfurnished,20+,4,1,0,0,1,1,1,1,0,0,1,0,1,0,1,0,1,0,9395343
+Seethammadhara,4,4,3,1,24,2419,0,5226,Visakhapatnam,apartment,low,semi,10-20,7,0,0,0,1,1,0,0,1,0,1,1,1,1,0,1,1,1,13797410
+Poranki,3,2,3,4,27,2091,0,399,Vijayawada,apartment,high,unfurnished,10-20,6,0,1,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,19856401
+Pattabhipuram,3,2,2,13,19,1494,0,2397,Guntur,independent,high,unfurnished,10-20,7,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,15228554
+Dowleswaram,3,3,1,2,23,1512,0,7517,Rajahmundry,apartment,high,full,5-10,4,1,0,1,0,0,1,1,0,0,1,0,0,1,1,0,1,0,11990016
+Balaji Nagar,1,2,2,7,9,1333,0,5471,Nellore,independent,low,full,0-5,1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,1,16549710
+Bairagipatteda,4,3,0,14,25,2343,1,2916,Tirupati,villa,low,full,5-10,7,0,1,0,1,0,1,1,1,1,0,1,0,1,1,0,1,1,17532037
+Sarpavaram,2,1,1,0,15,2821,2,3489,Kakinada,villa,medium,unfurnished,5-10,4,1,0,1,0,0,1,1,0,1,1,1,1,0,1,1,1,1,35707743
+Ashok Nagar,2,3,1,11,23,2654,1,6565,Kurnool,independent,medium,unfurnished,10-20,7,1,0,0,1,0,0,0,1,1,0,0,1,1,0,1,1,1,28002857
+Housing Board Colony,2,3,2,9,10,1108,1,6272,Anantapur,villa,low,full,0-5,5,0,1,1,0,1,0,1,0,0,0,0,1,0,0,0,0,1,16108597
+Kukatpally,2,2,2,9,19,1204,0,4545,Hyderabad,apartment,low,unfurnished,0-5,6,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0,0,1,7019951
+Hanamkonda,1,1,3,15,16,1330,2,4664,Warangal,apartment,high,full,0-5,2,0,0,0,0,1,1,0,1,0,1,0,1,0,1,0,1,1,11081318
+Jyothinagar,4,5,2,14,28,1989,1,7216,Karimnagar,villa,medium,unfurnished,5-10,1,1,0,1,1,0,0,1,0,1,1,0,1,1,1,1,1,0,21814957
+Indiranagar,3,4,2,2,9,627,1,3822,Bangalore,independent,high,unfurnished,5-10,3,1,0,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1,6337650
+Hebbal,3,3,0,10,14,1504,0,151,Mysore,villa,high,unfurnished,0-5,1,0,1,1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,14190525
+Surathkal,2,1,2,18,19,1766,2,6272,Mangalore,independent,medium,full,20+,5,1,0,0,1,0,0,0,0,1,1,0,1,1,1,1,1,0,19965565
+Adyar,1,1,1,7,18,1147,2,3417,Chennai,independent,high,semi,10-20,0,0,1,1,1,1,1,0,0,0,0,1,0,1,1,1,0,1,7124052
+RS Puram,3,3,0,11,12,1017,0,4453,Coimbatore,villa,high,full,10-20,4,1,1,1,0,0,1,1,0,0,0,0,1,0,1,1,1,0,13332085
+Goripalayam,3,3,3,19,20,1347,1,3344,Madurai,independent,high,unfurnished,0-5,1,0,1,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,21954602
+Andheri,1,2,1,17,18,2292,1,3835,Mumbai,independent,high,full,20+,2,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,16818984
+Hinjewadi,2,1,1,7,15,1966,0,3235,Pune,apartment,medium,semi,20+,6,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,12864096
+Pratap Nagar,3,3,2,11,12,1453,0,7472,Nagpur,apartment,low,unfurnished,0-5,1,0,0,1,0,1,1,1,1,0,1,0,1,1,0,0,1,0,11747899
+Karol Bagh,4,3,2,3,4,1641,2,4309,Delhi,independent,high,unfurnished,5-10,4,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,16501868
+Maninagar,3,2,2,12,17,2940,2,7348,Ahmedabad,apartment,medium,full,20+,7,0,1,0,0,1,1,1,0,1,1,1,0,0,1,1,1,1,22526198
+Varachha,1,1,1,9,24,2234,2,4509,Surat,villa,medium,full,5-10,4,0,1,1,0,1,0,1,0,1,1,1,0,1,0,1,1,0,24804750
+Aluva,4,4,1,5,6,1526,2,1385,Kochi,independent,low,semi,10-20,6,0,0,1,1,1,1,0,1,0,1,0,0,0,0,1,1,0,17415365
+Kazhakkoottam,4,4,2,0,11,2186,2,6437,Trivandrum,villa,high,semi,10-20,5,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,20797093
+MVP Colony,2,1,2,7,8,1511,1,4907,Visakhapatnam,independent,low,full,5-10,4,0,0,1,0,1,0,1,1,0,0,1,1,1,0,0,0,0,11564088
+Auto Nagar,4,4,1,12,13,698,1,7637,Vijayawada,villa,medium,semi,0-5,5,1,0,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,8601636
+Brodipet,4,5,2,12,13,634,1,5429,Guntur,villa,medium,full,0-5,6,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,6049204
+Dowleswaram,4,4,1,19,20,1384,2,370,Rajahmundry,apartment,low,full,0-5,2,0,0,1,0,0,0,1,0,1,0,1,1,1,0,1,0,0,11311332
+Stonehousepet,4,5,0,0,11,2336,2,7457,Nellore,villa,high,semi,10-20,3,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1,24120139
+Alipiri,2,3,1,6,7,709,1,2091,Tirupati,independent,low,unfurnished,0-5,1,0,1,0,1,1,1,0,0,1,1,0,1,1,1,0,0,0,7868984
+Ramanayyapeta,3,3,3,14,15,1582,2,6419,Kakinada,independent,low,unfurnished,0-5,3,1,1,0,0,1,1,1,0,1,0,1,1,0,0,0,1,0,11091945
+Balaji Nagar,1,1,0,1,26,3014,0,2142,Kurnool,villa,medium,full,10-20,2,0,0,1,0,1,0,0,1,0,0,0,1,0,1,0,1,0,31578752
+Kalyandurg Road,3,4,1,11,19,717,0,258,Anantapur,villa,medium,semi,20+,4,0,0,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,7444097
+Kukatpally,3,2,0,10,21,2706,2,4445,Hyderabad,apartment,medium,semi,5-10,7,0,1,0,0,0,0,0,1,1,0,0,1,0,1,1,1,0,21979867
+Subedari,2,1,1,12,13,2254,1,2779,Warangal,apartment,medium,full,20+,6,0,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,32104127
+Mankamma Thota,2,2,2,4,27,2112,2,2078,Karimnagar,villa,medium,semi,5-10,2,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,0,21969489
+Indiranagar,3,3,3,2,21,2079,0,3892,Bangalore,apartment,medium,unfurnished,20+,5,1,1,0,0,1,0,0,1,0,0,0,0,1,1,0,1,1,20637603
+Kuvempunagar,1,1,1,8,25,1220,0,6163,Mysore,villa,medium,unfurnished,20+,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,1,1,12238470
+Bejai,1,1,1,18,19,1663,1,2685,Mangalore,villa,medium,full,10-20,5,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,1,1,10715949
+OMR,2,2,3,1,2,2288,0,5161,Chennai,apartment,low,semi,5-10,2,0,0,0,1,0,1,1,1,1,1,0,1,0,0,1,0,0,21891954
+Gandhipuram,2,3,0,13,26,1376,0,4699,Coimbatore,independent,medium,full,20+,2,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,10899633
+Goripalayam,1,1,0,12,16,2291,0,3142,Madurai,apartment,medium,full,0-5,0,1,0,1,0,1,1,0,0,1,0,1,1,0,1,0,1,0,19424296
+Thane,3,3,1,10,11,1846,2,167,Mumbai,villa,high,semi,10-20,2,1,1,0,0,1,0,0,0,0,1,0,1,1,0,1,0,0,18470467
+Baner,2,3,0,12,13,2930,1,4200,Pune,villa,medium,unfurnished,5-10,3,1,0,0,1,0,1,1,1,0,1,1,0,0,1,1,0,0,25866576
+Pratap Nagar,3,3,2,3,14,842,2,4030,Nagpur,independent,low,semi,20+,3,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,6569398
+Karol Bagh,4,3,2,5,6,2939,2,2376,Delhi,villa,high,unfurnished,10-20,5,0,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,1,30682185
+SG Highway,2,3,2,16,17,2770,1,5220,Ahmedabad,villa,high,semi,5-10,2,1,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,42829092
+Katargam,2,1,1,8,19,2538,2,5578,Surat,independent,medium,full,10-20,1,1,1,1,0,0,0,0,0,1,0,0,1,0,0,1,1,0,28973889
+Kakkanad,4,5,3,11,15,3196,1,6836,Kochi,apartment,high,unfurnished,5-10,0,0,0,0,1,0,1,1,1,1,0,1,1,0,0,0,1,0,22928116
+Vazhuthacaud,2,3,3,19,20,533,2,2988,Trivandrum,villa,low,unfurnished,5-10,4,0,1,0,0,0,0,1,1,1,1,0,1,1,0,0,1,1,7117692
+Dwaraka Nagar,2,3,2,2,24,2657,0,7617,Visakhapatnam,villa,low,unfurnished,20+,5,1,0,0,0,0,1,0,0,0,1,1,1,0,0,0,1,1,35646172
+Benz Circle,1,1,1,13,14,1866,1,5381,Vijayawada,independent,high,full,10-20,7,0,0,0,1,0,0,0,1,0,1,1,0,1,1,0,1,0,27562169
+Arundelpet,1,1,2,1,2,2632,2,7491,Guntur,villa,low,full,20+,4,0,1,1,1,1,1,0,0,0,1,1,0,1,0,0,1,1,31244466
+Tilak Road,2,2,2,11,25,2365,2,6167,Rajahmundry,independent,medium,unfurnished,20+,7,1,0,0,0,0,1,1,0,0,0,0,1,1,1,0,0,1,19702287
+Stonehousepet,3,3,1,12,13,1259,2,6106,Nellore,villa,high,unfurnished,5-10,1,0,0,1,0,1,0,0,1,0,1,1,1,1,0,1,1,1,13061444
+Korlagunta,1,1,1,6,18,1127,0,7236,Tirupati,apartment,high,full,0-5,4,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,1,8666320
+Jagannaickpur,4,3,2,18,19,2225,1,2142,Kakinada,villa,high,full,0-5,6,1,1,1,0,0,0,1,0,0,1,0,1,1,0,0,0,0,24958265
+Adoni Road,4,4,1,4,5,2225,2,1936,Kurnool,independent,low,semi,0-5,5,0,1,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,22906992
+Bellary Road,1,2,0,4,18,2305,0,4768,Anantapur,independent,high,full,0-5,7,0,0,1,0,1,1,1,1,1,0,0,1,0,0,1,1,0,26127948
+Gachibowli,4,4,0,17,18,2212,2,5894,Hyderabad,apartment,medium,unfurnished,0-5,3,0,0,0,1,0,1,1,1,0,0,1,1,0,0,0,0,1,18131590
+Hanamkonda,2,1,2,0,19,765,2,7109,Warangal,apartment,medium,unfurnished,0-5,5,0,0,0,1,1,0,0,1,1,0,1,0,1,1,1,1,0,10161206
+Housing Board Colony,3,3,3,14,24,2602,0,3147,Karimnagar,apartment,medium,unfurnished,10-20,1,1,1,1,0,0,1,0,1,0,1,1,0,1,0,1,0,0,20933775
+Whitefield,4,3,3,5,25,3236,0,3227,Bangalore,independent,low,semi,5-10,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,34805274
+Kuvempunagar,2,2,2,7,8,1794,0,7769,Mysore,villa,high,semi,20+,5,0,1,1,1,1,0,0,0,1,1,1,0,0,1,0,0,1,20407275
+Surathkal,3,2,2,14,18,1155,1,1496,Mangalore,independent,high,unfurnished,0-5,0,0,1,1,0,0,1,1,0,0,1,0,1,1,1,0,1,1,14741967
+Anna Nagar,2,2,3,6,23,628,1,7145,Chennai,independent,low,unfurnished,20+,4,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,4803234
+Gandhipuram,3,3,1,6,28,2278,1,2867,Coimbatore,independent,high,unfurnished,10-20,6,1,1,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,16118350
+Tallakulam,1,1,3,17,18,1458,0,3050,Madurai,villa,high,full,10-20,0,0,0,0,0,1,1,1,0,0,0,1,0,1,1,0,1,0,14002363
+Dadar,3,2,2,11,12,1553,2,4416,Mumbai,villa,low,full,5-10,7,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,1,13640228
+Hadapsar,2,1,1,7,27,684,1,2190,Pune,villa,medium,semi,10-20,7,0,0,1,0,1,1,1,1,0,1,1,1,0,0,0,0,1,11603869
+Wardha Road,3,3,3,2,18,842,1,4226,Nagpur,villa,low,unfurnished,0-5,7,1,1,1,0,1,1,0,1,0,1,0,0,0,0,1,0,0,11415564
+Dwarka,3,3,1,19,20,1618,1,605,Delhi,independent,high,full,0-5,3,1,0,1,0,0,1,1,1,0,1,0,0,0,0,0,1,0,10257902
+Navrangpura,1,1,0,11,12,2368,2,6389,Ahmedabad,apartment,medium,full,0-5,5,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,18915783
+Varachha,3,4,2,14,15,2690,2,7364,Surat,villa,low,semi,5-10,7,1,0,1,1,0,1,0,0,0,0,1,1,0,1,0,1,1,33000108
+Kakkanad,1,1,2,18,19,2383,1,1194,Kochi,villa,low,unfurnished,0-5,5,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,27571132
+Technopark,4,4,0,14,15,747,2,2258,Trivandrum,independent,low,semi,5-10,0,1,0,0,0,0,1,1,1,1,0,1,1,0,0,1,0,0,8093170
+Seethammadhara,2,1,1,10,24,916,2,5301,Visakhapatnam,independent,medium,full,5-10,7,1,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,5714039
+Auto Nagar,1,1,2,1,14,3015,1,3612,Vijayawada,apartment,medium,unfurnished,0-5,4,1,0,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0,32952875
+Arundelpet,2,3,0,17,18,932,2,4612,Guntur,villa,low,unfurnished,10-20,4,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,1,1,9918133
+Katheru,4,4,3,19,20,2810,1,4849,Rajahmundry,villa,high,semi,5-10,4,1,1,0,1,1,1,0,1,1,0,0,1,1,1,1,1,1,22458012
+Magunta Layout,4,4,3,9,29,3012,1,2483,Nellore,apartment,medium,semi,5-10,6,0,1,1,0,1,0,0,0,0,1,1,0,1,0,1,0,1,23759190
+Alipiri,1,1,0,12,22,2277,0,4680,Tirupati,villa,medium,semi,5-10,4,1,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,25393509
+Indrapalem,2,2,0,17,24,2711,0,54,Kakinada,villa,high,unfurnished,0-5,3,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,26932960
+Deva Nagar,2,1,2,10,16,2634,1,1413,Kurnool,apartment,high,full,5-10,4,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,18588102
+Housing Board Colony,1,1,0,2,12,2251,2,3075,Anantapur,villa,high,semi,5-10,4,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,1,1,15970883
+Kondapur,2,2,0,14,29,1749,0,1516,Hyderabad,independent,low,semi,5-10,2,0,0,1,1,0,1,1,1,0,0,1,0,1,1,0,1,1,20049285
+Nakkalagutta,4,4,0,8,9,594,1,2985,Warangal,apartment,medium,full,0-5,6,1,1,0,0,1,1,0,0,0,1,0,1,1,0,1,0,0,4359540
+Mankamma Thota,1,1,2,17,18,1893,1,4870,Karimnagar,independent,high,unfurnished,20+,5,1,0,0,1,1,0,1,1,0,1,0,0,1,1,1,0,0,30924849
+Whitefield,3,4,2,3,21,2739,1,5671,Bangalore,apartment,high,semi,5-10,5,1,1,1,1,1,0,0,1,0,0,0,1,1,1,0,1,0,37289481
+Hebbal,3,3,2,7,26,528,1,3708,Mysore,apartment,medium,semi,5-10,2,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,1,6192179
+Derebail,1,1,2,10,11,2103,0,7026,Mangalore,apartment,low,full,5-10,4,0,0,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,16435537
+Velachery,2,3,3,10,21,987,2,2095,Chennai,apartment,medium,unfurnished,0-5,3,0,1,0,1,1,1,1,1,0,0,1,0,0,1,1,0,1,11307256
+Saravanampatti,1,1,2,7,26,676,0,4948,Coimbatore,villa,low,unfurnished,0-5,4,0,0,1,0,0,0,1,0,1,1,0,1,0,1,0,0,1,9780188
+Tallakulam,2,1,3,0,14,787,0,3528,Madurai,apartment,low,semi,10-20,0,0,0,1,0,1,1,0,1,1,1,0,1,0,0,0,0,1,3737464
+Bandra,1,1,2,19,20,1958,2,3389,Mumbai,villa,low,unfurnished,10-20,5,0,0,1,0,1,1,1,0,0,1,1,0,0,1,1,1,0,15139573
+Kothrud,3,4,0,12,21,970,1,3135,Pune,independent,low,unfurnished,0-5,3,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0,12541271
+Dharampeth,2,1,1,5,12,1387,0,7808,Nagpur,villa,medium,semi,5-10,5,1,1,1,1,0,1,0,0,1,1,1,1,0,0,1,0,1,15400320
+Rohini,3,4,3,2,20,1649,1,2313,Delhi,apartment,medium,semi,0-5,5,1,0,1,0,1,0,1,0,0,1,1,0,1,1,0,0,1,15032500
+Navrangpura,3,4,2,7,21,1394,2,4409,Ahmedabad,villa,high,unfurnished,0-5,4,1,0,0,0,0,0,0,1,0,1,1,0,1,1,0,1,0,19299195
+Varachha,2,3,2,8,13,1896,2,193,Surat,villa,medium,unfurnished,5-10,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,0,1,15919185
+Kakkanad,2,1,2,8,29,1272,0,6215,Kochi,apartment,medium,semi,0-5,4,0,1,0,0,0,0,1,1,1,1,0,1,0,1,1,0,0,9378131
+Pattom,2,3,3,5,8,1178,0,75,Trivandrum,villa,high,unfurnished,0-5,5,0,1,1,0,0,1,0,0,0,1,1,0,1,1,0,0,0,15067635
+Seethammadhara,1,1,3,17,18,1320,0,3945,Visakhapatnam,independent,high,semi,20+,0,0,0,1,1,0,0,0,1,1,0,1,1,1,0,1,0,0,12676752
+Auto Nagar,1,2,1,19,24,2427,2,3728,Vijayawada,apartment,high,full,0-5,7,1,0,0,1,0,1,1,1,1,0,1,1,1,1,0,1,0,17742136
+Lakshmipuram,1,1,0,3,11,2043,2,2145,Guntur,independent,low,semi,20+,2,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,1,1,13108133
+Tilak Road,2,1,1,19,21,1530,2,3567,Rajahmundry,villa,high,semi,5-10,3,0,0,0,1,0,0,1,0,1,1,0,1,1,1,1,0,1,23212775
+Balaji Nagar,2,2,0,8,24,2610,2,6278,Nellore,villa,medium,semi,0-5,3,1,1,0,1,0,0,0,0,1,1,1,1,0,0,1,1,1,26351035
+Renigunta,4,5,2,12,28,2314,2,7191,Tirupati,villa,medium,semi,10-20,1,0,1,0,1,1,0,1,1,1,1,0,0,0,0,0,1,0,29371014
+Jagannaickpur,1,2,3,3,4,2990,1,7721,Kakinada,independent,low,semi,10-20,3,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,19310776
+Ashok Nagar,1,1,2,15,16,650,0,5527,Kurnool,apartment,medium,unfurnished,20+,6,0,1,1,1,0,0,1,1,0,0,1,0,1,0,1,1,0,9023684
+Ramnagar,2,3,3,8,11,852,0,2151,Anantapur,apartment,low,unfurnished,20+,5,1,1,1,0,1,1,1,1,1,0,0,1,1,0,0,0,1,5279044
+Madhapur,2,1,1,5,6,1321,2,1922,Hyderabad,apartment,low,semi,10-20,1,1,0,0,1,0,1,0,1,0,0,1,0,0,1,1,1,0,12543445
+Balasamudram,2,3,1,0,15,1990,0,4051,Warangal,villa,high,semi,0-5,3,0,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,1,22320544
+Mankamma Thota,4,4,1,15,24,2349,0,3757,Karimnagar,apartment,medium,unfurnished,10-20,4,0,1,1,1,1,0,1,1,0,1,0,1,1,1,0,1,1,21488606
+Whitefield,3,2,3,2,3,2451,0,3840,Bangalore,independent,medium,unfurnished,0-5,6,1,0,1,1,0,1,0,0,1,0,1,1,1,0,0,0,1,24289932
+Vijayanagar,3,2,0,17,18,2378,2,4132,Mysore,independent,medium,semi,0-5,4,0,1,0,1,1,1,0,0,1,0,1,0,0,0,1,0,0,30998931
+Bejai,4,3,1,14,15,2436,1,5026,Mangalore,independent,low,semi,5-10,7,1,1,0,0,1,1,0,1,1,1,1,0,1,1,1,1,1,15339456
+OMR,2,3,2,5,19,2023,2,4285,Chennai,villa,low,semi,5-10,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,25092933
+Singanallur,4,4,0,16,29,964,0,4347,Coimbatore,villa,high,semi,20+,6,0,0,1,1,0,0,1,0,0,0,0,1,1,1,0,1,1,11718418
+KK Nagar,3,3,1,18,19,1194,0,2199,Madurai,villa,low,semi,0-5,0,0,1,1,1,0,0,0,1,1,1,0,0,1,1,1,0,1,15144694

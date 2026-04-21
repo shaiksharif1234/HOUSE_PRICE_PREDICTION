@@ -25,11 +25,41 @@ def get_city_list():
 
     return sorted(list(cities))
 
+
+def get_areas_by_city(selected_city):
+    areas = set()
+
+    try:
+        with open("data.csv", "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+
+            for row in reader:
+                city = row.get("City")
+                area = row.get("Area")   # ✅ FIXED
+
+                if city and area:
+                    if city.strip().lower() == selected_city.strip().lower():
+                        areas.add(area.strip())
+
+    except Exception as e:
+        print("AREA LOAD ERROR:", e)
+        print("FINAL AREAS:", areas)  # 👈 ADD THIS
+
+
+    return sorted(list(areas))
 # ---------------- INIT ----------------
 create_table()
 create_user_table()
-
-
+def fix_db():
+    conn = get_db()
+    try:
+        conn.execute("ALTER TABLE predictions ADD COLUMN area_name TEXT")
+        print("✅ area_name column added")
+    except Exception as e:
+        print("⚠️ Already exists:", e)
+    conn.commit()
+    conn.close()
+fix_db
 # ----------------------------------
 
 app = Flask(__name__)
@@ -96,14 +126,28 @@ def home():
      cities = get_city_list()
     except:
      cities = []
-
     return render_template(
     "index.html",
     notif_count=count,
     notifications=rows,
-    cities=cities
+    cities=cities,
+    areas=[]   # 👈 ADD THIS
 )
-# ---------------- PREDICT ----------------
+
+
+@app.route("/get_areas")
+def get_areas():
+    city = request.args.get("city")
+
+    if not city:
+        return {"areas": []}
+
+    areas = get_areas_by_city(city)
+
+    return {"areas": areas}
+
+
+   # --- PREDICT ----------------
 @app.route("/predict", methods=["GET", "POST"])
 def predict():
     if request.method == "GET":
@@ -147,6 +191,7 @@ def predict():
     bathrooms = to_int("bathrooms")
     
     city = request.form.get("city", "").strip()
+    area_name = request.form.get("area_name", "").strip()
 
     if not city:
      return render_template(
@@ -155,6 +200,14 @@ def predict():
         form=request.form,
         cities=get_city_list()
     )
+     
+    if not area_name:
+     return render_template(
+        "index.html",
+        error="Please select area",
+        form=request.form,
+        cities=get_city_list()
+    ) 
      
     # -------- OPTIONAL NUMERIC INPUTS --------
     balcony = to_int("balcony")
@@ -337,6 +390,7 @@ def predict():
         bedrooms=bedrooms,
         bathrooms=bathrooms,
         city=city,
+        
 
         parking=amenities["parking"],
         gym=amenities["gym"],
@@ -378,13 +432,14 @@ def predict():
 
     conn.execute("""
     INSERT INTO predictions
-    (area, bedrooms, bathrooms,city, model, price, time, user_email)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    (area, bedrooms, bathrooms,city,area_name, model, price, time, user_email)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
 """, (
     area,
     bedrooms,
     bathrooms,
     city,
+    area_name,
     model_name,
     final_price,
     datetime.now().strftime("%d %b %H:%M"),
@@ -493,7 +548,7 @@ def admin_dashboard():
 
     conn = get_db()
     rows = conn.execute("""
-        SELECT id, area, bedrooms, bathrooms,city, model, price, time
+        SELECT id, area, bedrooms, bathrooms,city,area_name, model, price, time
         FROM predictions
         ORDER BY id DESC
     """).fetchall()
@@ -574,7 +629,7 @@ def user_history():
 
     conn = get_db()
     rows = conn.execute("""
-        SELECT id, area, bedrooms, bathrooms,city, model, price, time
+        SELECT id, area, bedrooms, bathrooms,city, area_name, model, price, time
         FROM predictions
         WHERE user_email = ?
         ORDER BY id DESC
@@ -673,7 +728,7 @@ def user_download():
 
     conn = get_db()
     rows = conn.execute("""
-        SELECT area, bedrooms, bathrooms, price, time
+        SELECT city, area_name, area, bedrooms, bathrooms, price, time
         FROM predictions
         WHERE user_email = ?
     """, (session.get("user_email"),)).fetchall()
@@ -681,10 +736,10 @@ def user_download():
 
     output = io.StringIO()
     writer = csv.writer(output)
-    writer.writerow(["Area","Bedrooms","Bathrooms","Price","Date"])
+    writer.writerow(["city", "area_name","Area","Bedrooms","Bathrooms","Price","Date"])
 
     for r in rows:
-        writer.writerow([r["area"], r["bedrooms"], r["bathrooms"], r["price"], r["time"]])
+      writer.writerow([r["city"], r["area_name"], r["area"], r["bedrooms"], r["bathrooms"], r["price"], r["time"]])
 
     output.seek(0)
 
