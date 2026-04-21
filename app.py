@@ -1,28 +1,29 @@
 import csv
 import io
 from datetime import datetime
-def get_city_list():
-    cities = set()
-
-    try: 
-        with open("data.csv", "r", encoding="utf-8") as f:
-         reader = csv.DictReader(f)
-
-        for row in reader:
-         city = row.get("City")  # FIXED (capital C) column name must match dataset
-        if city:
-                    cities.add(city.strip())
-
-    except Exception as e:
-        print("CITY LOAD ERROR:", e)
-
-    return sorted(list(cities))
 from flask import Flask, render_template, request, redirect, session, send_file
 from flask_socketio import SocketIO
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from model import predict_price
 from database import create_table, get_db, create_user_table
+
+def get_city_list():
+    cities = set()
+
+    try:
+        with open("data.csv", "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+
+            for row in reader:
+                city = row.get("City")
+                if city:
+                    cities.add(city.strip())
+
+    except Exception as e:
+        print("CITY LOAD ERROR:", e)
+
+    return sorted(list(cities))
 
 # ---------------- INIT ----------------
 create_table()
@@ -144,20 +145,17 @@ def predict():
     area = to_int("area")
     bedrooms = to_int("bedrooms")
     bathrooms = to_int("bathrooms")
-    city = request.form.get("city")
-    allowed_cities = [
-    "Rajahmundry", "Visakhapatnam", "Vijayawada", "Guntur",
-    "Kakinada", "Tirupati", "Hyderabad", "Warangal",
-    "Bangalore", "Chennai", "Mumbai", "Delhi", "Pune"
-]
+    
+    city = request.form.get("city", "").strip()
 
-    if city not in allowed_cities:
-      return render_template(
+    if not city:
+     return render_template(
         "index.html",
-        error="Invalid city selected",
-        form=request.form
+        error="Please select a valid city",
+        form=request.form,
+        cities=get_city_list()
     )
-
+     
     # -------- OPTIONAL NUMERIC INPUTS --------
     balcony = to_int("balcony")
     floor_no = to_int("floor_no")
